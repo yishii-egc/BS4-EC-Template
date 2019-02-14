@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@import "../common/css/common.scss";
+
+
+@media screen and (max-width: 991.98px) {
+  .home_slide {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+@media screen and (min-width: 992px) {
+  aside { border-right: solid 1px $BorderLightGrey;}
+  .home_nav {
+    a {
+      color: $MainColor;
+      display: block;
+      font-size: .9rem;
+      padding: .35rem 1rem;
+      &::after {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f0da";
+        color: $MainGreen;
+        position: absolute;
+        right: 2rem;
+        margin: auto;
+      }
+      &:hover { background-color:lighten($MainNavy, 70%);}
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .home_nav {
+    a {font-size: 1rem;}
+  }
+}

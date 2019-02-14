@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@media (max-width: 991.98px) {
+
+  .offcanvas-collapse {
+    background-color: $White;
+    border-right: solid 8px $MainNavy;
+    position: fixed;
+    top: 0;/* Height of navbar */
+    height: 100vh;
+    right: 100%;
+    width: 88%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    transition-property: right, visibility;
+    z-index: 9999;
+    box-shadow: 0 8px 8px rgba(0,0,0,0.4);
+    &.open {
+      right: 12%;
+      visibility: visible;
+    }
+    .nav-link {
+      color: $MainColor !important;
+      &::after { color: $MainGreen;}
+    }
+  }
+
+  .overlay {
+    height: 100vh;
+    position: fixed;
+    padding: 4rem 1rem;
+    right: 0;
+    text-align: right;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+    z-index: 4;
+    &.active {
+      display: block;
+      background: rgba(0,0,0,.5);
+      transition: .5s;
+      visibility: visible;
+    }
+    .sp_menu_close{
+      border: none;
+      background: none;
+      color: #FFF;
+      font-size: 1.2rem;
+      position: absolute;
+      left: 88%;
+      top: 16px;
+      z-index: 5;
+    }
+  }
+
+}

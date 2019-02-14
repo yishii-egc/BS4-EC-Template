@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@import url(//use.fontawesome.com/releases/v5.0.11/css/all.css);//font-awesomeの読み込み
+@import "common_sizes.scss";
+@import "common_colors.scss";
+@import "header.scss";
+@import "offcanvas.scss";
+
+a {
+  &:hover {
+    transition: .3s;
+    text-decoration: none;
+    img {
+      opacity: .7;
+      transition: .3s;
+    }
+  }
+}
+
