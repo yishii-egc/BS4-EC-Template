@@ -74,24 +74,23 @@ a {
   margin-bottom: 1.6rem;
   padding: .4rem 2.4rem;
   position: relative;
-  &::before {
-    border: solid 2px $MainNavy;
+  &::before,&::after {
     content: "";
     display: block;
+    position: absolute;
+  }
+  &::before {
+    border: solid 2px $MainNavy;
     height: 1.4rem;
     width: 1.4rem;
-    position: absolute;
     top: .6rem;
     left: .5rem;
     z-index: 2;
   }
   &::after {
     border: solid 2px $MainGreen;
-    content: "";
-    display: block;
     height: 1.2rem;
     width: 1.2rem;
-    position: absolute;
     top: 1.2rem;
     left: 0;
     z-index: 1;
@@ -110,24 +109,23 @@ a {
   margin-bottom: 1.2rem;
   padding: .25rem 2rem;
   position: relative;
-  &::before {
-    border: solid 2px $MainNavy;
+  &::before,&::after {
     content: "";
     display: block;
+    position: absolute;
+  }
+  &::before {
+    border: solid 2px $MainNavy;
     height: 1rem;
     width: 1rem;
-    position: absolute;
     top: .4rem;
     left: .5rem;
     z-index: 2;
   }
   &::after {
     border: solid 2px $MainGreen;
-    content: "";
-    display: block;
     height: .8rem;
     width: .8rem;
-    position: absolute;
     top: .9rem;
     left: .2rem;
     z-index: 1;
@@ -144,9 +142,7 @@ a {
   .slick_step, .posted {
     .slick_item, .posted_item {
       .item_image, .item_name, .item_price, .item_desc { padding: 0 .5rem;}
-      .item_image {
-        padding-top: .25rem;
-      }
+      .item_image { padding-top: .25rem;}
       .item_category {
         top: .25rem;
         right: 2rem;
