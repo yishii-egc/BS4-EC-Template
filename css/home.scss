@@ -1,7 +1,120 @@
 @charset "UTF-8";
 @import "../common/css/common.scss";
 
+.slick_step {
+  .rank01,.rank02,.rank03,.rank04,.rank05,.rank06,.rank07,.rank08,.rank09,.rank10 {
+    &::before {
+      content:"";
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      width: $BaseMargin*.5;
+      height: $BaseMargin*.5;
+      z-index: 1;
+    }
+  }
+  .rank01{
+    &::before {
+      background: url(../images/home/icon_ranking01.png) no-repeat;
+      background-size: contain;
+    }
+  }
+  .rank02{
+    &::before {
+      background: url(../images/home/icon_ranking02.png) no-repeat;
+      background-size: contain;
+    }
+  }
+  .rank03{
+    &::before {
+      background: url(../images/home/icon_ranking03.png) no-repeat;
+      background-size: contain;
+    }
+  }
+  .rank04{
+    &::before {
+      background: url(../images/home/icon_ranking04.png) no-repeat;
+      background-size: contain;
+    }
+  }
+  .rank05{
+    &::before {
+      background: url(../images/home/icon_ranking05.png) no-repeat;
+      background-size: contain;
+    }
+  }
+  .rank06{
+    &::before {
+      background: url(../images/home/icon_ranking06.png) no-repeat;
+      background-size: contain;
+    }
+  }
+  .rank07{
+    &::before {
+      background: url(../images/home/icon_ranking07.png) no-repeat;
+      background-size: contain;
+    }
+  }
+  .rank08{
+    &::before {
+      background: url(../images/home/icon_ranking08.png) no-repeat;
+      background-size: contain;
+    }
+  }
+  .rank09{
+    &::before {
+      background: url(../images/home/icon_ranking09.png) no-repeat;
+      background-size: contain;
+    }
+  }
+  .rank10{
+    &::before {
+      background: url(../images/home/icon_ranking10.png) no-repeat;
+      background-size: contain;
+    }
+  }
+}
 
+.category_item {
+  border: solid 1px $BorderLightGrey;
+  display: block;
+  margin-bottom: $BaseMargin *.5;
+  position: relative;
+  .category_name {
+    background: $MainNavyTr8;
+    bottom: 0;
+    border-left: solid .4rem $MainGreenTr8;
+    color: $White;
+    display: block;
+    padding: .4rem .8rem;
+    text-align: center;
+    text-shadow:2px 2px 3px #000000;
+    width: 100%;
+  }
+}
+
+.home_category,
+.home_news,
+.home_medical {
+  position: relative;
+}
+
+.home_medical {
+  h5 {
+    &::before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f7f5";
+      margin-right: .5rem;
+      color: $MainGreen;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .category_name { position: absolute;}
+}
 @media screen and (max-width: 991.98px) {
   .home_slide {
     margin-left: -15px;
