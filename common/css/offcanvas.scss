@@ -1,4 +1,39 @@
 @charset "UTF-8";
+
+.offcanvas_item {
+  background-color: $White;
+  border: solid 1px $MainNavy;
+  border-right: none;
+  border-radius: .5rem 0 0 .5rem;
+  position: fixed;
+  bottom: 1rem;
+  right: -100%;
+  padding: 1rem;
+  //overflow-y: auto;
+  visibility: hidden;
+  transition-timing-function: ease-in-out;
+  transition-duration: .5s;
+  transition-property: right, visibility;
+  z-index: 9999;
+  box-shadow: 0 8px 8px rgba(0,0,0,0.4);
+  &.slidein {
+    visibility: visible;
+    right: 0
+  }
+  .nav-link {
+    color: $MainColor !important;
+    &::after { color: $MainGreen;}
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .offcanvas_item { width: 50%;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .offcanvas_item { width: 33.3333%;}
+}
+
 @media (max-width: 991.98px) {
 
   .offcanvas-collapse {
@@ -56,4 +91,8 @@
     }
   }
 
+}
+
+@media screen and (min-width: 992px) {
+  .offcanvas_item { width: 25%;}
 }

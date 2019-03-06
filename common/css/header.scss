@@ -1,4 +1,7 @@
 @charset "UTF-8";
+.main_header {
+  h1, p { line-height: 1;}
+}
 .navbar_main {
   background-color: $MainNavy;
   position: sticky;
@@ -30,6 +33,7 @@
   .main_header {
     h1, p { font-size: .7rem;}
   }
+  .navbar-toggler { border: solid 2px $HeadHover !important;}
   .navbar_main {
     .site_logo { padding: 0;}
   }

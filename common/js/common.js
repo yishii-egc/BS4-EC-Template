@@ -29,20 +29,17 @@ $(window).on('load resize', function(){
                        '  <i class="fas fa-chevron-up"></i>',
                        '</div>'].join(''));
     $toTopBtn.on('click', function () {
-      $('body, html').animate({
-              scrollTop: 0
-      }, 500);
+      $('body, html').animate({ scrollTop: 0}, 500);
       return false;
     });
 
-    $('body > footer')
-      .before($toTopBtn.hide());
+    $('body > footer').before($toTopBtn.hide());
 
     $(window).on('scroll', function () {
       if (50 < $(this).scrollTop()) {
-              $toTopBtn.fadeIn();
+          $toTopBtn.fadeIn();
       } else {
-              $toTopBtn.fadeOut();
+          $toTopBtn.fadeOut();
       }
     });
   });

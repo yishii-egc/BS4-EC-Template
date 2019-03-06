@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.my_breadcrumb {
+  ol {
+    background-color: lighten($MainNavy, 78%);
+    font-size: .8rem;
+    padding: .25rem 1rem;
+    margin-bottom: .5rem;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .my_breadcrumb {
+    margin-bottom: 1.5rem;
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .my_breadcrumb {
+    margin-bottom: $BaseMargin * .75;
+    padding-top: 1.5rem;
+  }
+}
