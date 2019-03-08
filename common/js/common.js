@@ -15,14 +15,6 @@ $('.overlay').click(function(){//.overlayをクリックすると
     $('.navbar-collapse').removeClass('open');//.navbar-collapseのクラスopenを外す
 });
 
-// カテゴリスライド
-$(window).on('load resize', function(){
-  var mystring = $('.categorynav_scroll_x').width();//メニュー部分の幅を取得
-  console.log(mystring);
-  var currentmenu = $('.categorynav_scroll_x ul li .active').offset();//.active要素のoffsetを取得
-  console.log(currentmenu);
-});
-
 // TOPに戻るボタン
   $(function($) {
     var $toTopBtn = $(['<div id="toTopBtn" title="ページTOPへ">',
@@ -57,3 +49,16 @@ if (navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)) {
     });
   });
 }
+
+// スムーススクロール
+  $(function(){
+    $('a[href^="#"]').click(function(){
+      var speed = 200;
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var headerHeight = $('.navbar_main').outerHeight(); 
+      var position = target.offset().top - headerHeight - 16;
+      $("html, body").animate({scrollTop:position}, speed, "swing");
+      return false;
+    });
+  });
