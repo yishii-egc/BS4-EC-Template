@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@import "../common/css/common.scss";
+@import "../common/css/breadcrumb.scss";
+
+.maker_h1 {
+  border-left: solid 4px $MainGreen;
+  padding: .25rem 0 .25rem $BaseMargin;
+  position: relative;
+  margin-bottom: 2.4rem;
+  background-color: lighten($MainNavy, 78%);
+  &::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f47d";
+    color: $White;
+    display: block;
+    padding: .35rem .5rem;
+    background-color: $MainNavy;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 80%;
+    height: 100%;;
+  }
+}
+
+
+
+
+.img_wrapper {
+  position: relative;
+  .main_img{
+    border: solid 1px $BorderLightGrey;
+    margin-bottom: 4px;
+    text-align: center;
+  }
+  .thumbnails {
+    font-size: 0;
+    margin-left: -2px;
+    margin-right: -2px;
+    img {
+      border: solid 1px $BorderLightGrey;
+      margin: 0 2px;
+      width: calc(25% - 4px);
+    }
+  }
+  button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  }
+}
+
+
+@media screen and (max-width: 575.98px) {
+
+}
+
+@media screen and (max-width: 767.98px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
