@@ -24,6 +24,30 @@
   }
 }
 
+.maker_info {
+  dl {
+    margin-left: 0;
+    margin-right: 0;
+    dt,dd {
+      align-self: center;
+      border: solid 1px $BorderLightGrey;
+      padding: .5rem;
+      &:nth-of-type(odd) { background-color: rgba(0,0,0,.05);}
+    }
+    dt {
+      text-align: center;
+      border-right: none;
+      border-bottom: none;
+      &:last-of-type { border-bottom: solid 1px $BorderLightGrey;}
+    }
+    dd {
+      margin-bottom: 0;
+      border-bottom: none;
+      &:last-of-type { border-bottom: solid 1px $BorderLightGrey;}
+    }
+  }
+}
+
 .img_wrapper {
   position: relative;
   .main_img{

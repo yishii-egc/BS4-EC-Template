@@ -110,7 +110,7 @@
   <ul class="navbar-nav icon_nav">
     <li class="navbar-item">
       <a class="nav-link globalnav_cart" href="#">
-        <i class="fas fa-shopping-cart"></i><span class="d-none d-xl-inline-block ml-1 small">カートを見る</span><span class="badge badge-pill badge-danger cart_num">9999</span>
+        <i class="fas fa-shopping-cart"></i><span class="d-none d-xl-inline-block ml-1 small">カート</span><span class="badge badge-pill badge-danger cart_num">9999</span>
       </a>
     </li>
     <li class="navbar-item">
@@ -147,23 +147,23 @@
             <div class="row">
               <div class="col-12 col-md-8 order-last">
                 <div class="maker_info">
-                  <dl>
-                    <dt>会社名</dt>
-                    <dd>Ajanta Pharma Ltd</dd>
-                    <dt>本拠地</dt>
-                    <dd>インド　ムンバイ</dd>
-                    <dt>設立年</dt>
-                    <dd>1973年</dd>
-                    <dt>代表者</dt>
-                    <dd>Yogesh Agrawal</dd>
-                    <dt>公式HP</dt>
-                    <dd><a href="http://www.ajantapharma.com" target="_blank">http://www.ajantapharma.com</a></dd>
+                  <dl class="row">
+                    <dt class="col-3 col-sm-2">会社名</dt>
+                    <dd class="col-9 col-sm-10">Ajanta Pharma Ltd</dd>
+                    <dt class="col-3 col-sm-2">本拠地</dt>
+                    <dd class="col-9 col-sm-10">インド　ムンバイ</dd>
+                    <dt class="col-3 col-sm-2">設立年</dt>
+                    <dd class="col-9 col-sm-10">1973年</dd>
+                    <dt class="col-3 col-sm-2">代表者</dt>
+                    <dd class="col-9 col-sm-10">Yogesh Agrawal</dd>
+                    <dt class="col-3 col-sm-2">公式HP</dt>
+                    <dd class="col-9 col-sm-10"><a href="http://www.ajantapharma.com" target="_blank">http://www.ajantapharma.com</a></dd>
                   </dl>
                 </div>
               </div>
 
               <div class="col-12 col-md-4 order-first">
-                <div class="img_wrapper mb-3 mb-md-4">
+                <div class="img_wrapper mb-4">
                   <div class="main_img">
                     <img src="images/maker/maker_03_ajanta_Pharma_01.jpg" class="img-fluid" alt="">
                   </div>
@@ -725,25 +725,7 @@
 
 <!-- Original JS -->
 <script src="common/js/common.js"></script>
-<script>
-  $(function() {
-    $('.maker_items').pagination({
-      paginationMode: true,
-      itemElement              : '.maker_item',
-      wrapElement              :'nav',
-      displayItemCount         : 10,
-      paginationClassName      : 'pagination_wrap',
-      paginationInnerClassName : 'pagination justify-content-center',
-      prevNextPageBtnMode      : false
-    });
-    var headerHeight = $('.navbar_main').outerHeight(true);
-    var itemsTop = $('.maker_items').offset().top - headerHeight;
-    console.log(itemsTop);
-    $('.pagination li a').click(function(){
-      $('body, html').animate({ scrollTop: itemsTop},0);
-    });
-  });
-</script>
+<script src="js/maker_single.js"></script>
 
 
 </body>
