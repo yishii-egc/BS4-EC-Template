@@ -31,7 +31,15 @@
   }
 }
 
-.item_detail {
+.item_detail,
+.item_related,
+.item_dosage,
+.item_reaction,
+.item_precautions,
+.item_store,
+.item_info,
+.item_shipping_packing,
+.item_reviews {
   h2 {
     border-bottom: solid 2px $MainNavy;
     font-size: 1.8rem;
@@ -97,9 +105,42 @@
       right: 0;
     }
   }
+  span {
+    color: $TextRed;
+    font-weight: bold;
+  }
+  .item_note {
+    padding: 1rem;
+    font-size: .9rem;
+    border: solid 1px $BorderLightGrey;
+    border-radius: 8px;
+  }
   .medical_link {
     background-color: lighten($MainNavy, 78%);
     padding: 1rem;
+    margin-bottom: $BaseMargin / 3;
+  }
+  .bibliography {
+    background-color: lighten($MainNavy, 78%);
+    border-radius: .4rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    h5 {
+      border-left: solid 4px $MainNavy;
+      font-size: 1rem;
+      font-weight: bold;
+      padding-left: .25rem;
+    }
+    dl {
+      margin-bottom: 0;
+      dd:last-child { margin-bottom: 0;}
+    }
+  }
+  .inner_link {
+    padding: 1rem;
+    background-color: lighten($MainNavy, 78%);
+    border-radius: .4rem;
+    text-decoration: none;
   }
 }
 
@@ -284,6 +325,11 @@
 
 @media screen and (min-width: 992px) {
   .slide_cart { width: 25%;}
+  .item_info_toc {
+    position: sticky;
+    top: $BaseMargin * 1.5;
+    z-index: 5;
+  }
 }
 
 @media screen and (min-width: 1200px) {

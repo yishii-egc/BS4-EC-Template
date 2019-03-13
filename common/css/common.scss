@@ -26,6 +26,11 @@ a {
   }
 }
 
+.bg_main {
+  background-color: $MainNavy;
+  color: $White;
+}
+
 #toTopBtn {
   background-color: $HeadHover;
   border-radius: 4px;
