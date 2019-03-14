@@ -324,11 +324,39 @@
               </div>
             </div>
           </header>
-
-          <div class="row">
-            <div class="col-md-8 col-lg-9">
-              <div class="tab-content" id="v-pills-tabContent">
-                <section class="item_detail sec_bottom tab-pane fade show active" id="item_detail" role="tabpanel" aria-labelledby="item_detail_tab">
+          
+          <section class="sec_bottom">
+            <nav class="item_tabs">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="item_tab01" data-toggle="tab" href="#item_tab_content01" role="tab" aria-controls="item_tab_content01" aria-selected="true">バイアグラの商品詳細</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="item_tab02" data-toggle="tab" href="#item_tab_content02" role="tab" aria-controls="item_tab_content02" aria-selected="false">関連商品</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="item_tab03" data-toggle="tab" href="#item_tab_content03" role="tab" aria-controls="item_tab_content03" aria-selected="false">用法用量</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="item_tab04" data-toggle="tab" href="#item_tab_content04" role="tab" aria-controls="item_tab_content04" aria-selected="false">副作用</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="item_tab05" data-toggle="tab" href="#item_tab_content05" role="tab" aria-controls="item_tab_content05" aria-selected="false">使用上の注意</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="item_tab06" data-toggle="tab" href="#item_tab_content06" role="tab" aria-controls="item_tab_content06" aria-selected="false">保管方法と取り扱い上の注意</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="item_tab07" data-toggle="tab" href="#item_tab_content07" role="tab" aria-controls="item_tab_content07" aria-selected="false">商品情報</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="item_tab08" data-toggle="tab" href="#item_tab_content08" role="tab" aria-controls="item_tab_content08" aria-selected="false">発送・梱包</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="item_tab_content01" role="tabpanel" aria-labelledby="home-tab">
+                <section class="item_detail sec_bottom" id="item_detail" role="tabpanel" aria-labelledby="item_detail_tab">
                   <h2>バイアグラの商品詳細</h2>
                   <h3>特徴</h3>
                   <p>バイアグラは、アメリカのファイザー社が開発した世界初のED治療薬で、シルデナフィルを有効成分として含んでいます。</p>
@@ -378,8 +406,10 @@
                   2016年時点で、世界売上高ランキング1位の製薬企業となっています。</p>
                   <p>製薬会社 <a href="">＞＞ファイザー</a></p>
                 </section><!-- / .item_detail -->
+              </div><!-- / #item_tab01 -->
 
-                <section class="item_related sec_bottom tab-pane fade" id="item_related" role="tabpanel" aria-labelledby="item_related_tab">
+              <div class="tab-pane fade" id="item_tab_content02" role="tabpanel" aria-labelledby="profile-tab">
+                <section class="item_related sec_bottom" id="item_related" role="tabpanel" aria-labelledby="item_related_tab">
                   <h2>関連商品</h2>
                   <h3>シルデナフィルが主成分の商品</h3>
                   <p>
@@ -416,8 +446,10 @@
                     <a href="/item-list.php?category=PE" target="_blank">&gt;&gt;早漏防止薬</a>
                   </p>
                 </section>
+              </div><!-- / #item_tab03 -->
 
-                <section class="item_dosage sec_bottom tab-pane fade" id="item_dosage" role="tabpanel" aria-labelledby="item_dosage">
+              <div class="tab-pane fade" id="item_tab_content03" role="tabpanel" aria-labelledby="contact-tab">
+                <section class="item_dosage sec_bottom" id="item_dosage" role="tabpanel" aria-labelledby="item_dosage">
                   <h2>用法用量</h2>
                   <h3>服用方法</h3>
                   <p>
@@ -477,8 +509,10 @@
                     </dl>
                   </aside>
                 </section>
+              </div><!-- / #item_tab04 -->
 
-                <section class="item_reaction sec_bottom tab-pane fade" id="item_reaction" role="tabpanel" aria-labelledby="item_reaction_tab">
+              <div class="tab-pane fade" id="item_tab_content04" role="tabpanel" aria-labelledby="contact-tab">
+                <section class="item_reaction sec_bottom" id="item_reaction" role="tabpanel" aria-labelledby="item_reaction_tab">
                   <h2>副作用</h2>
                   <h3>主な副作用</h3>
                   <p>
@@ -515,8 +549,10 @@
                     </dl>
                   </aside>
                 </section>
+              </div><!-- / #item_tab05 -->
 
-                <section class="item_precautions sec_bottom tab-pane fade" id="item_precautions" role="tabpanel" aria-labelledby="item_precautions_tab">
+              <div class="tab-pane fade" id="item_tab_content05" role="tabpanel" aria-labelledby="contact-tab">
+                <section class="item_precautions sec_bottom" id="item_precautions" role="tabpanel" aria-labelledby="item_precautions_tab">
                   <h2>使用上の注意</h2>
                   <h3>服用に注意する人</h3>
                   <p>
@@ -606,8 +642,10 @@
                     </dl>
                   </aside>
                 </section>
+              </div>
 
-                <section class="item_store sec_bottom tab-pane fade" id="item_store" role="tabpanel" aria-labelledby="item_store_tab">
+              <div class="tab-pane fade" id="item_tab_content06" role="tabpanel" aria-labelledby="contact-tab">
+                <section class="item_store sec_bottom" id="item_store" role="tabpanel" aria-labelledby="item_store_tab">
                   <h2>保管方法と取り扱い上の注意</h2>
                   <h3>保管方法</h3>
                   <p>
@@ -640,8 +678,10 @@
                     </dl>
                   </aside>
                 </section>
+              </div><!-- / #item_tab06 -->
 
-                <section class="item_info sec_bottom tab-pane fade" id="item_info" role="tabpanel" aria-labelledby="item_info_tab">
+              <div class="tab-pane fade" id="item_tab_content07" role="tabpanel" aria-labelledby="contact-tab">
+                <section class="item_info sec_bottom" id="item_info" role="tabpanel" aria-labelledby="item_info_tab">
                   <h2>商品情報</h2>
                   <h3>商品分類</h3>
                   <p>
@@ -704,8 +744,10 @@
                     医療保険制度の制定も担い、海外医薬品の輸入に関する規則や検査も行っています。
                   </p>
                 </section>
+              </div><!-- / #item_tab07 -->
 
-                <section class="item_shipping_packing sec_bottom tab-pane fade" id="item_shipping_packing" role="tabpanel" aria-labelledby="item_shipping_packing_tab">
+              <div class="tab-pane fade" id="item_tab_content08" role="tabpanel" aria-labelledby="contact-tab">
+                <section class="item_shipping_packing sec_bottom" id="item_shipping_packing" role="tabpanel" aria-labelledby="item_shipping_packing_tab">
                   <h2>発送・梱包</h2>
                   <h3>発送国</h3>
                   <p>
@@ -750,93 +792,79 @@
                   </aside>
                   <p class="item_note">掲載している商品の紹介文などの各情報は、一般的な医薬品情報を元に、ご案内しております。正確な情報提供を努めておりますが、内容を保証するものではございませんので、ご了承ください。当サイトは、法令遵守のもと、お客様からのご注文により決済代行・発送手続きなどの個人使用目的とした医薬品等の輸入代行業務を担いますが、お客様がご注文された商品のご使用に関しては当社で責任を負うことができません。つきましては、ご注文前に利用規約を必ずご一読いただき、同意の上、当社サービスをご利用いただきますようお願いいたします。</p>
                 </section>
-
-                <section class="item_reviews sec_bottom tab-pane fade" id="item_reviews" role="tabpanel" aria-labelledby="item_reviews_tab">
-                  <h2>バイアグラの口コミ</h2>
-                  <ul class="list-unstyled row">
-                    <li class="col-xl-6">
-                      <div class="media mb-3">
-                        <div class="review_user mr-3 text-center">
-                          <img src="images/items/icon_review.png" class="img-fluid" alt="">
-                          <span class="customer_name d-block">ペイン</span>
-                          <span class="customer_age d-block">（44歳）</span>
-                        </div>
-                        <div class="media-body review_body">
-                          <div class="item_rate"><img src="images/items/star-40.png" alt=""></div>
-                          <time class="posted_date" >2019-03-05</time>
-                          <div class="customer_comment">
-                            元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="col-xl-6">
-                      <div class="media mb-3">
-                        <div class="review_user mr-3 text-center">
-                          <img src="images/items/icon_review.png" class="img-fluid" alt="">
-                          <span class="customer_name d-block">ペイン</span>
-                          <span class="customer_age d-block">（44歳）</span>
-                        </div>
-                        <div class="media-body review_body">
-                          <div class="item_rate"><img src="images/items/star-40.png" alt=""></div>
-                          <time class="posted_date" >2019-03-05</time>
-                          <div class="customer_comment">
-                            元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="col-xl-6">
-                      <div class="media mb-3">
-                        <div class="review_user mr-3 text-center">
-                          <img src="images/items/icon_review.png" class="img-fluid" alt="">
-                          <span class="customer_name d-block">ペイン</span>
-                          <span class="customer_age d-block">（44歳）</span>
-                        </div>
-                        <div class="media-body review_body">
-                          <div class="item_rate"><img src="images/items/star-40.png" alt=""></div>
-                          <time class="posted_date" >2019-03-05</time>
-                          <div class="customer_comment">
-                            元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="col-xl-6">
-                      <div class="media mb-3">
-                        <div class="review_user mr-3 text-center">
-                          <img src="images/items/icon_review.png" class="img-fluid" alt="">
-                          <span class="customer_name d-block">ペイン</span>
-                          <span class="customer_age d-block">（44歳）</span>
-                        </div>
-                        <div class="media-body review_body">
-                          <div class="item_rate"><img src="images/items/star-40.png" alt=""></div>
-                          <time class="posted_date" >2019-03-05</time>
-                          <div class="customer_comment">
-                            元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </section><!-- / .item_reviws -->
-              </div>
+              </div><!-- / #item_tab08-->
             </div>
-            <nav class="col-md-4 col-lg-3 item_info_nav">
-              <div class="list-group small item_info_toc" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <div class="list-group-item bg_main">目次</div>
-                <a class="list-group-item list-group-item-action active" href="#item_detail" id="item_detail_tab" data-toggle="pill" role="tab" aria-controls="item_detail" aria-selected="true">バイアグラの商品詳細</a>
-                <a class="list-group-item list-group-item-action" href="#item_related" id="item_related_tab" data-toggle="pill">関連商品</a>
-                <a class="list-group-item list-group-item-action" href="#item_dosage" id="item_dosage_tab" data-toggle="pill">用法用量</a>
-                <a class="list-group-item list-group-item-action" href="#item_reaction" id="item_reaction_tab" data-toggle="pill">副作用</a>
-                <a class="list-group-item list-group-item-action" href="#item_precautions" id="item_precautions_tab" data-toggle="pill">使用上の注意</a>
-                <a class="list-group-item list-group-item-action" href="#item_store" id="item_store_tab" data-toggle="pill">保管方法と取り扱い上の注意</a>
-                <a class="list-group-item list-group-item-action" href="#item_info" id="item_info_tab" data-toggle="pill">商品情報</a>
-                <a class="list-group-item list-group-item-action" href="#item_shipping_packing" id="item_shipping_packing_tab" data-toggle="pill">発送・梱包</a>
-                <a class="list-group-item list-group-item-action" href="#item_reviews" id="item_reviews_tab" data-toggle="pill">バイアグラの口コミ</a>
-              </div>
-            </nav>
-          </div>
+          </section>
+
+          <section class="item_reviews sec_bottom" id="item_reviews">
+            <h2>バイアグラの口コミ</h2>
+            <ul class="list-unstyled row">
+              <li class="col-xl-6">
+                <div class="media mb-3">
+                  <div class="review_user mr-3 text-center">
+                    <img src="images/items/icon_review.png" class="img-fluid" alt="">
+                    <span class="customer_name d-block">ペイン</span>
+                    <span class="customer_age d-block">（44歳）</span>
+                  </div>
+                  <div class="media-body review_body">
+                    <div class="item_rate"><img src="images/items/star-40.png" alt=""></div>
+                    <time class="posted_date" >2019-03-05</time>
+                    <div class="customer_comment">
+                      元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-xl-6">
+                <div class="media mb-3">
+                  <div class="review_user mr-3 text-center">
+                    <img src="images/items/icon_review.png" class="img-fluid" alt="">
+                    <span class="customer_name d-block">ペイン</span>
+                    <span class="customer_age d-block">（44歳）</span>
+                  </div>
+                  <div class="media-body review_body">
+                    <div class="item_rate"><img src="images/items/star-40.png" alt=""></div>
+                    <time class="posted_date" >2019-03-05</time>
+                    <div class="customer_comment">
+                      元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-xl-6">
+                <div class="media mb-3">
+                  <div class="review_user mr-3 text-center">
+                    <img src="images/items/icon_review.png" class="img-fluid" alt="">
+                    <span class="customer_name d-block">ペイン</span>
+                    <span class="customer_age d-block">（44歳）</span>
+                  </div>
+                  <div class="media-body review_body">
+                    <div class="item_rate"><img src="images/items/star-40.png" alt=""></div>
+                    <time class="posted_date" >2019-03-05</time>
+                    <div class="customer_comment">
+                      元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="col-xl-6">
+                <div class="media mb-3">
+                  <div class="review_user mr-3 text-center">
+                    <img src="images/items/icon_review.png" class="img-fluid" alt="">
+                    <span class="customer_name d-block">ペイン</span>
+                    <span class="customer_age d-block">（44歳）</span>
+                  </div>
+                  <div class="media-body review_body">
+                    <div class="item_rate"><img src="images/items/star-40.png" alt=""></div>
+                    <time class="posted_date" >2019-03-05</time>
+                    <div class="customer_comment">
+                      元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section><!-- / .item_reviws -->
 
           <section class="slide_cart offcanvas_item">
             <h4>
@@ -856,7 +884,7 @@
               </div>
             </div>
           </section><!-- / .slide_cart -->
-          
+
         </article>
 
         <section class="posted sec_bottom">

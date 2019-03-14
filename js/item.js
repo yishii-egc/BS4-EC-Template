@@ -7,6 +7,20 @@ $(function(){
   });
 });
 
+// 商品情報タブのスムーススクロール
+//  $(function(){
+//    $('.offcanvas_toc a.list-group-item').click(function(){
+//      var speed = 200;
+//      var href= $(this).attr("href");
+//      var target = $(href == "#" || href == "" ? 'html' : href);
+//      var headerHeight = $('.navbar_main').outerHeight();
+//      var t = $('.delivery_info').offset().top + 10;
+//      var position = target.offset().top - headerHeight -t - 16;
+//      $("html, body").animate({scrollTop:position}, speed, "swing");
+//      return false;
+//    });
+//  });
+
 // リロード時、上部のカート表が画面の外になってたらスライドカートを表示する
   $(function () {
     var navheight = $('.navbar_main').height();
@@ -15,7 +29,7 @@ $(function(){
     console.log(navheight);
     if($(window).scrollTop() > t){
       $('.slide_cart').addClass('slidein');
-    }else{
+    } else {
       $('.slide_cart').removeClass('slidein');
     }
   });
@@ -28,15 +42,16 @@ $(function(){
             clearTimeout(timer);
         }
         timer = setTimeout(function() {
-          var navheight = $('.navbar_main').height();
+          var navheight = $('.navbar_main').height(); // ヘッダー高さ
           var t = $('.delivery_info').offset().top + 10; // ターゲットの位置取得
           var s = t - navheight ;
-          console.log(navheight);
-          if($(window).scrollTop() > t){
-            $('.slide_cart').addClass('slidein'); // カートをスライドイン
-          } else if(){
-            
-          } else{
+          var c = $('.slide_cart').hasClass('cart_hide'); // カート表示状態の有無
+          var s2 = $(window).scrollTop() > t ;
+          if(s2){
+            $('.slide_cart').addClass('slidein'); // カートをスライドインしてcart_hideクラスを外す
+          } else if($('.slide_cart').hasClass('cart_hide')) {
+            $('.slide_cart').removeClass('slidein'); // カートをスライドアウト
+          } else {
             $('.slide_cart').removeClass('slidein'); // カートをスライドアウト
           }
         }, 5);
@@ -45,38 +60,11 @@ $(function(){
 
 // スライドカートの×をクリックしたらスライドカートを引っ込める
   $('.slide_cart_close').click(function(){
-      $('.slide_cart').removeClass('slidein');
+      $('.slide_cart').removeClass('slidein').addClass('cart_hide');
   });
 
-$(function(){
-  $('.slick_wrapper').slick({
-    infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    prevArrow: '<button type="button" class="slick-prev btn btn-small btn_white_trans"><i class="fas fa-angle-left"></i></button>',
-    nextArrow: '<button type="button" class="slick-next btn btn-small btn_white_trans"><i class="fas fa-angle-right"></i></button>',
-    responsive: [
-    {
-      breakpoint: 1200,
-      settings: {
-        slidesToShow: 4,
-        slidesToScroll: 1,
-      }
-    },
-    {
-      breakpoint: 992,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1
-      }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
-    }
-    ]
+// 商品情報の目次の出し入れ
+  $('.offcanvas_toc .bg_main').click(function(){
+      $('.offcanvas_toc').toggleClass('slidein');
   });
-});
+

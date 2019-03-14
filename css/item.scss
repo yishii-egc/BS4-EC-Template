@@ -67,11 +67,6 @@
       left: 0;
       z-index: 1;
     }
-    +.btn_green {
-      position: absolute;
-      top: .6rem;
-      right: 0;
-    }
   }
   h3 {
     font-size: 1.4rem;
@@ -98,11 +93,6 @@
       top: .9rem;
       left: .2rem;
       z-index: 1;
-    }
-    +.btn_green {
-      position: absolute;
-      top: -.2rem;
-      right: 0;
     }
   }
   span {
@@ -267,6 +257,22 @@
   }
 }
 
+.item_tabs {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  margin-bottom: $BaseMargin/2;
+  ul {
+    width: max-content;
+    min-width: 100%;
+    li {
+      flex-wrap: nowrap;
+      a { white-space: nowrap;}
+    }
+  }
+  
+}
+
 .offcanvas_item {
   background-color: $White;
   border: solid 1px $MainNavy;
@@ -299,9 +305,6 @@
 }
 
 @media screen and (max-width: 767.98px) {
-  .item_benefit {
-    li { width: 25%;}
-  }
   .table_cart {
     font-size: .9rem;
     th,td {
@@ -311,9 +314,46 @@
     }
   }
   .slide_cart { width: 50%;}
+
+  .offcanvas_toc {
+    border-radius: .5rem 0 0 .5rem;
+    position: fixed;
+    top: 84px;
+    margin-top: auto;
+    margin-bottom: 0;
+    right: -33.3333%;
+    // visibility: hidden;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    transition-property: right, visibility;
+    width: 33.3333%;
+    z-index: 1000;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
+    &.slidein { right: -15px;}
+    .bg_main {
+      position: absolute;
+      -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+      top: 0;
+      left: calc(-2.5rem - 2px);
+      z-index: 190;
+      padding: .75rem .25rem;
+      border-radius: .25rem 0 0 .25rem;
+      width: 2rem;
+      box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
+      &:hover { cursor: pointer;}
+    }
+    .list-group-item {
+      &:not(:first-child) { padding: .5rem 1rem;}
+    }
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .item_benefit {
+    li { width: 25%;}
+  }
   .slide_cart { width: 33.3333%;}
 }
 
