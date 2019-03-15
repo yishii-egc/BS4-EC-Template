@@ -29,17 +29,11 @@
     caption-side: top;
     text-align: left;
   }
+  td, th { vertical-align: middle;}
 }
 
-.item_detail,
-.item_related,
-.item_dosage,
-.item_reaction,
-.item_precautions,
-.item_store,
-.item_info,
-.item_shipping_packing,
-.item_reviews {
+.item_detail, .item_related, .item_dosage, .item_reaction, .item_precautions,
+.item_store, .item_info, .item_shipping_packing, .item_reviews {
   h2 {
     border-bottom: solid 2px $MainNavy;
     font-size: 1.8rem;
@@ -257,20 +251,42 @@
   }
 }
 
-.item_tabs {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  overflow-scrolling: touch;
-  margin-bottom: $BaseMargin/2;
-  ul {
-    width: max-content;
-    min-width: 100%;
-    li {
-      flex-wrap: nowrap;
-      a { white-space: nowrap;}
+.item_informations {
+  border-top: 16px;
+  position: relative;
+  .item_tabs {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+    width: 100%;
+    position: sticky;
+    top: 64px;
+    z-index: 10;
+    border-top: solid 16px $White;
+    border-right: solid 1px $White;
+    background-color: $White;
+    ul {
+      width: max-content;
+      min-width: 100%;
+      li {
+        flex-wrap: nowrap;
+        a {
+          background-color: lighten($MainNavy,78%);
+          border-top: solid 1px $BorderLightGrey;
+          border-right: solid 1px $BorderLightGrey;
+          border-left: solid 1px $BorderLightGrey;
+          white-space: nowrap;
+          &:hover { background-color: lighten($MainNavy,70%);}
+        }
+      }
     }
   }
-  
+  #myTabContent {
+    border-bottom: solid 1px $BorderLightGrey;
+    border-left: solid 1px $BorderLightGrey;
+    border-right: solid 1px $BorderLightGrey;
+    border-radius: 0 0 .8rem .8rem;
+  }
 }
 
 .offcanvas_item {
@@ -292,6 +308,10 @@
     visibility: visible;
     right: 0
   }
+  &.cart_hide {
+    visibility: hidden !important;
+    right: -100% !important;
+  }
   .nav-link {
     color: $MainColor !important;
     &::after { color: $MainGreen;}
@@ -299,12 +319,13 @@
 }
 
 @media screen and (max-width: 575.98px) {
-  .item_benefit {
-    li { width: 33.3333%;}
-  }
+
 }
 
 @media screen and (max-width: 767.98px) {
+  .item_benefit {
+    li { width: 33.3333%;}
+  }
   .table_cart {
     font-size: .9rem;
     th,td {
@@ -314,40 +335,6 @@
     }
   }
   .slide_cart { width: 50%;}
-
-  .offcanvas_toc {
-    border-radius: .5rem 0 0 .5rem;
-    position: fixed;
-    top: 84px;
-    margin-top: auto;
-    margin-bottom: 0;
-    right: -33.3333%;
-    // visibility: hidden;
-    transition-timing-function: ease-in-out;
-    transition-duration: .5s;
-    transition-property: right, visibility;
-    width: 33.3333%;
-    z-index: 1000;
-    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
-    &.slidein { right: -15px;}
-    .bg_main {
-      position: absolute;
-      -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-      writing-mode: vertical-rl;
-      top: 0;
-      left: calc(-2.5rem - 2px);
-      z-index: 190;
-      padding: .75rem .25rem;
-      border-radius: .25rem 0 0 .25rem;
-      width: 2rem;
-      box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
-      &:hover { cursor: pointer;}
-    }
-    .list-group-item {
-      &:not(:first-child) { padding: .5rem 1rem;}
-    }
-  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991.98px) {

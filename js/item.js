@@ -7,19 +7,6 @@ $(function(){
   });
 });
 
-// 商品情報タブのスムーススクロール
-//  $(function(){
-//    $('.offcanvas_toc a.list-group-item').click(function(){
-//      var speed = 200;
-//      var href= $(this).attr("href");
-//      var target = $(href == "#" || href == "" ? 'html' : href);
-//      var headerHeight = $('.navbar_main').outerHeight();
-//      var t = $('.delivery_info').offset().top + 10;
-//      var position = target.offset().top - headerHeight -t - 16;
-//      $("html, body").animate({scrollTop:position}, speed, "swing");
-//      return false;
-//    });
-//  });
 
 // リロード時、上部のカート表が画面の外になってたらスライドカートを表示する
   $(function () {
@@ -43,15 +30,21 @@ $(function(){
         }
         timer = setTimeout(function() {
           var navheight = $('.navbar_main').height(); // ヘッダー高さ
-          var t = $('.delivery_info').offset().top + 10; // ターゲットの位置取得
+          var t = $('.delivery_info').offset().top + 10; // .delivery_infoのTOPからの位置取得+10
           var s = t - navheight ;
           var c = $('.slide_cart').hasClass('cart_hide'); // カート表示状態の有無
-          var s2 = $(window).scrollTop() > t ;
-          if(s2){
-            $('.slide_cart').addClass('slidein'); // カートをスライドインしてcart_hideクラスを外す
-          } else if($('.slide_cart').hasClass('cart_hide')) {
-            $('.slide_cart').removeClass('slidein'); // カートをスライドアウト
-          } else {
+          var s2 = $(window).scrollTop() > t ; // スクロールがtより大きいとき
+          var s3 = $(window).scrollTop() < t ; // スクロールがtより小さいとき
+          if(s2 && !$('slide_cart').hasClass('cart_hide')){
+            $('.slide_cart').addClass('slidein');
+          }
+          else if(s3 && $('slide_cart').hasClass('cart_hide')) {
+            $('.slide_cart').removeClass('slide_in').removeClass('cart_hide'); // カートをスライドアウト
+          }
+          else if(s3) {
+            $('.slide_cart').removeClass('slidein').removeClass('cart_hide'); // カートをスラ
+          }
+          else {
             $('.slide_cart').removeClass('slidein'); // カートをスライドアウト
           }
         }, 5);
@@ -61,10 +54,5 @@ $(function(){
 // スライドカートの×をクリックしたらスライドカートを引っ込める
   $('.slide_cart_close').click(function(){
       $('.slide_cart').removeClass('slidein').addClass('cart_hide');
-  });
-
-// 商品情報の目次の出し入れ
-  $('.offcanvas_toc .bg_main').click(function(){
-      $('.offcanvas_toc').toggleClass('slidein');
   });
 

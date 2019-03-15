@@ -19,10 +19,6 @@
 
 <!-- page CSS -->
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-<!--<link rel="stylesheet" href="css/slick-theme.css">-->
-
-<!-- framework / plugin CSS -->
-<link rel="stylesheet" href="common/css/hover-min.css">
 
 <!-- original CSS -->
 <link rel="stylesheet" href="css/item.css">
@@ -325,7 +321,7 @@
             </div>
           </header>
           
-          <section class="sec_bottom">
+          <section class="sec_bottom item_informations">
             <nav class="item_tabs">
               <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item">
@@ -354,9 +350,9 @@
                 </li>
               </ul>
             </nav>
-            <div class="tab-content" id="myTabContent">
+            <div class="tab-content pt-3 px-3" id="myTabContent">
               <div class="tab-pane fade show active" id="item_tab_content01" role="tabpanel" aria-labelledby="home-tab">
-                <section class="item_detail sec_bottom" id="item_detail" role="tabpanel" aria-labelledby="item_detail_tab">
+                <section class="item_detail sec_bottom">
                   <h2>バイアグラの商品詳細</h2>
                   <h3>特徴</h3>
                   <p>バイアグラは、アメリカのファイザー社が開発した世界初のED治療薬で、シルデナフィルを有効成分として含んでいます。</p>
@@ -409,7 +405,7 @@
               </div><!-- / #item_tab01 -->
 
               <div class="tab-pane fade" id="item_tab_content02" role="tabpanel" aria-labelledby="profile-tab">
-                <section class="item_related sec_bottom" id="item_related" role="tabpanel" aria-labelledby="item_related_tab">
+                <section class="item_related sec_bottom">
                   <h2>関連商品</h2>
                   <h3>シルデナフィルが主成分の商品</h3>
                   <p>
@@ -449,7 +445,7 @@
               </div><!-- / #item_tab03 -->
 
               <div class="tab-pane fade" id="item_tab_content03" role="tabpanel" aria-labelledby="contact-tab">
-                <section class="item_dosage sec_bottom" id="item_dosage" role="tabpanel" aria-labelledby="item_dosage">
+                <section class="item_dosage sec_bottom">
                   <h2>用法用量</h2>
                   <h3>服用方法</h3>
                   <p>
@@ -512,7 +508,7 @@
               </div><!-- / #item_tab04 -->
 
               <div class="tab-pane fade" id="item_tab_content04" role="tabpanel" aria-labelledby="contact-tab">
-                <section class="item_reaction sec_bottom" id="item_reaction" role="tabpanel" aria-labelledby="item_reaction_tab">
+                <section class="item_reaction sec_bottom">
                   <h2>副作用</h2>
                   <h3>主な副作用</h3>
                   <p>
@@ -552,7 +548,7 @@
               </div><!-- / #item_tab05 -->
 
               <div class="tab-pane fade" id="item_tab_content05" role="tabpanel" aria-labelledby="contact-tab">
-                <section class="item_precautions sec_bottom" id="item_precautions" role="tabpanel" aria-labelledby="item_precautions_tab">
+                <section class="item_precautions sec_bottom">
                   <h2>使用上の注意</h2>
                   <h3>服用に注意する人</h3>
                   <p>
@@ -645,7 +641,7 @@
               </div>
 
               <div class="tab-pane fade" id="item_tab_content06" role="tabpanel" aria-labelledby="contact-tab">
-                <section class="item_store sec_bottom" id="item_store" role="tabpanel" aria-labelledby="item_store_tab">
+                <section class="item_store sec_bottom">
                   <h2>保管方法と取り扱い上の注意</h2>
                   <h3>保管方法</h3>
                   <p>
@@ -681,7 +677,7 @@
               </div><!-- / #item_tab06 -->
 
               <div class="tab-pane fade" id="item_tab_content07" role="tabpanel" aria-labelledby="contact-tab">
-                <section class="item_info sec_bottom" id="item_info" role="tabpanel" aria-labelledby="item_info_tab">
+                <section class="item_info sec_bottom">
                   <h2>商品情報</h2>
                   <h3>商品分類</h3>
                   <p>
@@ -747,7 +743,7 @@
               </div><!-- / #item_tab07 -->
 
               <div class="tab-pane fade" id="item_tab_content08" role="tabpanel" aria-labelledby="contact-tab">
-                <section class="item_shipping_packing sec_bottom" id="item_shipping_packing" role="tabpanel" aria-labelledby="item_shipping_packing_tab">
+                <section class="item_shipping_packing sec_bottom">
                   <h2>発送・梱包</h2>
                   <h3>発送国</h3>
                   <p>
@@ -1167,10 +1163,14 @@
 
 <!-- Page JS -->
 <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
 
 <!-- Original JS -->
 <script src="common/js/common.js"></script>
 <script src="js/item.js"></script>
+<script>
+$(".item_tabs").niceScroll();
+</script>
 
 
 </body>
