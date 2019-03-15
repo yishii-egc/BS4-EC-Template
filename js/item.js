@@ -56,3 +56,8 @@ $(function(){
       $('.slide_cart').removeClass('slidein').addClass('cart_hide');
   });
 
+// 商品情報のタブ固定の位置
+  $(function () {
+    var h = $('.navbar_main').outerHeight(true);
+    $('.item_tabs').css('top', h);
+  });
