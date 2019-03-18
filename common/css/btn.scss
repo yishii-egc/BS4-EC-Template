@@ -24,7 +24,13 @@
   }
 }
 
-
-.btn_cta {
-  
+.btn_navy {
+  background-color: $MainNavy;
+  border: solid 1px $MainNavy;
+  color: $White;
+  &:hover {
+    color: $White;
+    background-color: darken($MainNavy, 10%);
+    border-color: darken($MainNavy, 10%);
+  }
 }
