@@ -18,12 +18,11 @@
 <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
 
 <!-- page CSS -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 
 <!-- original CSS -->
-<link rel="stylesheet" href="css/order-history.css">
+<link rel="stylesheet" href="css/registration-information.css">
 
-<title>注文履歴｜医薬品・サプリメント【お薬通販部】</title>
+<title>登録情報｜医薬品・サプリメント【お薬通販部】</title>
 </head>
 <body>
 <header class="container-fluid main_header">
@@ -117,16 +116,10 @@
         <i class="far fa-envelope"></i><span class="d-none d-xl-inline-block ml-1 small">お問い合わせ</span>
       </a>
     </li>
-    <li class="navbar-item dropdown">
-      <a class="nav-link dropdown-toggle drop-hover" href="#" href="" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="fas fa-user"></i><span class="d-none d-xl-inline-block ml-1 small">マイメニュー</span>
+    <li class="navbar-item">
+      <a class="nav-link" href="#" data-toggle="modal" data-target="#login_modal">
+        <i class="fas fa-sign-in-alt"></i><span class="d-none d-xl-inline-block ml-1 small">ログイン</span>
       </a>
-      <div class="dropdown-menu globalnav_dropdown_menu mb-2" aria-labelledby="dropdown04">
-        <a href="order-history.html" class="dropdown-item"><i class="fas fa-history mr-2"></i>注文履歴</a>
-        <a href="" class="dropdown-item"><i class="fab fa-elementor mr-2"></i>メニュー</a>
-        <a href="registration-information.html" class="dropdown-item"><i class="fas fa-user-cog mr-2"></i>登録情報</a>
-        <a href="" class="dropdown-item"><i class="fas fa-sign-out-alt mr-2"></i>ログアウト</a>
-      </div>
     </li>
   </ul>
   <div class="overlay d-lg-none">
@@ -141,119 +134,43 @@
         <nav class="my_breadcrumb" aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html"><i class="fas fa-home mr-1"></i>お薬通販部TOP</a></li>
-            <li class="breadcrumb-item active" aria-current="page">注文履歴</li>
+            <li class="breadcrumb-item active" aria-current="page">登録情報</li>
           </ol>
         </nav>
         <div class="container-fluid">
-          <h1 class="history_h1">注文履歴</h1>
-
-          <section class="sec_bottom">
-            <div class="card order_card">
-              <header class="card-header"><h2>03月12日のご注文〔ご注文番号：597638〕</h2></header>
-              <div class="card-body">
-                <div class="row no-gutters align-items-center item_row">
-                  <div class="col-4 col-md-3 col-xl-2 cart_img pr-1">
-                    <a href="item01.html"><img src="images/items/01-viagra.jpg" alt="" class="img-fluid"></a>
-                  </div>
-                  <div class="col-6 col-md-7 col-xl-5 cart_item_name">
-                    <a href="item01.html" class="pr-3">Organixヒーリング＋ビタミンEコンディショナー</a>
-                  </div>
-                  <div class="col-2 col-md-2 col-xl-2 cart_item_num text-center">
-                    2個
-                  </div>
-                  <div class="col-12 col-md-12 col-xl-3 cart_item_price px-3 text-md-right">
-                    小計 <span class="textRed">9,999</span>円<span class="small ml-1">(ポイント：99pt)</span>
-                  </div>
-                </div><!-- / .item_row -->
-              </div>
-              <div class="card-body">
-                <div class="row no-gutters align-items-center item_row">
-                  <div class="col-4 col-md-3 col-xl-2 cart_img pr-1">
-                    <a href="item01.html"><img src="images/items/01-viagra.jpg" alt="" class="img-fluid"></a>
-                  </div>
-                  <div class="col-6 col-md-7 col-xl-5 cart_item_name">
-                    <a href="item01.html" class="pr-3">Organixヒーリング＋ビタミンEコンディショナー</a>
-                  </div>
-                  <div class="col-2 col-md-2 col-xl-2 cart_item_num text-center">
-                    2個
-                  </div>
-                  <div class="col-12 col-md-12 col-xl-3 cart_item_price px-3 text-md-right">
-                    小計 <span class="textRed">9,999</span>円<span class="small ml-1">(ポイント：99pt)</span>
-                  </div>
-                </div><!-- / .item_row -->
-              </div>
-              <div class="card-body">
-                <dl class="row no-gutters mb-0">
-                  <dt class="col-4 col-sm-3 col-md-2">ポイント利用</dt>
-                  <dd class="col-8 col-sm-9 col-md-10"><span class="textRed">-11,070</span><span class="small">円</span></dd>
-                  <dt class="col-4 col-sm-3 col-md-2">クーポン</dt>
-                  <dd class="col-8 col-sm-9 col-md-10"><span class="textRed">-11,070</span><span class="small">円</span></dd>
-                  <dt class="col-4 col-sm-3 col-md-2">特別割引</dt>
-                  <dd class="col-8 col-sm-9 col-md-10"><span class="textRed">11,070</span><span class="small">円</span></dd>
-                  <dt class="col-4 col-sm-3 col-md-2">小計</dt>
-                  <dd class="col-8 col-sm-9 col-md-10"><span class="textRed">11,070</span><span class="small">円</span></dd>
-                  <dt class="col-4 col-sm-3 col-md-2">送料</dt>
-                  <dd class="col-8 col-sm-9 col-md-10"><span class="textRed">0</span><span class="small">円</span></dd>
-                  <dt class="col-4 col-sm-3 col-md-2 total">合計</dt>
-                  <dd class="col-8 col-sm-9 col-md-10 total textRed">99999円</dd>
-                </dl>
-              </div>
-            </div><!-- / .order_card -->
-          </section>
-
-          <section class="sec_bottom">
-            <div class="card order_card">
-              <header class="card-header"><h2>03月12日のご注文〔ご注文番号：597638〕</h2></header>
-              <div class="card-body">
-                <div class="row no-gutters align-items-center item_row">
-                  <div class="col-4 col-md-3 col-xl-2 cart_img pr-1">
-                    <a href="item01.html"><img src="images/items/01-viagra.jpg" alt="" class="img-fluid"></a>
-                  </div>
-                  <div class="col-6 col-md-7 col-xl-5 cart_item_name">
-                    <a href="item01.html" class="pr-3">Organixヒーリング＋ビタミンEコンディショナー</a>
-                  </div>
-                  <div class="col-2 col-md-2 col-xl-2 cart_item_num text-center">
-                    2個
-                  </div>
-                  <div class="col-12 col-md-12 col-xl-3 cart_item_price px-3 text-md-right">
-                    小計 <span class="textRed">9,999</span>円<span class="small ml-1">(ポイント：99pt)</span>
-                  </div>
-                </div><!-- / .item_row -->
-              </div>
-              <div class="card-body">
-                <div class="row no-gutters align-items-center item_row">
-                  <div class="col-4 col-md-3 col-xl-2 cart_img pr-1">
-                    <a href="item01.html"><img src="images/items/01-viagra.jpg" alt="" class="img-fluid"></a>
-                  </div>
-                  <div class="col-6 col-md-7 col-xl-5 cart_item_name">
-                    <a href="item01.html" class="pr-3">Organixヒーリング＋ビタミンEコンディショナー</a>
-                  </div>
-                  <div class="col-2 col-md-2 col-xl-2 cart_item_num text-center">
-                    2個
-                  </div>
-                  <div class="col-12 col-md-12 col-xl-3 cart_item_price px-3 text-md-right">
-                    小計 <span class="textRed">9,999</span>円<span class="small ml-1">(ポイント：99pt)</span>
-                  </div>
-                </div><!-- / .item_row -->
-              </div>
-              <div class="card-body">
-                <dl class="row no-gutters mb-0">
-                  <dt class="col-4 col-sm-3 col-md-2">ポイント利用</dt>
-                  <dd class="col-8 col-sm-9 col-md-10"><span class="textRed">-11,070</span><span class="small">円</span></dd>
-                  <dt class="col-4 col-sm-3 col-md-2">クーポン</dt>
-                  <dd class="col-8 col-sm-9 col-md-10"><span class="textRed">-11,070</span><span class="small">円</span></dd>
-                  <dt class="col-4 col-sm-3 col-md-2">特別割引</dt>
-                  <dd class="col-8 col-sm-9 col-md-10"><span class="textRed">11,070</span><span class="small">円</span></dd>
-                  <dt class="col-4 col-sm-3 col-md-2">小計</dt>
-                  <dd class="col-8 col-sm-9 col-md-10"><span class="textRed">11,070</span><span class="small">円</span></dd>
-                  <dt class="col-4 col-sm-3 col-md-2">送料</dt>
-                  <dd class="col-8 col-sm-9 col-md-10"><span class="textRed">0</span><span class="small">円</span></dd>
-                  <dt class="col-4 col-sm-3 col-md-2 total">合計</dt>
-                  <dd class="col-8 col-sm-9 col-md-10 total textRed">99999円</dd>
-                </dl>
-              </div>
-            </div><!-- / .order_card -->
-          </section>
+          <h1 class="reg_h1">登録情報</h1>
+          
+          <dl class="row reg_info mb-4">
+            <dt class="col-sm-5 col-md-4 col-xl-3">名前</dt>
+            <dd class="col-sm-7 col-md-8 col-xl-9">石井　祐哉</dd>
+            <dt class="col-sm-5 col-md-4 col-xl-3">フリガナ</dt>
+            <dd class="col-sm-7 col-md-8 col-xl-9">イシイ　ユウヤ</dd>
+            <dt class="col-sm-5 col-md-4 col-xl-3">性別</dt>
+            <dd class="col-sm-7 col-md-8 col-xl-9">男性</dd>
+            <dt class="col-sm-5 col-md-4 col-xl-3">生年月日</dt>
+            <dd class="col-sm-7 col-md-8 col-xl-9">西暦1980年08月19日</dd>
+            <dt class="col-sm-5 col-md-4 col-xl-3">配送先</dt>
+            <dd class="col-sm-7 col-md-8 col-xl-9">自宅/勤務先配送</dd>
+            <dt class="col-sm-5 col-md-4 col-xl-3">郵便番号</dt>
+            <dd class="col-sm-7 col-md-8 col-xl-9">1600022</dd>
+            <dt class="col-sm-5 col-md-4 col-xl-3">都道府県</dt>
+            <dd class="col-sm-7 col-md-8 col-xl-9">東京都</dd>
+            <dt class="col-sm-5 col-md-4 col-xl-3">市区町村</dt>
+            <dd class="col-sm-7 col-md-8 col-xl-9">新宿区</dd>
+            <dt class="col-sm-5 col-md-4 col-xl-3">番地</dt>
+            <dd class="col-sm-7 col-md-8 col-xl-9">新宿3-12-11</dd>
+            <dt class="col-sm-5 col-md-4 col-xl-3">ビル・建物名・号室</dt>
+            <dd class="col-sm-7 col-md-8 col-xl-9">石井ビル3F</dd>
+            <dt class="col-sm-5 col-md-4 col-xl-3">電話番号</dt>
+            <dd class="col-sm-7 col-md-8 col-xl-9">09000000000</dd>
+            <dt class="col-sm-5 col-md-4 col-xl-3">メールアドレス</dt>
+            <dd class="col-sm-7 col-md-8 col-xl-9">ishii@evergreen-creator.com</dd>
+            <dt class="col-sm-5 col-md-4 col-xl-3">パスワード</dt>
+            <dd class="col-sm-7 col-md-8 col-xl-9">aaaaaaaa</dd>
+          </dl>
+          <nav class="info_change mx-auto">
+            <a href="" class="btn btn-block btn-info mb-5">登録情報を変更する</a>
+          </nav>
 
 
         </div><!-- / .container-fluid -->
