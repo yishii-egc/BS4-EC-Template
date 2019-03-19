@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@import "../common/css/common.scss";
+@import "../common/css/breadcrumb.scss";
+
+.history_h1 {
+  border-left: solid 4px $MainGreen;
+  padding: .25rem 0 .25rem $BaseMargin;
+  position: relative;
+  margin-bottom: 2.4rem;
+  background-color: lighten($MainNavy, 78%);
+  &::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f1da";
+    color: $White;
+    display: block;
+    padding: .35rem .5rem;
+    background-color: $MainNavy;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 80%;
+    height: 100%;;
+  }
+}
+
+.order_card {
+  margin-bottom: $BaseMargin*.75;
+  header h2 {
+    font-size: 1rem;
+  }
+  .card-body {
+    border-bottom: solid 1px $BorderLightGrey;
+    &:last-child {
+      background-color: lighten($MainNavy, 78%);
+      border-bottom: none;
+      dl {
+        dt {
+          font-weight: normal;
+          &:last-child {
+            font-size: 1.2rem;
+            font-weight: bold;
+          }
+        }
+        dd {
+          &:last-child {
+            margin-bottom: 0;
+            font-size: 1.2rem;
+            font-weight: bold !important;
+          }
+        }
+      }
+    }
+    .item_row {
+      [class*=col-] {
+        &:last-child {
+          background-color: lighten($MainNavy, 78%);
+          padding: .25rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .order_card {
+    .card-body {
+      padding-left: .5rem;
+      padding-right: .5rem;
+    }
+  }
+}
