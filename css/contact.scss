@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import "../common/css/common.scss";
+@import "../common/css/breadcrumb.scss";
+
+.contact_h1 {
+  border-left: solid 4px $MainGreen;
+  padding: .25rem 0 .25rem $BaseMargin;
+  position: relative;
+  margin-bottom: 2.4rem;
+  background-color: lighten($MainNavy, 78%);
+  &::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0e0";
+    color: $White;
+    display: block;
+    padding: .35rem .5rem;
+    background-color: $MainNavy;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 80%;
+    height: 100%;;
+  }
+}
+
+.contact_info {
+  margin-left: 0;
+  margin-right: 0;
+  dt { border-bottom: solid 2px $MainGreen;}
+  dd { border-bottom: solid 1px $BorderLightGrey;}
+  dt, dd {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .contact_info {
+    dd { margin-bottom: 1rem;}
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .contact_info {
+    dd { margin-bottom: 0;}
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .info_change { width: 75%;}
+  .info_change {
+    .card, nav {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  .info_change {
+    .card, nav { width: 100%;}
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .info_change {
+    .card, nav { width: 85%;}
+  }
+}
+@media screen and (min-width: 992px) {
+  .info_change { width: 50%;}
+}
+@media screen and (min-width: 1200px) {
+  .info_change {
+    nav { width: 75%;}
+  }
+}
