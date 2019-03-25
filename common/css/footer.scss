@@ -43,6 +43,11 @@
       background-color: $HeadHover;
     }
   }
+  span {
+    color: rgba(255,255,255,.5);
+    padding: $BaseMargin/12 $BaseMargin/6;
+    position: relative;
+  }
   
   ul { border-top: dotted 1px rgba(255,255,255,.5);}
 }

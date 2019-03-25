@@ -11,7 +11,7 @@
   &::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    content: "\f0e0";
+    content: "\f02d";
     color: $White;
     display: block;
     padding: .35rem .5rem;
@@ -31,90 +31,160 @@
 }
 
 .guide_main {
-    a {text-decoration: underline;}
-    h2 {
-      border-bottom: solid 2px $MainNavy;
-      font-size: 1.8rem;
-      margin-bottom: 1.6rem;
-      padding: .4rem 0 .4rem 2.4rem;
-      position: relative;
-      &::before,&::after {
-        content: "";
-        display: block;
-        position: absolute;
-      }
-      &::before {
-        border: solid 2px $MainNavy;
-        height: 1.4rem;
-        width: 1.4rem;
-        top: .6rem;
-        left: .5rem;
-        z-index: 2;
-      }
-      &::after {
-        border: solid 2px $MainGreen;
-        height: 1.2rem;
-        width: 1.2rem;
-        top: 1.2rem;
-        left: 0;
-        z-index: 1;
-      }
-      +.btn_green {
-        position: absolute;
-        top: .6rem;
-        right: 0;
-      }
+  margin-bottom: $BaseMargin;
+  a {text-decoration: underline;}
+  h2 {
+    border-bottom: solid 2px $MainNavy;
+    font-size: 1.8rem;
+    margin-bottom: 1.6rem;
+    padding: .4rem 0 .4rem 2.4rem;
+    position: relative;
+    &::before,&::after {
+      content: "";
+      display: block;
+      position: absolute;
     }
+    &::before {
+      border: solid 2px $MainNavy;
+      height: 1.4rem;
+      width: 1.4rem;
+      top: .6rem;
+      left: .5rem;
+      z-index: 2;
+    }
+    &::after {
+      border: solid 2px $MainGreen;
+      height: 1.2rem;
+      width: 1.2rem;
+      top: 1.2rem;
+      left: 0;
+      z-index: 1;
+    }
+    +.btn_green {
+      position: absolute;
+      top: .6rem;
+      right: 0;
+    }
+  }
 
-    h3 {
-      border-bottom: solid 2px $MainNavy;
-      font-size: 1.4rem;
-      margin-bottom: 1.2rem;
-      padding: .25rem 2rem;
-      position: relative;
-      &::before,&::after {
-        content: "";
-        display: block;
-        position: absolute;
-      }
-      &::before {
-        border: solid 2px $MainNavy;
-        height: 1rem;
-        width: 1rem;
-        top: .4rem;
-        left: .5rem;
-        z-index: 2;
-      }
-      &::after {
-        border: solid 2px $MainGreen;
-        height: .8rem;
-        width: .8rem;
-        top: .9rem;
-        left: .2rem;
-        z-index: 1;
-      }
-      +.btn_green {
-        position: absolute;
-        top: -.2rem;
-        right: 0;
+  h3 {
+    border-bottom: solid 2px $MainNavy;
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+    padding: .25rem 2rem;
+    position: relative;
+    &::before,&::after {
+      content: "";
+      display: block;
+      position: absolute;
+    }
+    &::before {
+      border: solid 2px $MainNavy;
+      height: 1rem;
+      width: 1rem;
+      top: .4rem;
+      left: .5rem;
+      z-index: 2;
+    }
+    &::after {
+      border: solid 2px $MainGreen;
+      height: .8rem;
+      width: .8rem;
+      top: .9rem;
+      left: .2rem;
+      z-index: 1;
+    }
+    +.btn_green {
+      position: absolute;
+      top: -.2rem;
+      right: 0;
+    }
+  }
+  h4 {
+    border-left: solid 4px $MainNavy;
+    font-size: 1.25rem;
+    padding-left: .25rem;
+  }
+  span {
+    color: $TextRed;
+    font-weight: bold;
+  }
+  dl {
+    background-color: lighten($MainNavy,78%);
+    border-radius: .4rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    dd:last-child { margin-bottom: 0;}
+  }
+  dl.faq {
+    background-color: transparent;
+    dt {
+      margin-bottom: $BaseMargin/4;
+      > span {
+        display: inline-block;
+        background-color: $MainGreen;
+        border-radius: .25rem;
+        color: $White;
+        padding: .15rem .75rem;
+        position: relative;
+        margin-right: 1rem;
+        &::after {
+          content: "";
+          display: block;
+          background-color: $MainGreen;
+          transform: rotate(45deg);
+          position: absolute;
+          width: .75rem;
+          height: .75rem;
+          right: -0.25rem;
+          top: 0;
+          bottom: 0;
+          margin-top: auto;
+          margin-bottom: auto;
+        }
       }
     }
-    h4 {
-      border-left: solid 4px $MainNavy;
-      font-size: 1.25rem;
-      padding-left: .25rem;
+    dd {
+      border-bottom: dotted 1px $MainNavy;
+      margin-bottom: $BaseMargin/4;
+      padding-bottom: $BaseMargin/4;
+      p:first-child {
+        position: relative;
+        >span {
+          display: inline-block;
+          background-color: #f0c24d;
+          border-radius: .25rem;
+          color: $White;
+          margin-right: 1rem;
+          padding: .15rem .75rem;
+          position: relative;
+          &::after {
+            content: "";
+            display: block;
+            background-color: #f0c24d;
+            transform: rotate(45deg);
+            position: absolute;
+            width: .75rem;
+            height: .75rem;
+            right: -0.25rem;
+            top: 0;
+            bottom: 0;
+            margin-top: auto;
+            margin-bottom: auto;
+          }
+        }
+      }
+      p:last-child { margin-bottom: 0;}
     }
-    span {
-      color: $TextRed;
-      font-weight: bold;
-    }
-    dl {
-      background-color: lighten($MainNavy,78%);
-      border-radius: .4rem;
-      margin-bottom: 1.5rem;
-      padding: 1rem;
-      dd:last-child { margin-bottom: 0;}
-    }
+  }
+  ul {
+    background-color: lighten($MainNavy,78%);
+    border-radius: .4rem;
+    padding: 1rem 1rem 1rem 2.5rem;
+  }
+  ul.icons {
+    background: none;
+  }
 }
 
 
@@ -131,10 +201,8 @@
     top: $BaseMargin * 1.5;
     z-index: 5;
   }
-
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
-
 }
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
 
