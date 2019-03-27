@@ -1,0 +1,18 @@
+@charset "UTF-8";
+@import "../common/css/common.scss";
+@import "../common/css/breadcrumb.scss";
+
+.privacy_h1 {
+  @include main_h1;
+  &::before {
+    content: "\f21b";
+  }
+}
+.terms_main { margin-bottom: $BaseMargin;}
+
+.privacy_toc {
+  .list-group-item {
+    padding: .5rem 1rem;
+  }
+}
+

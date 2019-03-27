@@ -2,9 +2,10 @@
 @import "../common/css/common.scss";
 @import "../common/css/breadcrumb.scss";
 
-.news_h1 {
+.corporation_h1 {
   @include main_h1;
   &::before {
-    content: "\f1ea";
+    content: "\f1ad";
   }
 }
+

@@ -3,24 +3,9 @@
 @import "../common/css/breadcrumb.scss";
 
 .cart_h2 {
-  border-left: solid 4px $MainGreen;
-  padding: .25rem 0 .25rem $BaseMargin;
-  position: relative;
-  margin-bottom: 2.4rem;
-  background-color: lighten($MainNavy, 78%);
+  @include main_h1;
   &::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
     content: "\f07a";
-    color: $White;
-    display: block;
-    padding: .35rem .5rem;
-    background-color: $MainNavy;
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 80%;
-    height: 100%;;
   }
 }
 

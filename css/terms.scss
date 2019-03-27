@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@import "../common/css/common.scss";
+@import "../common/css/breadcrumb.scss";
+
+.terms_h1 {
+  @include main_h1;
+  &::before {
+    content: "\f24e";
+  }
+}
+.terms_main { margin-bottom: $BaseMargin;}
+
+.terms_toc {
+  .list-group-item {
+    padding: .5rem 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .terms_toc > .card {
+    position: sticky;
+    top: $BaseMargin * 1.5;
+    z-index: 5;
+    max-height: 60vh;
+    overflow-y: auto;
+  }
+}

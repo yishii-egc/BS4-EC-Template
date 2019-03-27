@@ -24,6 +24,13 @@
   }
 }
 
+.maker_h1 {
+  @include main_h1;
+  &::before {
+    content: "\f47d";
+  }
+}
+
 .maker_info {
   dl {
     margin-left: 0;
