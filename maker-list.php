@@ -38,7 +38,7 @@
 
         <nav class="my_breadcrumb" aria-label="breadcrumb">
           <ol class="breadcrumb my_breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">お薬通販部TOP</a></li>
+            <li class="breadcrumb-item"><a href="index.php">お薬通販部TOP</a></li>
             <li class="breadcrumb-item active" aria-current="page">製薬会社ガイド一覧</li>
           </ol>
         </nav>
@@ -55,7 +55,7 @@
           <h2 class="main_h2">製薬会社ガイド</h2>
           <div class="row maker_items">
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_01_irwin_naturals.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -89,7 +89,7 @@
             </div>
 
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_02_aurochem.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -119,7 +119,7 @@
               </a>
             </div>
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_03_ajanta_Pharma_01.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -149,7 +149,7 @@
               </a>
             </div>
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_04_AstraZeneca.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -180,7 +180,7 @@
               </a>
             </div>
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_05_Aavishkar.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -207,7 +207,7 @@
               </a>
             </div>
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_06_AbdiIbrahim.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -240,7 +240,7 @@
               </a>
             </div>
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_07_Apothecus.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -279,7 +279,7 @@
               </a>
             </div>
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_08_Andromedical.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -308,7 +308,7 @@
               </a>
             </div>
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_noimage.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -339,7 +339,7 @@
               </a>
             </div>
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_10_EliLilly.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -372,7 +372,7 @@
               </a>
             </div>
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_01_irwin_naturals.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -405,7 +405,7 @@
               </a>
             </div><!-- /.maker_item -->
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_01_irwin_naturals.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -438,7 +438,7 @@
               </a>
             </div><!-- /.maker_item -->
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_01_irwin_naturals.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -471,7 +471,7 @@
               </a>
             </div><!-- /.maker_item -->
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_01_irwin_naturals.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -504,7 +504,7 @@
               </a>
             </div><!-- /.maker_item -->
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_01_irwin_naturals.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -537,7 +537,7 @@
               </a>
             </div><!-- /.maker_item -->
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_01_irwin_naturals.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -570,7 +570,7 @@
               </a>
             </div><!-- /.maker_item -->
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_01_irwin_naturals.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -603,7 +603,7 @@
               </a>
             </div><!-- /.maker_item -->
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_01_irwin_naturals.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -636,7 +636,7 @@
               </a>
             </div><!-- /.maker_item -->
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_01_irwin_naturals.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -669,7 +669,7 @@
               </a>
             </div><!-- /.maker_item -->
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_01_irwin_naturals.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -702,7 +702,7 @@
               </a>
             </div><!-- /.maker_item -->
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_01_irwin_naturals.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -735,7 +735,7 @@
               </a>
             </div><!-- /.maker_item -->
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_01_irwin_naturals.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -768,7 +768,7 @@
               </a>
             </div><!-- /.maker_item -->
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_01_irwin_naturals.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -801,7 +801,7 @@
               </a>
             </div><!-- /.maker_item -->
             <div class="col-md-6 maker_item">
-              <a href="maker-single.html" class="card mb-3">
+              <a href="maker-single.php" class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-4 text-center">
                     <img src="images/maker/maker_01_irwin_naturals.jpg" class="mx-auto mr-md-3 img-fluid" alt="">
@@ -845,65 +845,65 @@
             <div class="card-body">
               <div class="row">
                 <div class="col-6 col-sm-4 col-xl posted_item">
-                  <a href="item01.html" class="item_image">
+                  <a href="item01.php" class="item_image">
                     <figure>
                       <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                     </figure>
                   </a>
-                  <div class="item_name"><a href="item01.html">バイアグラ9</a></div>
-                  <div class="item_category"><a href="item01.html" class="badge badge-danger">ED治療薬</a></div>
+                  <div class="item_name"><a href="item01.php">バイアグラ9</a></div>
+                  <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                   <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                   <div class="item_desc small py-2">
                     バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
                   </div>
                 </div>
                 <div class="col-6 col-sm-4 col-xl posted_item">
-                  <a href="item01.html" class="item_image">
+                  <a href="item01.php" class="item_image">
                     <figure>
                       <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                     </figure>
                   </a>
-                  <div class="item_name"><a href="item01.html">バイアグラ9</a></div>
-                  <div class="item_category"><a href="item01.html" class="badge badge-danger">ED治療薬</a></div>
+                  <div class="item_name"><a href="item01.php">バイアグラ9</a></div>
+                  <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                   <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                   <div class="item_desc small py-2">
                     バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
                   </div>
                 </div>
                 <div class="col-6 col-sm-4 col-xl posted_item">
-                  <a href="item01.html" class="item_image">
+                  <a href="item01.php" class="item_image">
                     <figure>
                       <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                     </figure>
                   </a>
-                  <div class="item_name"><a href="item01.html">バイアグラ9</a></div>
-                  <div class="item_category"><a href="item01.html" class="badge badge-danger">ED治療薬</a></div>
+                  <div class="item_name"><a href="item01.php">バイアグラ9</a></div>
+                  <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                   <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                   <div class="item_desc small py-2">
                     バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
                   </div>
                 </div>
                 <div class="col-6 col-sm-4 col-xl posted_item">
-                  <a href="item01.html" class="item_image">
+                  <a href="item01.php" class="item_image">
                     <figure>
                       <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                     </figure>
                   </a>
-                  <div class="item_name"><a href="item01.html">バイアグラ9</a></div>
-                  <div class="item_category"><a href="item01.html" class="badge badge-danger">ED治療薬</a></div>
+                  <div class="item_name"><a href="item01.php">バイアグラ9</a></div>
+                  <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                   <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                   <div class="item_desc small py-2">
                     バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
                   </div>
                 </div>
                 <div class="col-6 col-sm-4 col-xl posted_item">
-                  <a href="item01.html" class="item_image">
+                  <a href="item01.php" class="item_image">
                     <figure>
                       <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                     </figure>
                   </a>
-                  <div class="item_name"><a href="item01.html">バイアグラ9</a></div>
-                  <div class="item_category"><a href="item01.html" class="badge badge-danger">ED治療薬</a></div>
+                  <div class="item_name"><a href="item01.php">バイアグラ9</a></div>
+                  <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                   <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                   <div class="item_desc small py-2">
                     バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。

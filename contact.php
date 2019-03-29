@@ -33,7 +33,7 @@
 
         <nav class="my_breadcrumb" aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html"><i class="fas fa-home mr-1"></i>お薬通販部TOP</a></li>
+            <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home mr-1"></i>お薬通販部TOP</a></li>
             <li class="breadcrumb-item active" aria-current="page">お問い合わせ</li>
           </ol>
         </nav>
@@ -93,9 +93,8 @@
           </dd>
         </dl>
         <nav class="info_change mx-auto">
-          <a href="contact_confirmation.html" class="btn btn-block btn-info mb-5">送信内容を確認する</a>
+          <a href="contact_confirmation.php" class="btn btn-block btn-info mb-5">送信内容を確認する</a>
         </nav>
-
 
       </main>
       <aside class="col-lg-3 col-xl-2 order-first d-none d-lg-block">
@@ -109,10 +108,7 @@
 </div>
 <?php include "inc/footer.php"; ?>
 
-
 <!-- Page JS -->
-<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<!--<script src="js/jquery.nicescroll.min.js"></script>-->
 
 <!-- Original JS -->
 <script src="common/js/common.js"></script>

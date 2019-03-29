@@ -135,7 +135,7 @@
           <dd class="col-sm-7 col-md-8 col-xl-9">
             <div class="form-group row align-items-center mb-2 mx-0">
               <input type="text" class="col-4 col-md-3 col-form-label form-control form-control-sm mx-1 form-inline" id="" placeholder="">
-              <a href="//www.post.japanpost.jp/zipcode/index.html" class="codeSearch btn btn-sm btn_green" target="_blank">郵便番号検索</a>
+              <a href="//www.post.japanpost.jp/zipcode/index.html" class="codeSearch btn btn-sm btn_green" target="_blank" rel="nofollow">郵便番号検索</a>
             </div>
             <ul class="list-unstyled mb-0 small">
               <li><i class="fas fa-asterisk mr-1"></i>ハイフンなしの7ケタでご入力下さい。</li>
@@ -182,7 +182,7 @@
               <dd>
                 <div class="form-group row align-items-center mb-0 mx-0">
                   <input type="text" class="col-8 col-md-6 col-form-label form-control form-control-sm mx-1 form-inline mb-2 mb-md-0" id="" placeholder="">
-                  <a href="//map.japanpost.jp/pc/" class="codeSearch btn btn-sm btn_green mx-1" target="_blank">郵便局を検索する</a>
+                  <a href="//map.japanpost.jp/pc/" class="codeSearch btn btn-sm btn_green mx-1" target="_blank" rel="nofollow">郵便局を検索する</a>
                 </div>
               </dd>
             </dl>

@@ -33,7 +33,7 @@
 
         <nav class="my_breadcrumb" aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html"><i class="fas fa-home mr-1"></i>お薬通販部TOP</a></li>
+            <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home mr-1"></i>お薬通販部TOP</a></li>
             <li class="breadcrumb-item active" aria-current="page">プライバシーポリシー</li>
           </ol>
         </nav>
@@ -58,7 +58,7 @@
               </nav>
             </div>
             <div class="col-md-8 terms_main">
-              <p><a href="index.html">お薬通販部</a>（以下「当社」）は、海外医薬品など個人輸入代行サービスのご提供にあたり、お客様の個人情報をお預かりしております。</p>
+              <p><a href="index.php">お薬通販部</a>（以下「当社」）は、海外医薬品など個人輸入代行サービスのご提供にあたり、お客様の個人情報をお預かりしております。</p>
               <p>法当社サービスを安心安全にご利用いただくために、以下のとおりプライバシーポリシーを定め、それを実施し、お客様の個人情報を適切に取り扱うよう努めてまいります。</p>
               <p>またお客様が、当社サービスを利用もしくはページ閲覧する際に、お客様が利用された当社サービスの利用状況、閲覧したページの履歴、IPアドレス、クッキー（Cookie）の情報など、特定の個人を識別することができる情報を取得する場合があります。</p>
 

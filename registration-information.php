@@ -33,7 +33,7 @@
 
         <nav class="my_breadcrumb" aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html"><i class="fas fa-home mr-1"></i>お薬通販部TOP</a></li>
+            <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home mr-1"></i>お薬通販部TOP</a></li>
             <li class="breadcrumb-item active" aria-current="page">登録情報</li>
           </ol>
         </nav>
@@ -68,7 +68,7 @@
           <dd class="col-sm-7 col-md-8 col-xl-9">aaaaaaaa</dd>
         </dl>
         <nav class="info_change mx-auto">
-          <a href="setting.html" class="btn btn-block btn-info mb-5">登録情報を変更する</a>
+          <a href="setting.php" class="btn btn-block btn-info mb-5">登録情報を変更する</a>
         </nav>
 
       </main>

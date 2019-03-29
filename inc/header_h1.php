@@ -14,42 +14,42 @@
         <a class="nav-link dropdown-toggle drop-hover" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">商品カテゴリー</a>
         <div class="dropdown-menu globalnav_dropdown_menu mb-2" aria-labelledby="dropdown01">
           <a href="category-all.html" class="dropdown-item">商品カテゴリー一覧</a>
-          <a href="category.html" class="dropdown-item">お得セット商品</a>
-          <a href="category.html" class="dropdown-item">ED治療薬</a>
-          <a href="category.html" class="dropdown-item">早漏防止薬</a>
-          <a href="category.html" class="dropdown-item">ペニス増大</a>
-          <a href="category.html" class="dropdown-item">媚薬</a>
-          <a href="category.html" class="dropdown-item">避妊薬</a>
-          <a href="category.html" class="dropdown-item">性病・感染症</a>
-          <a href="category.html" class="dropdown-item">男性薄毛治療薬</a>
-          <a href="category.html" class="dropdown-item">女性薄毛治療薬</a>
-          <a href="category.html" class="dropdown-item">体臭ケア</a>
-          <a href="category.html" class="dropdown-item">禁煙治療薬</a>
-          <a href="category.html" class="dropdown-item">美容・スキンケア</a>
-          <a href="category.html" class="dropdown-item">アレルギー</a>
-          <a href="category.html" class="dropdown-item">ダイエット</a>
-          <a href="category.html" class="dropdown-item">筋肉増強剤</a>
-          <a href="category.html" class="dropdown-item">ホルモン剤</a>
-          <a href="category.html" class="dropdown-item">不眠症・睡眠薬</a>
-          <a href="category.html" class="dropdown-item">メンタルヘルスケア</a>
-          <a href="category.html" class="dropdown-item">病気・症状</a>
-          <a href="category.html" class="dropdown-item">痛み止め</a>
-          <a href="category.html" class="dropdown-item">ホワイトニング</a>
-          <a href="category.html" class="dropdown-item">目薬</a>
-          <a href="category.html" class="dropdown-item">検査キット</a>
-          <a href="category.html" class="dropdown-item">サプリメント</a>
+          <a href="category.php" class="dropdown-item">お得セット商品</a>
+          <a href="category.php" class="dropdown-item">ED治療薬</a>
+          <a href="category.php" class="dropdown-item">早漏防止薬</a>
+          <a href="category.php" class="dropdown-item">ペニス増大</a>
+          <a href="category.php" class="dropdown-item">媚薬</a>
+          <a href="category.php" class="dropdown-item">避妊薬</a>
+          <a href="category.php" class="dropdown-item">性病・感染症</a>
+          <a href="category.php" class="dropdown-item">男性薄毛治療薬</a>
+          <a href="category.php" class="dropdown-item">女性薄毛治療薬</a>
+          <a href="category.php" class="dropdown-item">体臭ケア</a>
+          <a href="category.php" class="dropdown-item">禁煙治療薬</a>
+          <a href="category.php" class="dropdown-item">美容・スキンケア</a>
+          <a href="category.php" class="dropdown-item">アレルギー</a>
+          <a href="category.php" class="dropdown-item">ダイエット</a>
+          <a href="category.php" class="dropdown-item">筋肉増強剤</a>
+          <a href="category.php" class="dropdown-item">ホルモン剤</a>
+          <a href="category.php" class="dropdown-item">不眠症・睡眠薬</a>
+          <a href="category.php" class="dropdown-item">メンタルヘルスケア</a>
+          <a href="category.php" class="dropdown-item">病気・症状</a>
+          <a href="category.php" class="dropdown-item">痛み止め</a>
+          <a href="category.php" class="dropdown-item">ホワイトニング</a>
+          <a href="category.php" class="dropdown-item">目薬</a>
+          <a href="category.php" class="dropdown-item">検査キット</a>
+          <a href="category.php" class="dropdown-item">サプリメント</a>
         </div>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle drop-hover" href="medical-guide-all.html" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">メディカルガイド</a>
         <div class="dropdown-menu globalnav_dropdown_menu mb-2" aria-labelledby="dropdown02">
-          <a href="medical-guide-all.html" class="dropdown-item">メディカルガイド一覧</a>
-          <a href="medical-guide-category.html" class="dropdown-item">ED</a>
-          <a href="medical-guide-category.html" class="dropdown-item">ED治療薬</a>
-          <a href="medical-guide-category.html" class="dropdown-item">バイアグラ</a>
-          <a href="medical-guide-category.html" class="dropdown-item">カテゴリー</a>
-          <a href="medical-guide-category.html" class="dropdown-item">カテゴリー</a>
-          <a href="medical-guide-category.html" class="dropdown-item">カテゴリー</a>
+          <a href="medical-guide-all.php" class="dropdown-item">メディカルガイド一覧</a>
+          <a href="medical-guide-category.php" class="dropdown-item">ED</a>
+          <a href="medical-guide-category.php" class="dropdown-item">ED治療薬</a>
+          <a href="medical-guide-category.php" class="dropdown-item">バイアグラ</a>
+          <a href="medical-guide-category.php" class="dropdown-item">カテゴリー</a>
+          <a href="medical-guide-category.php" class="dropdown-item">カテゴリー</a>
+          <a href="medical-guide-category.php" class="dropdown-item">カテゴリー</a>
         </div>
       </li>
       <li class="nav-item">
@@ -58,13 +58,13 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle drop-hover" href="" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ご利用ガイド</a>
         <div class="dropdown-menu globalnav_dropdown_menu mb-2" aria-labelledby="dropdown03">
-          <a href="about.html" class="dropdown-item">お薬通販部とは</a>
-          <a href="shipping-process.html" class="dropdown-item">お買い物手順</a>
-          <a href="payment.html" class="dropdown-item">お支払い方法</a>
-          <a href="delivery.html" class="dropdown-item">配送について</a>
-          <a href="receive-emails.html" class="dropdown-item">メールが届かないお客様へ</a>
-          <a href="faq.html" class="dropdown-item">よくある質問</a>
-          <a href="generic.html" class="dropdown-item">ジェネリック医薬品について</a>
+          <a href="about.php" class="dropdown-item">お薬通販部とは</a>
+          <a href="shipping-process.php" class="dropdown-item">お買い物手順</a>
+          <a href="payment.php" class="dropdown-item">お支払い方法</a>
+          <a href="delivery.php" class="dropdown-item">配送について</a>
+          <a href="receive-emails.php" class="dropdown-item">メールが届かないお客様へ</a>
+          <a href="faq.php" class="dropdown-item">よくある質問</a>
+          <a href="generic.php" class="dropdown-item">ジェネリック医薬品について</a>
         </div>
       </li>
     </ul>
@@ -84,7 +84,7 @@
       </a>
     </li>
     <li class="navbar-item">
-      <a class="nav-link" href="contact.html">
+      <a class="nav-link" href="contact.php">
         <i class="far fa-envelope"></i><span class="d-none d-xl-inline-block ml-1 small">お問い合わせ</span>
       </a>
     </li>

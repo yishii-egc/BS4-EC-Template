@@ -87,8 +87,6 @@
 <?php include "inc/footer.php"; ?>
 
 <!-- Page JS -->
-<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<!--<script src="js/jquery.nicescroll.min.js"></script>-->
 
 <!-- Original JS -->
 <script src="common/js/common.js"></script>

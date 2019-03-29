@@ -2,6 +2,13 @@
 @import "../common/css/common.scss";
 @import "../common/css/breadcrumb.scss";
 
+.categroy_h1 {
+  @include main_h1;
+  &::before {
+    content: "\f469";
+  }
+}
+
 .btn_category_more {
   border: none;
   border-radius: 16px;

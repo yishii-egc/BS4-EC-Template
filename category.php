@@ -19,7 +19,6 @@
 
 <!-- page CSS -->
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-<!--<link rel="stylesheet" href="css/slick-theme.css">-->
 
 <!-- framework / plugin CSS -->
 <link rel="stylesheet" href="common/css/hover-min.css">
@@ -44,7 +43,7 @@
         </nav>
 
         <header>
-          <h1>ED治療薬</h1>
+          <h1 class="categroy_h1">ED治療薬</h1>
           <p class="category_description">
             ED（勃起不全）治療薬通販購入の商品一覧ページです。<br>
             世界初のED治療薬バイアグラ、最大36時間の持続力があるシアリス、最短15分の即効性が特徴のレビトラ、万能型である第4のED治療薬ステンドラ、EDサプリや女性用の不感症改善薬をご紹介しています。
@@ -55,66 +54,71 @@
           <h2 class="main_h2">おすすめ商品</h2>
           <div class="slick_wrapper p-2">
             <div class="slick_item ">
-              <a href="item01.html" class="item_image">
+              <a href="item01.php" class="item_image">
                 <figure>
                   <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                 </figure>
               </a>
-              <div class="item_name"><a href="">バイアグラ1</a></div>
-              <div class="item_category"><a href="item01.html" class="badge badge-danger">ED治療薬</a></div>
+              <div class="item_name"><a href="item01.php">バイアグラ1</a></div>
+              <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
               <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
+              <div class="item_part_price small text-right">（1錠1,239円～）</div>
               <div class="item_desc small py-2">
                 バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
               </div>
             </div>
             <div class="slick_item ">
-              <a href="item01.html" class="item_image">
+              <a href="item01.php" class="item_image">
                 <figure>
                   <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                 </figure>
               </a>
-              <div class="item_name"><a href="item01.html">バイアグラ1</a></div>
-              <div class="item_category"><a href="item01.html" class="badge badge-danger">ED治療薬</a></div>
+              <div class="item_name"><a href="item01.php">バイアグラ1</a></div>
+              <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
               <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
+              <div class="item_part_price small text-right">（1錠1,239円～）</div>
               <div class="item_desc small py-2">
                 バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
               </div>
             </div>
             <div class="slick_item ">
-              <a href="item01.html" class="item_image">
+              <a href="item01.php" class="item_image">
                 <figure>
                   <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                 </figure>
               </a>
-              <div class="item_name"><a href="item01.html">バイアグラ2</a></div>
-              <div class="item_category"><a href="item01.html" class="badge badge-danger">ED治療薬</a></div>
+              <div class="item_name"><a href="item01.php">バイアグラ2</a></div>
+              <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
               <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
+              <div class="item_part_price small text-right">（1錠1,239円～）</div>
               <div class="item_desc small py-2">
                 バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
               </div>
             </div>
             <div class="slick_item ">
-              <a href="item01.html" class="item_image">
+              <a href="item01.php" class="item_image">
                 <figure>
                   <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                 </figure>
               </a>
-              <div class="item_name"><a href="item01.html">バイアグラ3</a></div>
-              <div class="item_category"><a href="item01.html" class="badge badge-danger">ED治療薬</a></div>
+              <div class="item_name"><a href="item01.php">バイアグラ3</a></div>
+              <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
               <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
+              <div class="item_part_price small text-right">（1錠1,239円～）</div>
               <div class="item_desc small py-2">
                 バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
               </div>
             </div>
             <div class="slick_item ">
-              <a href="item01.html" class="item_image">
+              <a href="item01.php" class="item_image">
                 <figure>
                   <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                 </figure>
               </a>
-              <div class="item_name"><a href="item01.html">バイアグラ4</a></div>
-              <div class="item_category"><a href="item01.html" class="badge badge-danger">ED治療薬</a></div>
+              <div class="item_name"><a href="item01.php">バイアグラ4</a></div>
+              <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
               <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
+              <div class="item_part_price small text-right">（1錠1,239円～）</div>
               <div class="item_desc small py-2">
                 バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
               </div>
@@ -129,43 +133,43 @@
 
           <ul class="row list-unstyled">
             <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.html" class="category_item">
+              <a href="category.php" class="category_item">
                 <img src="images/category/sub-category-viagra-generic.png" alt="" class="img-fluid">
                 <span class="category_name">バイアグラジェネリック</span>
               </a>
             </li>
             <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.html" class="category_item">
+              <a href="category.php" class="category_item">
                 <img src="images/category/sub-category-ciaris-generic.png" alt="" class="img-fluid">
                 <span class="category_name">シアリスジェネリック</span>
               </a>
             </li>
             <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.html" class="category_item">
+              <a href="category.php" class="category_item">
                 <img src="images/category/sub-category-levitra-generic.png" alt="" class="img-fluid">
                 <span class="category_name">レビトラジェネリック</span>
               </a>
             </li>
             <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.html" class="category_item">
+              <a href="category.php" class="category_item">
                 <img src="images/category/sub-category-spedra-generic.png" alt="" class="img-fluid">
                 <span class="category_name">ステンドラジェネリック</span>
               </a>
             </li>
             <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.html" class="category_item">
+              <a href="category.php" class="category_item">
                 <img src="images/category/sub-category-zydena-generic.png" alt="" class="img-fluid">
                 <span class="category_name">ザイデナジェネリック</span>
               </a>
             </li>
             <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.html" class="category_item">
+              <a href="category.php" class="category_item">
                 <img src="images/category/sub-category-ed-supplements.png" alt="" class="img-fluid">
                 <span class="category_name">EDサプリ</span>
               </a>
             </li>
             <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.html" class="category_item">
+              <a href="category.php" class="category_item">
                 <img src="images/category/sub-category-frigidity-improvement.png" alt="" class="img-fluid">
                 <span class="category_name">不感症改善</span>
               </a>
@@ -179,7 +183,7 @@
             
             <div class="col-6 col-md-4 col-xl-3">
               <div class="">
-                <a href="item01.html" class="item_image">
+                <a href="item01.php" class="item_image">
                   <figure>
                     <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                   </figure>
@@ -194,7 +198,7 @@
             </div>
             <div class="col-6 col-md-4 col-xl-3">
               <div class="">
-                <a href="item01.html" class="item_image">
+                <a href="item01.php" class="item_image">
                   <figure>
                     <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                   </figure>
@@ -209,7 +213,7 @@
             </div>
             <div class="col-6 col-md-4 col-xl-3">
               <div class="">
-                <a href="item01.html" class="item_image">
+                <a href="item01.php" class="item_image">
                   <figure>
                     <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                   </figure>
@@ -224,7 +228,7 @@
             </div>
             <div class="col-6 col-lg-4 col-xl-3">
               <div class="">
-                <a href="item01.html" class="item_image">
+                <a href="item01.php" class="item_image">
                   <figure>
                     <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                   </figure>
@@ -239,7 +243,7 @@
             </div>
             <div class="col-6 col-md-4 col-xl-3">
               <div class="">
-                <a href="item01.html" class="item_image">
+                <a href="item01.php" class="item_image">
                   <figure>
                     <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                   </figure>
@@ -254,7 +258,7 @@
             </div>
             <div class="col-6 col-md-4 col-xl-3">
               <div class="">
-                <a href="item01.html" class="item_image">
+                <a href="item01.php" class="item_image">
                   <figure>
                     <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                   </figure>
@@ -269,7 +273,7 @@
             </div>
             <div class="col-6 col-md-4 col-xl-3">
               <div class="">
-                <a href="item01.html" class="item_image">
+                <a href="item01.php" class="item_image">
                   <figure>
                     <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                   </figure>
@@ -284,7 +288,7 @@
             </div>
             <div class="col-6 col-md-4 col-xl-3">
               <div class="">
-                <a href="item01.html" class="item_image">
+                <a href="item01.php" class="item_image">
                   <figure>
                     <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                   </figure>
@@ -299,7 +303,7 @@
             </div>
             <div class="col-6 col-md-4 col-xl-3">
               <div class="">
-                <a href="item01.html" class="item_image">
+                <a href="item01.php" class="item_image">
                   <figure>
                     <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                   </figure>
@@ -314,7 +318,7 @@
             </div>
             <div class="col-6 col-md-4 col-xl-3">
               <div class="">
-                <a href="item01.html" class="item_image">
+                <a href="item01.php" class="item_image">
                   <figure>
                     <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                   </figure>
@@ -329,7 +333,7 @@
             </div>
             <div class="col-6 col-md-4 col-xl-3">
               <div class="">
-                <a href="item01.html" class="item_image">
+                <a href="item01.php" class="item_image">
                   <figure>
                     <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                   </figure>
@@ -344,7 +348,7 @@
             </div>
             <div class="col-6 col-md-4 col-xl-3">
               <div class="">
-                <a href="item01.html" class="item_image">
+                <a href="item01.php" class="item_image">
                   <figure>
                     <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                   </figure>
@@ -359,7 +363,7 @@
             </div>
             <div class="col-6 col-md-4 col-xl-3">
               <div class="">
-                <a href="item01.html" class="item_image">
+                <a href="item01.php" class="item_image">
                   <figure>
                     <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                   </figure>
@@ -374,7 +378,7 @@
             </div>
             <div class="col-6 col-md-4 col-xl-3">
               <div class="">
-                <a href="item01.html" class="item_image">
+                <a href="item01.php" class="item_image">
                   <figure>
                     <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                   </figure>
@@ -389,13 +393,13 @@
             </div>
             <div class="col-6 col-md-4 col-xl-3">
               <div class="">
-                <a href="item01.html" class="item_image">
+                <a href="item01.php" class="item_image">
                   <figure>
                     <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                   </figure>
                 </a>
-                <div class=""><a href="item01.html">バイアグラ8</a></div>
-                <div class=""><a href="item01.html" class="badge badge-danger">ED治療薬</a></div>
+                <div class=""><a href="item01.php">バイアグラ8</a></div>
+                <div class=""><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
                 <div class="">販売価格：<span class="text-danger">9,999円</span></div>
                 <div class="item_desc small py-2">
                   バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
@@ -404,13 +408,13 @@
             </div>
             <div class="col-6 col-md-4 col-xl-3">
               <div class="">
-                <a href="item01.html" class="item_image">
+                <a href="item01.php" class="item_image">
                   <figure>
                     <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                   </figure>
                 </a>
-                <div class=""><a href="item01.html">バイアグラ8</a></div>
-                <div class=""><a href="item01.html" class="badge badge-danger">ED治療薬</a></div>
+                <div class=""><a href="item01.php">バイアグラ8</a></div>
+                <div class=""><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
                 <div class="">販売価格：<span class="text-danger">9,999円</span></div>
                 <div class="item_desc small py-2">
                   バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
@@ -441,65 +445,65 @@
             <div class="card-body">
               <div class="row">
                 <div class="col-6 col-sm-4 col-xl posted_item">
-                  <a href="item01.html" class="item_image">
+                  <a href="item01.php" class="item_image">
                     <figure>
                       <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                     </figure>
                   </a>
-                  <div class="item_name"><a href="item01.html">バイアグラ9</a></div>
-                  <div class="item_category"><a href="item01.html" class="badge badge-danger">ED治療薬</a></div>
+                  <div class="item_name"><a href="item01.php">バイアグラ9</a></div>
+                  <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
                   <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                   <div class="item_desc small py-2">
                     バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
                   </div>
                 </div>
                 <div class="col-6 col-sm-4 col-xl posted_item">
-                  <a href="item01.html" class="item_image">
+                  <a href="item01.php" class="item_image">
                     <figure>
                       <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                     </figure>
                   </a>
-                  <div class="item_name"><a href="item01.html">バイアグラ9</a></div>
-                  <div class="item_category"><a href="item01.html" class="badge badge-danger">ED治療薬</a></div>
+                  <div class="item_name"><a href="item01.php">バイアグラ9</a></div>
+                  <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
                   <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                   <div class="item_desc small py-2">
                     バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
                   </div>
                 </div>
                 <div class="col-6 col-sm-4 col-xl posted_item">
-                  <a href="item01.html" class="item_image">
+                  <a href="item01.php" class="item_image">
                     <figure>
                       <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                     </figure>
                   </a>
-                  <div class="item_name"><a href="item01.html">バイアグラ9</a></div>
-                  <div class="item_category"><a href="item01.html" class="badge badge-danger">ED治療薬</a></div>
+                  <div class="item_name"><a href="item01.php">バイアグラ9</a></div>
+                  <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
                   <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                   <div class="item_desc small py-2">
                     バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
                   </div>
                 </div>
                 <div class="col-6 col-sm-4 col-xl posted_item">
-                  <a href="item01.html" class="item_image">
+                  <a href="item01.php" class="item_image">
                     <figure>
                       <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                     </figure>
                   </a>
-                  <div class="item_name"><a href="item01.html">バイアグラ9</a></div>
-                  <div class="item_category"><a href="item01.html" class="badge badge-danger">ED治療薬</a></div>
+                  <div class="item_name"><a href="item01.php">バイアグラ9</a></div>
+                  <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
                   <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                   <div class="item_desc small py-2">
                     バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
                   </div>
                 </div>
                 <div class="col-6 col-sm-4 col-xl posted_item">
-                  <a href="item01.html" class="item_image">
+                  <a href="item01.php" class="item_image">
                     <figure>
                       <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                     </figure>
                   </a>
-                  <div class="item_name"><a href="item01.html">バイアグラ9</a></div>
-                  <div class="item_category"><a href="item01.html" class="badge badge-danger">ED治療薬</a></div>
+                  <div class="item_name"><a href="item01.php">バイアグラ9</a></div>
+                  <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
                   <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                   <div class="item_desc small py-2">
                     バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。

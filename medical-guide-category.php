@@ -38,8 +38,8 @@
 
         <nav class="my_breadcrumb" aria-label="breadcrumb">
           <ol class="breadcrumb my_breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">お薬通販部TOP</a></li>
-            <li class="breadcrumb-item"><a href="medical-guide-all.html">メディカルガイド</a></li>
+            <li class="breadcrumb-item"><a href="index.php">お薬通販部TOP</a></li>
+            <li class="breadcrumb-item"><a href="medical-guide-all.php">メディカルガイド</a></li>
             <li class="breadcrumb-item active" aria-current="page">ED</li>
           </ol>
         </nav>

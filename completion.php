@@ -33,7 +33,7 @@
 
         <nav class="my_breadcrumb" aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html"><i class="fas fa-home mr-1"></i>お薬通販部TOP</a></li>
+            <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home mr-1"></i>お薬通販部TOP</a></li>
             <li class="breadcrumb-item active" aria-current="page">登録情報変更の確認</li>
           </ol>
         </nav>

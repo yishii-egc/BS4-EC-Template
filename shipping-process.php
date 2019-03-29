@@ -33,7 +33,7 @@
 
         <nav class="my_breadcrumb" aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html"><i class="fas fa-home mr-1"></i>お薬通販部TOP</a></li>
+            <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home mr-1"></i>お薬通販部TOP</a></li>
             <li class="breadcrumb-item active" aria-current="page">お買い物手順</li>
           </ol>
         </nav>
@@ -42,7 +42,7 @@
           <header>
             <h1 class="guide_h1">お買い物手順</h1>
 
-            <p><a href="index.html">お薬通販部</a>のご注文方法は、2つあります。お客様のご都合のよい方法でご注文ください。</p>
+            <p><a href="index.php">お薬通販部</a>のご注文方法は、2つあります。お客様のご都合のよい方法でご注文ください。</p>
           </header>
           <div class="row">
             <div class="col-md-4 order-md-last guide_toc">
@@ -55,14 +55,14 @@
                   <a href="#guide01_03" class="list-group-item pl-5">注文したい商品を追加する</a>
                   <a href="#guide01_04" class="list-group-item pl-5">購入手続きをする</a>
                   <a href="#guide01_05" class="list-group-item pl-5">配送先情報の確認をする</a>
-                  <a href="#guide05_01" class="list-group-item">電話で注文</a>
+                  <a href="#guide02" class="list-group-item">電話で注文</a>
                 </div>
               </nav>
             </div>
             <div class="col-md-8 guide_main">
-              <h2 class="main_h2">ネットで注文</h2>
+              <h2 class="main_h2" id="guide01">ネットで注文</h2>
               <p>インターネットでのご注文は、以下の手順でご利用ください。</p>
-              <h3 class="main_h3">1.注文したい商品をカートへ入れる</h3>
+              <h3 class="main_h3" id="guide01_01">1.注文したい商品をカートへ入れる</h3>
               <p>ショッピングカートに注文したい商品をいれます。</p>
               <ul>
                 <li class="mb-4">
@@ -92,7 +92,7 @@
               </ul>
               <p>※商品が正しく表示されない場合は「トップページへ戻る」のボタンを押して、トップページに戻り、再度商品を選択してください。</p>
               
-              <h3 class="main_h3">2. ショッピングカートページを確認する</h3>
+              <h3 class="main_h3" id="guide01_02">2. ショッピングカートページを確認する</h3>
               <p>注文したい個数を入力し、ご注文代金（お支払い金額）がいくらになるかを確認してください。<br>
               ご注文代金（お支払金額）は、注文した商品の合計金額に送料が加算された金額となります。</p>
               <p>※送料は、日本全国一律1,000円となります。<span>1万円以上お買い上げのお客様には、送料無料</span>でお届けいたします。</p>
@@ -107,17 +107,17 @@
                 </dd>
               </dl>
               
-              <h3 class="main_h3">3.注文したい商品を追加する</h3>
+              <h3 class="main_h3" id="guide01_03">3.注文したい商品を追加する</h3>
               <p><span>※注文を確定する場合は、この手順を行わず「4. 購入手続きをする」へ進んでください</span></p>
               <p>「トップページに戻る」ボタンを押すと、トップページに移動します。<br>
               注文したい商品を押して、商品紹介ページへ移動してください。</p>
               <p>
-                「<a href="">1. 注文したい商品をカートへ入れる</a>」<br>
-                「<a href="">2. ショッピングカートページを確認する</a>」<br>
+                「<a href="#guide01_01">1. 注文したい商品をカートへ入れる</a>」<br>
+                「<a href="#guide01_02">2. ショッピングカートページを確認する</a>」<br>
                 の手順を繰り返してください。
               </p>
               
-              <h3 class="main_h3">4. 購入手続きをする</h3>
+              <h3 class="main_h3" id="guide01_04">4. 購入手続きをする</h3>
               <p>「レジに進む」ボタンを押すと、お届け先登録情報とお支払い方法ページに移動します。</p>
               <p><img src="images/guide/guide_register.png" alt="" class="img-fluid img-thumbnail"></p>
               <p>お名前、性別、配達先等のお届け先登録情報（個人情報）をもれなく入力、お支払い方法の選択、利用規約の確認と同意の上、「入力内容を確認する」ボタンを押してください。</p>
@@ -139,7 +139,7 @@
                 </dd>
               </dl>
               
-              <h3 class="main_h3">5. 配送先情報の確認をする</h3>
+              <h3 class="main_h3" id="guide01_05">5. 配送先情報の確認をする</h3>
               <p>
                 「4. 購入手続きをする」で登録いただいた情報を再度ご確認ください。<br>
                 内容を修正する場合は、「内容を修正する」ボタンを押すと、お届け先登録情報とお支払い方法ページに戻りますので、そちらで入力修正をしてください。<br>
@@ -154,7 +154,7 @@
               メールが正常に届いている場合は、ご注文代金お支払い手続きをお願いします。</p>
               <p>メールが届かない場合は、メールが届かないお客様へでご説明しております内容をご覧いただき、ご注文状況の確認をお願いいたします。</p>
 
-              <h2 class="main_h2">電話で注文</h2>
+              <h2 class="main_h2" id="guide02">電話で注文</h2>
               <p>日本語サポートデスク注文専用番号あてにお電話ください。</p>
               <dl class="row">
                 <dt class="col-4 col-xl-3">注文専用番号</dt>
@@ -163,11 +163,10 @@
                 <dd class="col-8 col-xl-9">10：00～18:00</dd>
               </dl>
               <p>こちらのお電話口では、<span>ご注文受付専用</span>とさせていただいております。<br>
-              ご注文以外のお問い合わせは、<a href="faq.html">よくある質問</a>をご確認の上、<a href="contact.html">お問い合わせ</a>フォームよりご連絡くださいますようお願い申しあげます。</p>
+              ご注文以外のお問い合わせは、<a href="faq.php">よくある質問</a>をご確認の上、<a href="contact.php">お問い合わせ</a>フォームよりご連絡くださいますようお願い申しあげます。</p>
               <p>また薬機法（旧薬事法）により、薬の効果・副作用等のご質問には、お答えいたしかねますので、あらかじめご了承いただきますようお願いいたします。</p>
             </div>
           </div>
-
 
         </article><!-- / .container-fluid -->
 

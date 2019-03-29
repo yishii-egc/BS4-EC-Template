@@ -33,7 +33,7 @@
 
         <nav class="my_breadcrumb" aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html"><i class="fas fa-home mr-1"></i>お薬通販部TOP</a></li>
+            <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home mr-1"></i>お薬通販部TOP</a></li>
             <li class="breadcrumb-item active" aria-current="page">よくある質問</li>
           </ol>
         </nav>
@@ -184,7 +184,7 @@
 
               <dt><span>Q21</span>メールマガジンを止めたい。</dt>
               <dd>
-                <p><span>A</span>メールマガジンの停止は、「<a href="contact.html">お問い合わせ</a>」よりご連絡ください。</p>
+                <p><span>A</span>メールマガジンの停止は、「<a href="contact.php">お問い合わせ</a>」よりご連絡ください。</p>
               </dd>
 
               <dt><span>Q22</span>退会手続きの仕方を知りたい。</dt>
@@ -195,7 +195,7 @@
 
               <dt><span>Q23</span>不明な点を質問したい場合は、どうすればいいですか？</dt>
               <dd>
-                <p><span>A</span>お気軽に「<a href="contact.html">お問い合せ</a>」よりご質問ください。</p>
+                <p><span>A</span>お気軽に「<a href="contact.php">お問い合せ</a>」よりご質問ください。</p>
               </dd>
             </dl>
 

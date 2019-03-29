@@ -6,16 +6,16 @@
         <p class="col-md-9 mx-auto mb-4">『お薬通販部』は、海外のすぐれた医薬品やサプリメント等をお客様ご自身で個人輸入するために必要な購入手続きをサポートする『個人輸入代行サービス』を担っております。</p>
        <div class="row justify-content-center">
           <div class="col-6 col-sm-3 col-xl-2">
-            <a href=""><img src="images/home/icon_quality.png" class="img-fluid mb-4" alt="取り扱いはメーカー正規品のみ"></a>
+            <a href="about.php#guide04"><img src="images/home/icon_quality.png" class="img-fluid mb-4" alt="取り扱いはメーカー正規品のみ"></a>
           </div>
           <div class="col-6 col-sm-3 col-xl-2">
-            <a href=""><img src="images/home/icon_prescription.png" class="img-fluid mb-4" alt="処方箋・診断書なしで注文可能"></a>
+            <a href="about.php#guide03"><img src="images/home/icon_prescription.png" class="img-fluid mb-4" alt="処方箋・診断書なしで注文可能"></a>
           </div>
           <div class="col-6 col-sm-3 col-xl-2">
-            <a href=""><img src="images/home/icon_delivery.png" class="img-fluid mb-4" alt="お買い上げ10,000円で送料無料"></a>
+            <a href="delivery.php#guide01"><img src="images/home/icon_delivery.png" class="img-fluid mb-4" alt="お買い上げ10,000円で送料無料"></a>
           </div>
           <div class="col-6 col-sm-3 col-xl-2">
-            <a href=""><img src="images/home/icon_package.png" class="img-fluid mb-4" alt="内容物が見えないよう梱包"></a>
+            <a href="delivery.php#guide02"><img src="images/home/icon_package.png" class="img-fluid mb-4" alt="内容物が見えないよう梱包"></a>
           </div>
           <div class="col-12">
             <p class="tel text-center">
@@ -33,83 +33,83 @@
       <nav class="footer_nav">
         <dl class="small">
           <dt><a href="category-all.php">カテゴリーから探す</a></dt>
-          <dd><a href="category.html">お得セット商品</a></dd>
-          <dd><a href="category.html">ED治療薬</a></dd>
-          <dd><a href="category.html">早漏防止薬</a></dd>
-          <dd><a href="category.html">ペニス増大</a></dd>
-          <dd><a href="category.html">媚薬</a></dd>
-          <dd><a href="category.html">避妊薬</a></dd>
-          <dd><a href="category.html">性病・感染症</a></dd>
-          <dd><a href="category.html">男性薄毛治療薬</a></dd>
-          <dd><a href="category.html">女性薄毛治療薬</a></dd>
-          <dd><a href="category.html">体臭ケア</a></dd>
-          <dd><a href="category.html">禁煙治療薬</a></dd>
-          <dd><a href="category.html">美容・スキンケア</a></dd>
-          <dd><a href="category.html">アレルギー</a></dd>
-          <dd><a href="category.html">ダイエット</a></dd>
-          <dd><a href="category.html">筋肉増強剤</a></dd>
-          <dd><a href="category.html">ホルモン剤</a></dd>
-          <dd><a href="category.html">不眠症・睡眠薬</a></dd>
-          <dd><a href="category.html">メンタルヘルスケア</a></dd>
-          <dd><a href="category.html">病気・症状</a></dd>
-          <dd><a href="category.html">痛み止め</a></dd>
-          <dd><a href="category.html">ホワイトニング</a></dd>
-          <dd><a href="category.html">目薬</a></dd>
-          <dd><a href="category.html">検査キット</a></dd>
-          <dd><a href="category.html">サプリメント</a></dd>
+          <dd><a href="category.php">お得セット商品</a></dd>
+          <dd><a href="category.php">ED治療薬</a></dd>
+          <dd><a href="category.php">早漏防止薬</a></dd>
+          <dd><a href="category.php">ペニス増大</a></dd>
+          <dd><a href="category.php">媚薬</a></dd>
+          <dd><a href="category.php">避妊薬</a></dd>
+          <dd><a href="category.php">性病・感染症</a></dd>
+          <dd><a href="category.php">男性薄毛治療薬</a></dd>
+          <dd><a href="category.php">女性薄毛治療薬</a></dd>
+          <dd><a href="category.php">体臭ケア</a></dd>
+          <dd><a href="category.php">禁煙治療薬</a></dd>
+          <dd><a href="category.php">美容・スキンケア</a></dd>
+          <dd><a href="category.php">アレルギー</a></dd>
+          <dd><a href="category.php">ダイエット</a></dd>
+          <dd><a href="category.php">筋肉増強剤</a></dd>
+          <dd><a href="category.php">ホルモン剤</a></dd>
+          <dd><a href="category.php">不眠症・睡眠薬</a></dd>
+          <dd><a href="category.php">メンタルヘルスケア</a></dd>
+          <dd><a href="category.php">病気・症状</a></dd>
+          <dd><a href="category.php">痛み止め</a></dd>
+          <dd><a href="category.php">ホワイトニング</a></dd>
+          <dd><a href="category.php">目薬</a></dd>
+          <dd><a href="category.php">検査キット</a></dd>
+          <dd><a href="category.php">サプリメント</a></dd>
 
-          <dt><a href="medical-guide-all.html">メディカルガイド</a></dt>
-          <dd><a href="medical-guide-single.html">EDとは</a></dd>
-          <dd><a href="medical-guide-single.html">ED治療薬とは</a></dd>
-          <dd><a href="medical-guide-single.html">早漏とは</a></dd>
-          <dd><a href="medical-guide-single.html">早漏防止薬とは</a></dd>
-          <dd><a href="medical-guide-single.html">ペニス増大サプリとは</a></dd>
-          <dd><a href="medical-guide-single.html">媚薬とは</a></dd>
-          <dd><a href="medical-guide-single.html">フェロモン香水とは</a></dd>
-          <dd><a href="medical-guide-single.html">催淫剤とは</a></dd>
-          <dd><a href="medical-guide-single.html">媚薬クリームとは</a></dd>
-          <dd><a href="medical-guide-single.html">避妊とは</a></dd>
-          <dd><a href="medical-guide-single.html">避妊薬とは</a></dd>
-          <dd><a href="medical-guide-single.html">低用量ピルとは</a></dd>
-          <dd><a href="medical-guide-single.html">超低用量ピルとは</a></dd>
-          <dd><a href="medical-guide-single.html">アフターピルとは</a></dd>
-          <dd><a href="medical-guide-single.html">避妊具とは</a></dd>
-          <dd><a href="medical-guide-single.html">性感染症とは</a></dd>
-          <dd><a href="medical-guide-single.html">性感染症治療薬とは</a></dd>
-          <dd><a href="medical-guide-single.html">クラミジアとは</a></dd>
-          <dd><a href="medical-guide-single.html">淋病とは</a></dd>
-          <dd><a href="medical-guide-single.html">バイアグラとは</a></dd>
-          <dd><a href="medical-guide-single.html">シアリスとは</a></dd>
-          <dd><a href="medical-guide-single.html">レビトラとは</a></dd>
-          <dd><a href="medical-guide-single.html">ステンドラとは</a></dd>
-          <dd><a href="medical-guide-single.html">ザイデナとは</a></dd>
-          <dd><a href="medical-guide-single.html">プリリジーとは</a></dd>
-          <dd><a href="medical-guide-single.html">キシロカインとは</a></dd>
-          <dd><a href="medical-guide-single.html">シルデナフィルとは</a></dd>
-          <dd><a href="medical-guide-single.html">タダラフィルとは</a></dd>
-          <dd><a href="medical-guide-single.html">バルデナフィルとは</a></dd>
-          <dd><a href="medical-guide-single.html">アバナフィルとは</a></dd>
-          <dd><a href="medical-guide-single.html">ウデナフィルとは</a></dd>
-          <dd><a href="medical-guide-single.html">ダポキセチンとは</a></dd>
-          <dd><a href="medical-guide-single.html">リドカインとは</a></dd>
+          <dt><a href="medical-guide-all.php">メディカルガイド</a></dt>
+          <dd><a href="medical-guide-single.php">EDとは</a></dd>
+          <dd><a href="medical-guide-single.php">ED治療薬とは</a></dd>
+          <dd><a href="medical-guide-single.php">早漏とは</a></dd>
+          <dd><a href="medical-guide-single.php">早漏防止薬とは</a></dd>
+          <dd><a href="medical-guide-single.php">ペニス増大サプリとは</a></dd>
+          <dd><a href="medical-guide-single.php">媚薬とは</a></dd>
+          <dd><a href="medical-guide-single.php">フェロモン香水とは</a></dd>
+          <dd><a href="medical-guide-single.php">催淫剤とは</a></dd>
+          <dd><a href="medical-guide-single.php">媚薬クリームとは</a></dd>
+          <dd><a href="medical-guide-single.php">避妊とは</a></dd>
+          <dd><a href="medical-guide-single.php">避妊薬とは</a></dd>
+          <dd><a href="medical-guide-single.php">低用量ピルとは</a></dd>
+          <dd><a href="medical-guide-single.php">超低用量ピルとは</a></dd>
+          <dd><a href="medical-guide-single.php">アフターピルとは</a></dd>
+          <dd><a href="medical-guide-single.php">避妊具とは</a></dd>
+          <dd><a href="medical-guide-single.php">性感染症とは</a></dd>
+          <dd><a href="medical-guide-single.php">性感染症治療薬とは</a></dd>
+          <dd><a href="medical-guide-single.php">クラミジアとは</a></dd>
+          <dd><a href="medical-guide-single.php">淋病とは</a></dd>
+          <dd><a href="medical-guide-single.php">バイアグラとは</a></dd>
+          <dd><a href="medical-guide-single.php">シアリスとは</a></dd>
+          <dd><a href="medical-guide-single.php">レビトラとは</a></dd>
+          <dd><a href="medical-guide-single.php">ステンドラとは</a></dd>
+          <dd><a href="medical-guide-single.php">ザイデナとは</a></dd>
+          <dd><a href="medical-guide-single.php">プリリジーとは</a></dd>
+          <dd><a href="medical-guide-single.php">キシロカインとは</a></dd>
+          <dd><a href="medical-guide-single.php">シルデナフィルとは</a></dd>
+          <dd><a href="medical-guide-single.php">タダラフィルとは</a></dd>
+          <dd><a href="medical-guide-single.php">バルデナフィルとは</a></dd>
+          <dd><a href="medical-guide-single.php">アバナフィルとは</a></dd>
+          <dd><a href="medical-guide-single.php">ウデナフィルとは</a></dd>
+          <dd><a href="medical-guide-single.php">ダポキセチンとは</a></dd>
+          <dd><a href="medical-guide-single.php">リドカインとは</a></dd>
 
-          <dt><a href="maker-list.html">製薬会社ガイド</a></dt>
+          <dt><a href="maker-list.php">製薬会社ガイド</a></dt>
 
           <dt><span>ご利用ガイド</span></dt>
           <dd><a href="about.php">お薬通販部とは</a></dd>
-          <dd><a href="shipping-process.html">お買い物手順</a></dd>
-          <dd><a href="payment.html">お支払い方法</a></dd>
-          <dd><a href="delivery.html">配送について</a></dd>
-          <dd><a href="receive-emails.html">メールが届かないお客様へ</a></dd>
-          <dd><a href="faq.html">よくある質問</a></dd>
-          <dd><a href="generic.html">ジェネリック医薬品について</a></dd>
+          <dd><a href="shipping-process.php">お買い物手順</a></dd>
+          <dd><a href="payment.php">お支払い方法</a></dd>
+          <dd><a href="delivery.php">配送について</a></dd>
+          <dd><a href="receive-emails.php">メールが届かないお客様へ</a></dd>
+          <dd><a href="faq.php">よくある質問</a></dd>
+          <dd><a href="generic.php">ジェネリック医薬品について</a></dd>
         </dl>
 
         <ul class="list-inline text-center pt-4 small">
-          <li class="list-inline-item"><a href="terms-service.html">利用規約</a></li>
+          <li class="list-inline-item"><a href="terms-service.php">利用規約</a></li>
           <li class="list-inline-item"><a href="privacy.php">プライバシーポリシー</a></li>
-          <li class="list-inline-item"><a href="corporation.html">特定商取引法に基づく表記</a></li>
-          <li class="list-inline-item"><a href="contact.html">お問い合わせ</a></li>
+          <li class="list-inline-item"><a href="corporation.php">特定商取引法に基づく表記</a></li>
+          <li class="list-inline-item"><a href="contact.php">お問い合わせ</a></li>
         </ul>
       </nav>
 

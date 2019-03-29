@@ -38,9 +38,9 @@
 
         <nav class="my_breadcrumb" aria-label="breadcrumb">
           <ol class="breadcrumb my_breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">お薬通販部TOP</a></li>
-            <li class="breadcrumb-item"><a href="medical-guide-all.html">メディカルガイド</a></li>
-            <li class="breadcrumb-item"><a href="medical-guide-category.html">ED</a></li>
+            <li class="breadcrumb-item"><a href="index.php">お薬通販部TOP</a></li>
+            <li class="breadcrumb-item"><a href="medical-guide-all.php">メディカルガイド</a></li>
+            <li class="breadcrumb-item"><a href="medical-guide-category.php">ED</a></li>
             <li class="breadcrumb-item active" aria-current="page">EDとは～男性特有の勃起不全に関するすべて～</li>
           </ol>
         </nav>
@@ -784,25 +784,25 @@
                 <h3>参考文献</h3>
                 <h4>症状情報サイト</h4>
                 <dl>
-                  <dt><a href="https://www.ed-care-support.jp/" target="_blank">EDケアサポート</a></dt>
+                  <dt><a href="https://www.ed-care-support.jp/" target="_blank" rel="nofollow">EDケアサポート</a></dt>
                   <dd>
                     日本新薬株式会社の運営するサイトで、ED（勃起不全）の原因や症状、セルフチェックの方法、治療の流れ、ED治療薬などの基礎知識から、ED治療によくある誤解と正しい情報が掲載されています。
                   </dd>
-                  <dt><a href="https://www.ed-info.net/" target="_blank">ED-info.net</a></dt>
+                  <dt><a href="https://www.ed-info.net/" target="_blank" rel="nofollow">ED-info.net</a></dt>
                   <dd>
                     男性の性機能障害であるED（勃起不全）について、症状から原因、治療法まで掲載されているサイトです。<br>
                     EDに悩む方がどのように克服したか、また具体的な治療はどのようにおこなうかなど、人には聞きにくい疑問もまとめられています。
                   </dd>
-                  <dt><a href="https://ed-netclinic.com/" target="_blank">EDネットクリニック.com</a></dt>
+                  <dt><a href="https://ed-netclinic.com/" target="_blank" rel="nofollow">EDネットクリニック.com</a></dt>
                   <dd>
                     ED（勃起不全）の症状や主な3つの原因、治療方法、生活習慣とEDとの関係、治療方法やEDにかかった人の声など、基本的な知識以外にもEDで悩んでいる人に実際に役立つ情報が載せられています。
                   </dd>
-                  <dt><a href="http://www.kyorin-u.ac.jp/univ/user/medicine/urology/" target="_blank">杏林大学医学部付属病院泌尿器科学教室</a></dt>
+                  <dt><a href="http://www.kyorin-u.ac.jp/univ/user/medicine/urology/" target="_blank" rel="nofollow">杏林大学医学部付属病院泌尿器科学教室</a></dt>
                   <dd>
                     杏林大学医学部泌尿器科学教室のサイトで、泌尿器科学に関する情報の提供や専門治療・外来の紹介などおこなっています。<br>
                     病状や病名別、病気や疾患で泌尿器に関する病気の症状や診断方法、治療方法検索することができます。
                   </dd>
-                  <dt><a href="https://minds.jcqhc.or.jp/" target="_blank">公益財団法人日本医療機能評価機構｜Mindsガイドラインライブラリ</a></dt>
+                  <dt><a href="https://minds.jcqhc.or.jp/" target="_blank" rel="nofollow">公益財団法人日本医療機能評価機構｜Mindsガイドラインライブラリ</a></dt>
                   <dd>
                     患者と医療従事者を支援する目的で、厚生労働省委託事業:EBM(根拠に基づく医療)普及推進事業により公開されているサイトです。<br>
                     科学的根拠に基づいた診療ガイドラインを掲載されていて、キーワードでの検索のほか、発行年月日からも検索できます。
@@ -810,16 +810,16 @@
                 </dl>
                 <h4>医薬品情報サイト</h4>
                 <dl>
-                  <dt><a href="http://www.msdmanuals.com/ja-jp/" target="_blank">MSDマニュアル</a></dt>
+                  <dt><a href="http://www.msdmanuals.com/ja-jp/" target="_blank" rel="nofollow">MSDマニュアル</a></dt>
                   <dd>
                     MSD社の医療関連情報サイトで、世界中の医療専門家や査読者で構成される独立編集委員会、また医師やメディカルライターで構成されるスタッフの共同作業により編集された医療や福祉、健康に関するさまざまな情報の検索が可能となっています。
                   </dd>
-                  <dt><a href="http://www.rad-ar.or.jp/siori/index.html" target="_blank">くすりのしおり</a></dt>
+                  <dt><a href="http://www.rad-ar.or.jp/siori/index.html" target="_blank" rel="nofollow">くすりのしおり</a></dt>
                   <dd>
                     病院で処方される16,000種を超える医薬品の詳しい説明が載っていて、製品名だけではなく主成分や剤型、シート内の記載、企業名からも検索可能になっています。<br>
                     基本的な服用の注意事項や薬と食品の相互作用一覧についても記載されています。
                   </dd>
-                  <dt><a href="https://www.stendra.com/" target="_blank">ミスト・ファーマシューティカルズ</a></dt>
+                  <dt><a href="https://www.stendra.com/" target="_blank" rel="nofollow">ミスト・ファーマシューティカルズ</a></dt>
                   <dd>
                     ミストファーマシューティカルズが運営している医薬品情報サイトです。<br>
                     ステンドラの服用方法、副作用、使用上の注意などの詳細が掲載されています。<br>
@@ -828,19 +828,19 @@
                 </dl>
                 <h4>情報サイト</h4>
                 <dl>
-                  <dt><a href="https://www.jstage.jst.go.jp/browse/-char/en" target="_blank">J-STAGE</a></dt>
+                  <dt><a href="https://www.jstage.jst.go.jp/browse/-char/en" target="_blank" rel="nofollow">J-STAGE</a></dt>
                   <dd>
                     科学技術振興機構（JST）が開発・管理する科学技術情報の電子ジャーナルを掲載・発信している情報サイトです。<br>
                     日本で出版された科学技術情報の国際化を目的としていて、医学だけではなく食品化学や社会科学などさまざまな分野の記事が読めます。
                   </dd>
-                  <dt><a href="https://allabout.co.jp/" target="_blank">All About</a></dt>
+                  <dt><a href="https://allabout.co.jp/" target="_blank" rel="nofollow">All About</a></dt>
                   <dd>
                     「不安なく、賢く、そして自分らしく生きられる」生活の実現のため、医療系から社会問題、健康、美容、ビジネス、ファッション、グルメなど、さまざまな分野の最新のニュースが専門家によりわかりやすく解説されている情報サイトです。
                   </dd>
                 </dl>
                 <h4>行政機関サイト</h4>
                 <dl>
-                  <dt><a href="http://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/index.html" target="_blank">厚生労働省</a></dt>
+                  <dt><a href="http://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/index.html" target="_blank" rel="nofollow">厚生労働省</a></dt>
                   <dd>
                     生活の保障や経済発展のため、国民の健康や子育て、社会福祉、介護、雇用・労働、年金に関する政策を所管している国の行政機関のサイトです。<br>
                     医療保険制度の制定も担い、海外医薬品の輸入に関する規則や検査もおこなっています。
@@ -860,7 +860,7 @@
                   </figure>
                 </a>
                 <div class="item_name"><a href="item01.php">バイアグラ1</a></div>
-                <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+                <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                 <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                 <div class="item_desc small py-2">
                   バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
@@ -873,7 +873,7 @@
                   </figure>
                 </a>
                 <div class="item_name"><a href="item01.php">バイアグラ2</a></div>
-                <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+                <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                 <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                 <div class="item_desc small py-2">
                   バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
@@ -886,7 +886,7 @@
                   </figure>
                 </a>
                 <div class="item_name"><a href="item01.php">バイアグラ3</a></div>
-                <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+                <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                 <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                 <div class="item_desc small py-2">
                   バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
@@ -899,7 +899,7 @@
                   </figure>
                 </a>
                 <div class="item_name"><a href="item01.php">バイアグラ4</a></div>
-                <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+                <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                 <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                 <div class="item_desc small py-2">
                   バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
@@ -912,7 +912,7 @@
                   </figure>
                 </a>
                 <div class="item_name"><a href="item01.php">バイアグラ5</a></div>
-                <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+                <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                 <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                 <div class="item_desc small py-2">
                   バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
@@ -925,7 +925,7 @@
                   </figure>
                 </a>
                 <div class="item_name"><a href="item01.php">バイアグラ6</a></div>
-                <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+                <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                 <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                 <div class="item_desc small py-2">
                   バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
@@ -938,7 +938,7 @@
                   </figure>
                 </a>
                 <div class="item_name"><a href="item01.php">バイアグラ7</a></div>
-                <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+                <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                 <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                 <div class="item_desc small py-2">
                   バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
@@ -951,7 +951,7 @@
                   </figure>
                 </a>
                 <div class="item_name"><a href="item01.php">ED治療薬3種セット＋ラブスマ</a></div>
-                <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+                <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                 <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                 <div class="item_desc small py-2">
                   バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
@@ -964,7 +964,7 @@
                   </figure>
                 </a>
                 <div class="item_name"><a href="item01.php">バイアグラ9</a></div>
-                <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+                <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                 <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                 <div class="item_desc small py-2">
                   バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
@@ -977,7 +977,7 @@
                   </figure>
                 </a>
                 <div class="item_name"><a href="item01.php">バイアグラ10</a></div>
-                <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+                <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                 <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                 <div class="item_desc small py-2">
                   バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
@@ -991,43 +991,43 @@
 
             <ul class="row list-unstyled">
               <li class="col-6 col-md-4 col-xl-3 mb-4">
-                <a href="category.html" class="category_item">
+                <a href="category.php" class="category_item">
                   <img src="images/category/sub-category-viagra-generic.png" alt="" class="img-fluid">
                   <span class="category_name">バイアグラジェネリック</span>
                 </a>
               </li>
               <li class="col-6 col-md-4 col-xl-3 mb-4">
-                <a href="category.html" class="category_item">
+                <a href="category.php" class="category_item">
                   <img src="images/category/sub-category-ciaris-generic.png" alt="" class="img-fluid">
                   <span class="category_name">シアリスジェネリック</span>
                 </a>
               </li>
               <li class="col-6 col-md-4 col-xl-3 mb-4">
-                <a href="category.html" class="category_item">
+                <a href="category.php" class="category_item">
                   <img src="images/category/sub-category-levitra-generic.png" alt="" class="img-fluid">
                   <span class="category_name">レビトラジェネリック</span>
                 </a>
               </li>
               <li class="col-6 col-md-4 col-xl-3 mb-4">
-                <a href="category.html" class="category_item">
+                <a href="category.php" class="category_item">
                   <img src="images/category/sub-category-spedra-generic.png" alt="" class="img-fluid">
                   <span class="category_name">ステンドラジェネリック</span>
                 </a>
               </li>
               <li class="col-6 col-md-4 col-xl-3 mb-4">
-                <a href="category.html" class="category_item">
+                <a href="category.php" class="category_item">
                   <img src="images/category/sub-category-zydena-generic.png" alt="" class="img-fluid">
                   <span class="category_name">ザイデナジェネリック</span>
                 </a>
               </li>
               <li class="col-6 col-md-4 col-xl-3 mb-4">
-                <a href="category.html" class="category_item">
+                <a href="category.php" class="category_item">
                   <img src="images/category/sub-category-ed-supplements.png" alt="" class="img-fluid">
                   <span class="category_name">EDサプリ</span>
                 </a>
               </li>
               <li class="col-6 col-md-4 col-xl-3 mb-4">
-                <a href="category.html" class="category_item">
+                <a href="category.php" class="category_item">
                   <img src="images/category/sub-category-frigidity-improvement.png" alt="" class="img-fluid">
                   <span class="category_name">不感症改善</span>
                 </a>
@@ -1048,7 +1048,7 @@
                     </figure>
                   </a>
                   <div class="item_name"><a href="item01.php">バイアグラ9</a></div>
-                  <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+                  <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                   <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                   <div class="item_desc small py-2">
                     バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
@@ -1061,7 +1061,7 @@
                     </figure>
                   </a>
                   <div class="item_name"><a href="item01.php">バイアグラ9</a></div>
-                  <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+                  <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                   <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                   <div class="item_desc small py-2">
                     バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
@@ -1074,7 +1074,7 @@
                     </figure>
                   </a>
                   <div class="item_name"><a href="item01.php">バイアグラ9</a></div>
-                  <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+                  <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                   <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                   <div class="item_desc small py-2">
                     バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
@@ -1087,7 +1087,7 @@
                     </figure>
                   </a>
                   <div class="item_name"><a href="item01.php">バイアグラ9</a></div>
-                  <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+                  <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                   <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                   <div class="item_desc small py-2">
                     バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
@@ -1100,7 +1100,7 @@
                     </figure>
                   </a>
                   <div class="item_name"><a href="item01.php">バイアグラ9</a></div>
-                  <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+                  <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
                   <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
                   <div class="item_desc small py-2">
                     バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
@@ -1125,7 +1125,6 @@
 <?php include "inc/footer.php"; ?>
 
 <!-- Page JS -->
-<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="js/category.js"></script>
 <script src="js/jquery.nicescroll.min.js"></script>
 <script>

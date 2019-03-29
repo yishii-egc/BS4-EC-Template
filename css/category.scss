@@ -1,3 +1,10 @@
 @charset "UTF-8";
 @import "../common/css/common.scss";
 @import "../common/css/breadcrumb.scss";
+
+.categroy_h1 {
+  @include main_h1;
+  &::before {
+    content: "\f469";
+  }
+}
