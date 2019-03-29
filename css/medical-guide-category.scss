@@ -2,6 +2,13 @@
 @import "../common/css/common.scss";
 @import "../common/css/breadcrumb.scss";
 
+.medical_h1 {
+  @include main_h1;
+  &::before {
+    content: "\f7e6";
+  }
+}
+
 .card_medical {
   height: calc(100% - 1rem);
   position: relative;

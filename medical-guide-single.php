@@ -114,7 +114,7 @@
                   <dl class="mb-0">
                     <dt>ED（勃起不全）について詳しくはこちら</dt>
                     <dd>
-                      <a href="https://www.ed-care-support.jp/abouted/about.php" target="_blank">EDケアサポート：ED（勃起不全）とは？</a>
+                      <a href="https://www.ed-care-support.jp/abouted/about.php" target="_blank" rel="nofollow">EDケアサポート：ED（勃起不全）とは？</a>
                     </dd>
                   </dl>
                 </div>
@@ -145,7 +145,7 @@
                   <dl>
                     <dt>性機能障害について詳しくはこちら</dt>
                     <dd>
-                      <a href="https://www.msdmanuals.com/ja-jp/%E3%83%9B%E3%83%BC%E3%83%A0/21-%E7%94%B7%E6%80%A7%E3%81%AE%E5%81%A5%E5%BA%B7%E4%B8%8A%E3%81%AE%E5%95%8F%E9%A1%8C/%E7%94%B7%E6%80%A7%E3%81%AE%E6%80%A7%E6%A9%9F%E8%83%BD%E9%9A%9C%E5%AE%B3/%E7%94%B7%E6%80%A7%E3%81%AE%E6%80%A7%E6%A9%9F%E8%83%BD%E9%9A%9C%E5%AE%B3%E3%81%AE%E6%A6%82%E8%A6%81" target="_blank">MSDマニュアル：男性の性機能障害</a>
+                      <a href="https://www.msdmanuals.com/ja-jp/%E3%83%9B%E3%83%BC%E3%83%A0/21-%E7%94%B7%E6%80%A7%E3%81%AE%E5%81%A5%E5%BA%B7%E4%B8%8A%E3%81%AE%E5%95%8F%E9%A1%8C/%E7%94%B7%E6%80%A7%E3%81%AE%E6%80%A7%E6%A9%9F%E8%83%BD%E9%9A%9C%E5%AE%B3/%E7%94%B7%E6%80%A7%E3%81%AE%E6%80%A7%E6%A9%9F%E8%83%BD%E9%9A%9C%E5%AE%B3%E3%81%AE%E6%A6%82%E8%A6%81" target="_blank" rel="nofollow">MSDマニュアル：男性の性機能障害</a>
                     </dd>
                   </dl>
                 </div>
