@@ -1,0 +1,26 @@
+          <ul class="list-unstyled">
+            <li><a href="category.html">お得セット商品</a></li>
+            <li><a href="category.html">ED治療薬</a></li>
+            <li><a href="category.html">早漏防止薬</a></li>
+            <li><a href="category.html">ペニス増大</a></li>
+            <li><a href="category.html">媚薬</a></li>
+            <li><a href="category.html">避妊薬</a></li>
+            <li><a href="category.html">性病・感染症</a></li>
+            <li><a href="category.html">男性薄毛治療薬</a></li>
+            <li><a href="category.html">女性薄毛治療薬</a></li>
+            <li><a href="category.html">体臭ケア</a></li>
+            <li><a href="category.html">禁煙治療薬</a></li>
+            <li><a href="category.html">美容・スキンケア</a></li>
+            <li><a href="category.html">アレルギー</a></li>
+            <li><a href="category.html">ダイエット</a></li>
+            <li><a href="category.html">筋肉増強剤</a></li>
+            <li><a href="category.html">ホルモン剤</a></li>
+            <li><a href="category.html">不眠症・睡眠薬</a></li>
+            <li><a href="category.html">メンタルヘルスケア</a></li>
+            <li><a href="category.html">病気・症状</a></li>
+            <li><a href="category.html">痛み止め</a></li>
+            <li><a href="category.html">ホワイトニング</a></li>
+            <li><a href="category.html">目薬</a></li>
+            <li><a href="category.html">検査キット</a></li>
+            <li><a href="category.html">サプリメント</a></li>
+          </ul>
