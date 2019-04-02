@@ -27,7 +27,7 @@
 <!-- original CSS -->
 <link rel="stylesheet" href="css/category-all.css">
 
-<title>商品カテゴリー一覧｜医薬品・サプリメント【お薬通販部】</title>
+<title>商品カテゴリー｜医薬品・サプリメント【お薬通販部】</title>
 </head>
 <body>
 <?php include "inc/header_p.php"; ?>
@@ -44,7 +44,7 @@
         </nav>
 
         <header>
-          <h1 class="categroy_h1">商品カテゴリー一覧</h1>
+          <h1 class="categroy_h1">商品カテゴリー</h1>
           <p class="category_description">
             お薬通販部で取り扱う商品のカテゴリー一覧ページです。<br>
             お得なセット商品、ED治療薬、男性薄毛治療薬、避妊薬など、さまざまな医薬品・サプリメントを目的別に探しやすいリストにしています。
@@ -69,7 +69,7 @@
               <button class="btn_category_more" data-toggle="collapse" data-target="#child01" aria-expanded="false" aria-controls="child01">
                 <i class="fas fa-caret-down"></i>
               </button>
-              <div class="category_child list-group mt-2 collapse" id="child01">
+              <div class="category_child list-group mt-1 collapse" id="child01">
                 <a href="category.php" class="list-group-item">バイアグラジェネリック</a>
                 <a href="category.php" class="list-group-item">レビトラジェネリック</a>
                 <a href="category.php" class="list-group-item">シアリスジェネリック</a>
@@ -87,7 +87,7 @@
               <button class="btn_category_more" data-toggle="collapse" data-target="#child02" aria-expanded="false" aria-controls="child02">
                 <i class="fas fa-caret-down"></i>
               </button>
-              <div class="category_child list-group mt-2 collapse" id="child02">
+              <div class="category_child list-group mt-1 collapse" id="child02">
                 <a href="category.php" class="list-group-item">プリリジージェネリック</a>
                 <a href="category.php" class="list-group-item">キシロカインジェネリック</a>
                 <a href="category.php" class="list-group-item">早漏サプリ</a>
@@ -101,7 +101,7 @@
               <button class="btn_category_more" data-toggle="collapse" data-target="#child03" aria-expanded="false" aria-controls="child03">
                 <i class="fas fa-caret-down"></i>
               </button>
-              <div class="category_child list-group mt-2 collapse" id="child03">
+              <div class="category_child list-group mt-1 collapse" id="child03">
                 <a href="category.php" class="list-group-item">服用タイプ</a>
                 <a href="category.php" class="list-group-item">その他</a>
               </div>
@@ -114,7 +114,7 @@
               <button class="btn_category_more" data-toggle="collapse" data-target="#child04" aria-expanded="false" aria-controls="child04">
                 <i class="fas fa-caret-down"></i>
               </button>
-              <div class="category_child list-group mt-2 collapse" id="child04">
+              <div class="category_child list-group mt-1 collapse" id="child04">
                 <a href="category.php" class="list-group-item">香水タイプ</a>
                 <a href="category.php" class="list-group-item">服用タイプ</a>
                 <a href="category.php" class="list-group-item">塗布タイプ</a>
@@ -128,7 +128,7 @@
               <button class="btn_category_more" data-toggle="collapse" data-target="#child05" aria-expanded="false" aria-controls="child05">
                 <i class="fas fa-caret-down"></i>
               </button>
-              <div class="category_child list-group mt-2 collapse" id="child05">
+              <div class="category_child list-group mt-1 collapse" id="child05">
                 <a href="category.php" class="list-group-item">低用量ピル</a>
                 <a href="category.php" class="list-group-item">超低用量ピル</a>
                 <a href="category.php" class="list-group-item">アフターピル</a>
@@ -143,7 +143,7 @@
               <button class="btn_category_more" data-toggle="collapse" data-target="#child06" aria-expanded="false" aria-controls="child06">
                 <i class="fas fa-caret-down"></i>
               </button>
-              <div class="category_child list-group mt-2 collapse" id="child06">
+              <div class="category_child list-group mt-1 collapse" id="child06">
                 <a href="category.php" class="list-group-item">プロペシアジェネリック</a>
                 <a href="category.php" class="list-group-item">ザガーロジェネリック</a>
                 <a href="category.php" class="list-group-item">ミノキシジル</a>
@@ -184,7 +184,7 @@
               <button class="btn_category_more" data-toggle="collapse" data-target="#child08" aria-expanded="false" aria-controls="child08">
                 <i class="fas fa-caret-down"></i>
               </button>
-              <div class="category_child list-group mt-2 collapse" id="child08">
+              <div class="category_child list-group mt-1 collapse" id="child08">
                 <a href="category.php" class="list-group-item">ニキビ</a>
                 <a href="category.php" class="list-group-item">美白・エイジングケア</a>
                 <a href="category.php" class="list-group-item">日焼け止め</a>
@@ -204,7 +204,7 @@
               <button class="btn_category_more" data-toggle="collapse" data-target="#child09" aria-expanded="false" aria-controls="child09">
                 <i class="fas fa-caret-down"></i>
               </button>
-              <div class="category_child list-group mt-2 collapse" id="child09">
+              <div class="category_child list-group mt-1 collapse" id="child09">
                 <a href="category.php" class="list-group-item">気管支喘息</a>
                 <a href="category.php" class="list-group-item">アレルギー性鼻炎</a>
                 <a href="category.php" class="list-group-item">アトピー性皮膚炎</a>
@@ -218,7 +218,7 @@
               <button class="btn_category_more" data-toggle="collapse" data-target="#child10" aria-expanded="false" aria-controls="child10">
                 <i class="fas fa-caret-down"></i>
               </button>
-              <div class="category_child list-group mt-2 collapse" id="child10">
+              <div class="category_child list-group mt-1 collapse" id="child10">
                 <a href="category.php" class="list-group-item">ダイエット</a>
                 <a href="category.php" class="list-group-item">ゼニカル・ダイエットピル</a>
                 <a href="category.php" class="list-group-item">便秘薬</a>
@@ -232,7 +232,7 @@
               <button class="btn_category_more" data-toggle="collapse" data-target="#child11" aria-expanded="false" aria-controls="child11">
                 <i class="fas fa-caret-down"></i>
               </button>
-              <div class="category_child list-group mt-2 collapse" id="child11">
+              <div class="category_child list-group mt-1 collapse" id="child11">
                 <a href="category.php" class="list-group-item">プロテイン</a>
                 <a href="category.php" class="list-group-item">ステロイド</a>
               </div>
@@ -245,7 +245,7 @@
               <button class="btn_category_more" data-toggle="collapse" data-target="#child12" aria-expanded="false" aria-controls="child12">
                 <i class="fas fa-caret-down"></i>
               </button>
-              <div class="category_child list-group mt-2 collapse" id="child12">
+              <div class="category_child list-group mt-1 collapse" id="child12">
                 <a href="category.php" class="list-group-item">更年期障害</a>
                 <a href="category.php" class="list-group-item">不妊治療薬</a>
                 <a href="category.php" class="list-group-item">アンチエイジング</a>
@@ -265,7 +265,7 @@
               <button class="btn_category_more" data-toggle="collapse" data-target="#child13" aria-expanded="false" aria-controls="child13">
                 <i class="fas fa-caret-down"></i>
               </button>
-              <div class="category_child collapse" id="child13">
+              <div class="category_child list-group mt-1 collapse" id="child13">
                 <a href="category.php" class="list-group-item">抗うつ剤</a>
                 <a href="category.php" class="list-group-item">抗不安薬</a>
                 <a href="category.php" class="list-group-item">統合失調症</a>
@@ -283,7 +283,7 @@
               <button class="btn_category_more" data-toggle="collapse" data-target="#child14" aria-expanded="false" aria-controls="child14">
                 <i class="fas fa-caret-down"></i>
               </button>
-              <div class="category_child collapse" id="child14">
+              <div class="category_child list-group mt-1 collapse" id="child14">
                 <a href="category.php" class="list-group-item">胃炎・肝臓病</a>
                 <a href="category.php" class="list-group-item">二日酔い</a>
                 <a href="category.php" class="list-group-item">狭心症・高血圧</a>
@@ -303,7 +303,7 @@
               <button class="btn_category_more" data-toggle="collapse" data-target="#child15" aria-expanded="false" aria-controls="child15">
                 <i class="fas fa-caret-down"></i>
               </button>
-              <div class="category_child list-group mt-2 collapse" id="child15">
+              <div class="category_child list-group mt-1 collapse" id="child15">
                 <a href="category.php" class="list-group-item">肩こり・筋肉痛</a>
                 <a href="category.php" class="list-group-item">頭痛薬</a>
                 <a href="category.php" class="list-group-item">解熱・鎮痛剤</a>
@@ -325,7 +325,7 @@
               <button class="btn_category_more" data-toggle="collapse" data-target="#child16" aria-expanded="false" aria-controls="child16">
                 <i class="fas fa-caret-down"></i>
               </button>
-              <div class="category_child list-group mt-2 collapse" id="child16">
+              <div class="category_child list-group mt-1 collapse" id="child16">
                 <a href="category.php" class="list-group-item">眼精疲労</a>
                 <a href="category.php" class="list-group-item">眼病</a>
               </div>
@@ -345,81 +345,7 @@
           </ul>
         </section>
 
-        <section class="posted sec_bottom">
-          <h3 class="main_h3">最近見た商品</h3>
-          <div class="card">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-6 col-sm-4 col-xl posted_item">
-                  <a href="item01.php" class="item_image">
-                    <figure>
-                      <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
-                    </figure>
-                  </a>
-                  <div class="item_name"><a href="item01.php">バイアグラ9</a></div>
-                  <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
-                  <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
-                  <div class="item_desc small py-2">
-                    バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
-                  </div>
-                </div>
-                <div class="col-6 col-sm-4 col-xl posted_item">
-                  <a href="" class="item_image">
-                    <figure>
-                      <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
-                    </figure>
-                  </a>
-                  <div class="item_name"><a href="">バイアグラ9</a></div>
-                  <div class="item_category"><a href="" class="badge badge-danger">ED治療薬</a></div>
-                  <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
-                  <div class="item_desc small py-2">
-                    バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
-                  </div>
-                </div>
-                <div class="col-6 col-sm-4 col-xl posted_item">
-                  <a href="" class="item_image">
-                    <figure>
-                      <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
-                    </figure>
-                  </a>
-                  <div class="item_name"><a href="">バイアグラ9</a></div>
-                  <div class="item_category"><a href="" class="badge badge-danger">ED治療薬</a></div>
-                  <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
-                  <div class="item_desc small py-2">
-                    バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
-                  </div>
-                </div>
-                <div class="col-6 col-sm-4 col-xl posted_item">
-                  <a href="" class="item_image">
-                    <figure>
-                      <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
-                    </figure>
-                  </a>
-                  <div class="item_name"><a href="">バイアグラ9</a></div>
-                  <div class="item_category"><a href="" class="badge badge-danger">ED治療薬</a></div>
-                  <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
-                  <div class="item_desc small py-2">
-                    バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
-                  </div>
-                </div>
-                <div class="col-6 col-sm-4 col-xl posted_item">
-                  <a href="" class="item_image">
-                    <figure>
-                      <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
-                    </figure>
-                  </a>
-                  <div class="item_name"><a href="">バイアグラ9</a></div>
-                  <div class="item_category"><a href="" class="badge badge-danger">ED治療薬</a></div>
-                  <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
-                  <div class="item_desc small py-2">
-                    バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+<?php include "inc/watched_items.php"; ?>
 
       </main>
       <aside class="col-lg-3 col-xl-2 order-first d-none d-lg-block">

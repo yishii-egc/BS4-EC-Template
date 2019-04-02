@@ -4,9 +4,7 @@
 
 .history_h1 {
   @include main_h1;
-  &::before {
-    content: "\f1da";
-  }
+  &::before { content: "\f1da";}
 }
 
 

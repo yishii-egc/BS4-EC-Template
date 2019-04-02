@@ -77,10 +77,7 @@
 }
 
 .category_list,
-.home_news,
-.home_medical {
-  position: relative;
-}
+.home_news { position: relative;}
 
 .home_medical {
   h5 {
@@ -111,6 +108,18 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 767.98px) {
+  .main_h2 {
+   +.btn_green { top: .25rem;}
+  }
+}
+@media screen and (min-width: 768px) {
+  .main_h2 {
+   +.btn_green { top: .8rem;}
+  }
+}
+
 @media screen and (max-width: 991.98px) {
   .home_slide {
     margin-left: -15px;

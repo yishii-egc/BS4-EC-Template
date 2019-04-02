@@ -28,9 +28,8 @@ a {
 
 @mixin main_h1 {
   border-left: solid 4px $MainGreen;
-  padding: .25rem 0 .25rem $BaseMargin*.8;
+  padding: .25rem 0 .25rem $BaseMargin*.75;
   position: relative;
-  margin-bottom: 2.4rem;
   background-color: lighten($MainNavy, 78%);
   &::before {
     font-family: "Font Awesome 5 Free";
@@ -101,11 +100,10 @@ a {
   }
 }
 
-.main_h2,.item_h2 {
+.main_h2 {
   border-bottom: solid 2px $MainNavy;
-  font-size: 1.8rem;
   margin-bottom: 1.6rem;
-  padding: .4rem 0 .4rem 2.4rem;
+  padding: .4rem 0 .4rem 2.2rem;
   position: relative;
   &::before,&::after {
     content: "";
@@ -116,7 +114,7 @@ a {
     border: solid 2px $MainNavy;
     height: 1.4rem;
     width: 1.4rem;
-    top: .6rem;
+    top: .4rem;
     left: .5rem;
     z-index: 2;
   }
@@ -124,13 +122,12 @@ a {
     border: solid 2px $MainGreen;
     height: 1.2rem;
     width: 1.2rem;
-    top: 1.2rem;
+    top: 1rem;
     left: 0;
     z-index: 1;
   }
   +.btn_green {
     position: absolute;
-    top: .6rem;
     right: 0;
   }
 }
@@ -179,17 +176,18 @@ a {
     border-left: solid .4rem $MainGreenTr8;
     color: $White;
     display: block;
-    padding: .4rem .8rem;
+    padding: .4rem;
     text-align: center;
     text-shadow:2px 2px 3px #000000;
     width: 100%;
   }
 }
 
-
-
 @media screen and (max-width: 767.98px) {
-  main h1 { font-size: 1.8rem;}
+  main h1 {
+    font-size: 1.6rem;
+    margin-bottom: $BaseMargin * .35;
+  }
   .sec_bottom { margin-bottom: $BaseMargin * .5;}
   .slick_step,
   .posted {
@@ -202,7 +200,7 @@ a {
       .item_image { padding-top: .25rem;}
       .item_category {
         top: .25rem;
-        right: 2rem;
+        right: .25rem;
       }
     }
   }
@@ -212,15 +210,25 @@ a {
       &:nth-child(even){ padding-left: .5rem;}
     }
   }
+  .posted_item { padding: 0 .5rem;}
+  .category_name { font-size: .8rem;}
+  .main_h2 { font-size: 1.4em;}
 }
+
 @media screen and (min-width: 768px) {
-  main h1 { font-size: 1.8rem;}
+  main h1 {
+    font-size: 1.8rem;
+    margin-bottom: $BaseMargin * .5;
+  }
   .sec_bottom { margin-bottom: $BaseMargin * .75;}
   .category_name { position: absolute;}
 }
 
 @media screen and (min-width: 992px) {
-  main h1 { font-size: 2rem;}
+  main h1 {
+    font-size: 2rem;
+    margin-bottom: $BaseMargin * .6;
+  }
   aside { border-right: solid 1px $BorderLightGrey;}
   .side_nav {
     a {

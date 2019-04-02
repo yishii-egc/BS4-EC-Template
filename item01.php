@@ -38,33 +38,8 @@
             <li class="breadcrumb-item"><a href="category.php">ED治療薬</a></li>
             <li class="breadcrumb-item active" aria-current="page">バイアグラ</li>
           </ol>
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home mr-1"></i>お薬通販部TOP</a></li>
-            <li class="breadcrumb-item"><a href="category.php">ED治療薬</a></li>
-            <li class="breadcrumb-item active" aria-current="page">バイアグラ</li>
-          </ol>
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home mr-1"></i>お薬通販部TOP</a></li>
-            <li class="breadcrumb-item"><a href="category.php">ED治療薬</a></li>
-            <li class="breadcrumb-item active" aria-current="page">バイアグラ</li>
-          </ol>
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home mr-1"></i>お薬通販部TOP</a></li>
-            <li class="breadcrumb-item"><a href="category.php">ED治療薬</a></li>
-            <li class="breadcrumb-item active" aria-current="page">バイアグラ</li>
-          </ol>
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home mr-1"></i>お薬通販部TOP</a></li>
-            <li class="breadcrumb-item"><a href="category.php">ED治療薬</a></li>
-            <li class="breadcrumb-item active" aria-current="page">バイアグラ</li>
-          </ol>
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home mr-1"></i>お薬通販部TOP</a></li>
-            <li class="breadcrumb-item"><a href="category.php">ED治療薬</a></li>
-            <li class="breadcrumb-item active" aria-current="page">バイアグラ</li>
-          </ol>
         </nav>
-        
+
         <article class="item">
           <header class="item_intro mb-4">
             <h1 class="item_h1">バイアグラ</h1>

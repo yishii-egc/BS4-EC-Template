@@ -18,11 +18,8 @@
 <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
 
 <!-- page CSS -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-<!--<link rel="stylesheet" href="css/slick-theme.css">-->
 
 <!-- framework / plugin CSS -->
-<link rel="stylesheet" href="common/css/hover-min.css">
 
 <!-- original CSS -->
 <link rel="stylesheet" href="css/maker-list.css">
@@ -928,7 +925,6 @@
 <?php include "inc/footer.php"; ?>
 
 <!-- Page JS -->
-<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="js/jquery.pagination.js"></script>
 
 <!-- Original JS -->

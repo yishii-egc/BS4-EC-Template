@@ -4,7 +4,5 @@
 
 .personal_h1 {
   @include main_h1;
-  &::before {
-    content: "\f4fe";
-  }
+  &::before { content: "\f4fe";}
 }
