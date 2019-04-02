@@ -5,7 +5,7 @@
   <button class="navbar-toggler p-0 mr-2 mr-sm-3" type="button" data-toggle="offcanvas">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand mr-auto mr-lg-2 site_logo" href="index.html">
+  <a class="navbar-brand mr-auto mr-lg-2 site_logo" href="index.php">
     <img src="common/images/logo2.png" alt="お薬通販部 Online Pharmacy" class="img-fluid">
   </a>
   <div class="navbar-collapse offcanvas-collapse globalnav pt-4 pt-lg-0">
@@ -13,7 +13,7 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle drop-hover" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">商品カテゴリー</a>
         <div class="dropdown-menu globalnav_dropdown_menu mb-2" aria-labelledby="dropdown01">
-          <a href="category-all.html" class="dropdown-item">商品カテゴリー一覧</a>
+          <a href="category-all.php" class="dropdown-item">商品カテゴリー一覧</a>
 
           <div class="btn-group w-100" role="group">
             <a href="category.php" class="dropdown-item">ED治療薬</a>
@@ -270,7 +270,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="maker-list.html">製薬会社ガイド</a>
+        <a class="nav-link" href="maker-list.php">製薬会社ガイド</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle drop-hover" href="" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ご利用ガイド</a>

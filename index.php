@@ -701,53 +701,51 @@
         <section class="home_medical sec_bottom">
           <h2 class="main_h2">メディカルガイド</h2>
           <a href="medical-guide-all.php" class="btn btn-sm btn_green">一覧へ</a>
-          <div class="row">
-            <div class="col-xl-6">
-              <a href="medical-guide-single.php" class="media mb-4">
-                <img src="images/home/medical-ED2.jpg" class="w-25 mr-3 img-fluid img-thumbnail" alt="">
-                <div class="media-body">
-                  <h5 class="mt-0">EDとは</h5>
-                  どういう症状がED・勃起不全・インポテンツと言われるか、セルフチェックの方法、勃起の仕組みやEDの予兆、器質性・心因性・混合性などEDの原因、改善方法や予防策、治療方法、ED治療薬について総合的な説明をしています。
-                </div>
+          <p>EDなど他人には聞きづらい、様々な病気の症状や原因、治療法、日常的にできる対策、治療薬の効果や副作用、成分、購入方法、体の働きのメカニズム、関連する病気など問題解決に役立つ情報をお悩み別に詳しく紹介しています。</p>
+          <ul class="row list-unstyled">
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="medical-guide-category.php" class="medical_category_item">
+                <img src="images/medical-guide/medical-ED2.png" alt="" class="img-fluid">
+                <span class="category_name">ED</span>
               </a>
-            </div>
-            <div class="col-xl-6">
-              <a href="medical-guide-single.php" class="media mb-4">
-                <img src="images/home/medical-ED2.jpg" class="w-25 mr-3 img-fluid img-thumbnail" alt="">
-                <div class="media-body">
-                  <h5 class="mt-0">EDとは</h5>
-                  どういう症状がED・勃起不全・インポテンツと言われるか、セルフチェックの方法、勃起の仕組みやEDの予兆、器質性・心因性・混合性などEDの原因、改善方法や予防策、治療方法、ED治療薬について総合的な説明をしています。
-                </div>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="medical-guide-category.php" class="medical_category_item">
+                <img src="images/medical-guide/medical-ED2.png" alt="" class="img-fluid">
+                <span class="category_name">ED治療薬</span>
               </a>
-            </div>
-            <div class="col-xl-6">
-              <a href="medical-guide-single.php" class="media mb-4">
-                <img src="images/home/medical-ED2.jpg" class="w-25 mr-3 img-fluid img-thumbnail" alt="">
-                <div class="media-body">
-                  <h5 class="mt-0">EDとは</h5>
-                  どういう症状がED・勃起不全・インポテンツと言われるか、セルフチェックの方法、勃起の仕組みやEDの予兆、器質性・心因性・混合性などEDの原因、改善方法や予防策、治療方法、ED治療薬について総合的な説明をしています。
-                </div>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="medical-guide-category.php" class="medical_category_item">
+                <img src="images/medical-guide/medical-ED2.png" alt="" class="img-fluid">
+                <span class="category_name">バイアグラ</span>
               </a>
-            </div>
-            <div class="col-xl-6">
-              <a href="medical-guide-single.php" class="media mb-4">
-                <img src="images/home/medical-ED2.jpg" class="w-25 mr-3 img-fluid img-thumbnail" alt="">
-                <div class="media-body">
-                  <h5 class="mt-0">EDとは</h5>
-                  どういう症状がED・勃起不全・インポテンツと言われるか、セルフチェックの方法、勃起の仕組みやEDの予兆、器質性・心因性・混合性などEDの原因、改善方法や予防策、治療方法、ED治療薬について総合的な説明をしています。
-                </div>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="medical-guide-category.php" class="medical_category_item">
+                <img src="images/medical-guide/medical-ED2.png" alt="" class="img-fluid">
+                <span class="category_name">カテゴリー</span>
               </a>
-            </div>
-            <div class="col-xl-6">
-              <a href="medical-guide-single.php" class="media mb-4">
-                <img src="images/home/medical-ED2.jpg" class="w-25 mr-3 img-fluid img-thumbnail" alt="">
-                <div class="media-body">
-                  <h5 class="mt-0">EDとは</h5>
-                  どういう症状がED・勃起不全・インポテンツと言われるか、セルフチェックの方法、勃起の仕組みやEDの予兆、器質性・心因性・混合性などEDの原因、改善方法や予防策、治療方法、ED治療薬について総合的な説明をしています。
-                </div>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="medical-guide-category.php" class="medical_category_item">
+                <img src="images/medical-guide/medical-ED2.png" alt="" class="img-fluid">
+                <span class="category_name">カテゴリー</span>
               </a>
-            </div>
-          </div>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="medical-guide-category.php" class="medical_category_item">
+                <img src="images/medical-guide/medical-ED2.png" alt="" class="img-fluid">
+                <span class="category_name">カテゴリー</span>
+              </a>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="medical-guide-category.php" class="medical_category_item">
+                <img src="images/medical-guide/medical-ED2.png" alt="" class="img-fluid">
+                <span class="category_name">カテゴリー</span>
+              </a>
+            </li>
+          </ul>
         </section>
 
         <section class="posted sec_bottom">

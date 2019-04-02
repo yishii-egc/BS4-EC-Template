@@ -95,6 +95,22 @@
   }
 }
 
+.medical_category_item {
+  border: solid 1px $BorderLightGrey;
+  display: block;
+  position: relative;
+  .category_name {
+    background: $MainGreenTr8;
+    bottom: 0;
+    border-left: solid .4rem $MainNavyTr8;
+    color: $White;
+    display: block;
+    padding: .4rem .8rem;
+    text-align: center;
+    text-shadow:2px 2px 3px #000000;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 991.98px) {
   .home_slide {
     margin-left: -15px;

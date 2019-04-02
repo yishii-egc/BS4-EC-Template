@@ -13,7 +13,7 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle drop-hover" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">商品カテゴリー</a>
         <div class="dropdown-menu globalnav_dropdown_menu mb-2" aria-labelledby="dropdown01">
-          <a href="category-all.html" class="dropdown-item">商品カテゴリー一覧</a>
+          <a href="category-all.php" class="dropdown-item">商品カテゴリー一覧</a>
 
           <div class="btn-group w-100" role="group">
             <a href="category.php" class="dropdown-item">ED治療薬</a>
