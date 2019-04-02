@@ -49,3 +49,8 @@ if (navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)) {
     });
   });
 }
+
+$('.submenu_toggle').click(function(){
+  var submenu_select = $(this).attr('id');
+  console.log(submenu_select);
+});

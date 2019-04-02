@@ -8,6 +8,23 @@
   top: 0;
   z-index: 20;
 }
+
+.globalnav_dropdown_menu {
+  .btn-group.w-100 {
+    button {
+      background: none;
+      border: none;
+      color: $MainGreen;;
+    }
+  }
+  .submenu {
+    border: solid 1px $BorderLightGrey;
+    border-radius: .25rem;
+    font-size: .9rem;
+    margin: 0 .75rem .5rem;
+  }
+}
+
 .globalnav_cart {
   position: relative;
   .cart_num {
@@ -27,8 +44,7 @@
 
 .icon_nav {
   .drop-hover:hover + .dropdown-menu,
-  .dropdown-menu:hover,
-  .dropdown-menu.show {
+  .dropdown-menu:hover, .dropdown-menu.show {
     display: block !important;
     left: auto;
     right: 0;
@@ -48,6 +64,8 @@
   .navbar_main {
     .site_logo { padding: 0;}
   }
+  .drop-hover:hover + .dropdown-menu,
+  .dropdown-menu:hover { display: block !important;}
   .icon_nav {
     flex-direction: row;
     .navbar-item { margin-left: 1.2rem;}
