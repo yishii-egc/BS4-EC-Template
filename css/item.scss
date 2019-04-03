@@ -20,59 +20,10 @@
 .item_detail, .item_related, .item_dosage, .item_reaction, .item_precautions,
 .item_store, .item_info, .item_shipping_packing, .item_reviews {
   h2 {
-    border-bottom: solid 2px $MainNavy;
-    font-size: 1.8rem;
-    margin-bottom: 1.6rem;
-    padding: .4rem 0 .4rem 2.4rem;
-    position: relative;
-    &::before,&::after {
-      content: "";
-      display: block;
-      position: absolute;
-    }
-    &::before {
-      border: solid 2px $MainNavy;
-      height: 1.4rem;
-      width: 1.4rem;
-      top: .6rem;
-      left: .5rem;
-      z-index: 2;
-    }
-    &::after {
-      border: solid 2px $MainGreen;
-      height: 1.2rem;
-      width: 1.2rem;
-      top: 1.2rem;
-      left: 0;
-      z-index: 1;
-    }
+    @include main_h2;
   }
   h3 {
-    font-size: 1.4rem;
-    margin-bottom: 1.2rem;
-    padding: .25rem 2rem;
-    position: relative;
-    &::before,&::after {
-      content: "";
-      display: block;
-      position: absolute;
-    }
-    &::before {
-      border: solid 2px $MainNavy;
-      height: 1rem;
-      width: 1rem;
-      top: .4rem;
-      left: .5rem;
-      z-index: 2;
-    }
-    &::after {
-      border: solid 2px $MainGreen;
-      height: .8rem;
-      width: .8rem;
-      top: .9rem;
-      left: .2rem;
-      z-index: 1;
-    }
+    @include main_h3;
   }
   span {
     color: $TextRed;
@@ -113,6 +64,26 @@
   }
 }
 
+.item_tabs {
+  border-top: solid 16px $White;
+  border-right: solid 1px $White;
+  background-color: $White;
+  ul {
+    width: max-content;
+    min-width: 100%;
+    li {
+      flex-wrap: nowrap;
+      a {
+        background-color: lighten($MainNavy,78%);
+        border-top: solid 1px $BorderLightGrey !important;
+        border-right: solid 1px $BorderLightGrey !important;
+        border-left: solid 1px $BorderLightGrey !important;
+        white-space: nowrap;
+        &:hover { background-color: lighten($MainNavy,70%);}
+      }
+    }
+  }
+}
 
 .item_reviews {
     h3 {
@@ -245,26 +216,7 @@
     overflow-scrolling: touch;
     width: 100%;
     position: sticky;
-//    top: 64px;
     z-index: 10;
-    border-top: solid 16px $White;
-    border-right: solid 1px $White;
-    background-color: $White;
-    ul {
-      width: max-content;
-      min-width: 100%;
-      li {
-        flex-wrap: nowrap;
-        a {
-          background-color: lighten($MainNavy,78%);
-          border-top: solid 1px $BorderLightGrey;
-          border-right: solid 1px $BorderLightGrey;
-          border-left: solid 1px $BorderLightGrey;
-          white-space: nowrap;
-          &:hover { background-color: lighten($MainNavy,70%);}
-        }
-      }
-    }
   }
   #myTabContent {
     border-bottom: solid 1px $BorderLightGrey;
@@ -301,10 +253,6 @@
     color: $MainColor !important;
     &::after { color: $MainGreen;}
   }
-}
-
-@media screen and (max-width: 575.98px) {
-
 }
 
 @media screen and (max-width: 767.98px) {

@@ -59,17 +59,19 @@
                     お薬通販部では、50㎎/100㎎の購入が可能となっています。
                   </p>
                 </div>
-                <ul class="nav nav-tabs nav-fill mb-3" id="pills-tab" role="tablist">
-                  <li class="nav-item">
-                    <a class="nav-link active" id="cart_tab01" data-toggle="pill" href="#cart_tab_content01" role="tab" aria-controls="pills-home" aria-selected="true">50mg</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" id="cart_tab02" data-toggle="pill" href="#cart_tab_content02" role="tab" aria-controls="pills-profile" aria-selected="false">100mg</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" id="cart_tab03" data-toggle="pill" href="#cart_tab_content03" role="tab" aria-controls="pills-profile" aria-selected="false">999mg</a>
-                  </li>
-                </ul>
+                <nav class="item_tabs">
+                  <ul class="nav nav-tabs nav-fill mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" id="cart_tab01" data-toggle="pill" href="#cart_tab_content01" role="tab" aria-controls="pills-home" aria-selected="true">50mg</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="cart_tab02" data-toggle="pill" href="#cart_tab_content02" role="tab" aria-controls="pills-profile" aria-selected="false">100mg</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="cart_tab03" data-toggle="pill" href="#cart_tab_content03" role="tab" aria-controls="pills-profile" aria-selected="false">999mg</a>
+                    </li>
+                  </ul>
+                </nav>
                 <div class="tab-content">
                   <div class="tab-pane fade show active" id="cart_tab_content01" role="tabpanel" aria-labelledby="pills-home-tab">
                     <div class="table-responsive">
@@ -288,7 +290,8 @@
                             </button>
                           </div>
                           <div class="modal-body">
-                            むりょうだー
+                            <p class="mb-0">通常、医薬品等を海外輸入する際には、厚生労働大臣の許可が必要となるのですが、個人使用分に限り、規定の範囲内で特例的に通関のみで輸入することができます。<br>
+                            医薬品等の使用に関しても自己責任が原則です。</p>
                           </div>
                         </div>
                       </div>
@@ -306,7 +309,14 @@
                             </button>
                           </div>
                           <div class="modal-body">
-                            むりょうだー
+                            <p>日本語サポートデスク注文専用番号あてにお電話ください。</p>
+                            <dl class="row">
+                              <dt class="col-4">注文専用番号</dt>
+                              <dd class="col-8">050-5806-4632</dd>
+                              <dt class="col-4">ご注文受付時間</dt>
+                              <dd class="col-8">10:00～18:00</dd>
+                            </dl>
+                            <p class="mb-0 small">薬機法（旧薬事法）により、薬の効果・副作用等のご質問には、お答えいたしかねますので、あらかじめご了承いただきますようお願いいたします。</p>
                           </div>
                         </div>
                       </div>
@@ -324,7 +334,8 @@
                             </button>
                           </div>
                           <div class="modal-body">
-                            むりょうだー
+                            <p class="mb-0">コンビニ決済とは、当サイトにてご購入いただいた商品代金を、お近くのコンビニエンスストアにてお支払いいただける便利なサービスです。<br>
+                            日本全国のコンビニエンスストアでご利用できます。</p>
                           </div>
                         </div>
                       </div>
@@ -342,7 +353,8 @@
                             </button>
                           </div>
                           <div class="modal-body">
-                            むりょうだー
+                            <p class="mb-0">クレジットカードでのお支払いは、手数料が無料なうえ弊社での確認も早いため、発送もスピーディーに対応できます。<br>
+                            当サイトでは、お客様のプライバシー保護のため、ご利用明細に商品名やサイト名の記載を行っておりません。</p>
                           </div>
                         </div>
                       </div>
@@ -352,7 +364,7 @@
               </div>
             </div>
           </header>
-          
+
           <section class="sec_bottom item_informations">
             <nav class="item_tabs">
               <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -920,10 +932,11 @@
 <?php include "inc/watched_items.php"; ?>
 
       </main>
-      <aside class="col-lg-3 col-xl-2 order-first d-none d-lg-block">
-        <nav class="side_nav my-lg-4">
+      <aside class="col-lg-3 col-xl-2 order-lg-first">
+        <nav class="side_nav my-lg-4 d-none d-lg-block">
 <?php include "inc/aside_menu.php"; ?>
         </nav>
+<?php include "inc/side_sns.php"; ?>
       </aside>
       <?php include "inc/login_modal.php"; ?>
     </div>
@@ -932,8 +945,7 @@
 <?php include "inc/footer.php"; ?>
 
 <!-- Page JS -->
-<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<!--<script src="js/jquery.nicescroll.min.js"></script>-->
+
 
 <!-- Original JS -->
 <script src="common/js/common.js"></script>

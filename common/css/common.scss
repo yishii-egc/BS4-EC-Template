@@ -46,6 +46,67 @@ a {
   }
 }
 
+@mixin main_h2 {
+  border-bottom: solid 2px $MainNavy;
+  margin-bottom: 1.6rem;
+  padding: .4rem 0 .4rem 2.2rem;
+  position: relative;
+  &::before,&::after {
+    content: "";
+    display: block;
+    position: absolute;
+  }
+  &::before {
+    border: solid 2px $MainNavy;
+    height: 1.4rem;
+    width: 1.4rem;
+    top: .4rem;
+    left: .5rem;
+    z-index: 2;
+  }
+  &::after {
+    border: solid 2px $MainGreen;
+    height: 1.2rem;
+    width: 1.2rem;
+    top: 1rem;
+    left: 0;
+    z-index: 1;
+  }
+//  +.btn_green {
+//    position: absolute;
+//    right: 0;
+//  }
+}
+
+@mixin main_h3 {
+  border-bottom: solid 2px $MainNavy;
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+  padding: .25rem 2rem;
+  position: relative;
+  &::before,&::after {
+    content: "";
+    display: block;
+    position: absolute;
+  }
+  &::before {
+    border: solid 2px $MainNavy;
+    height: 1rem;
+    width: 1rem;
+    top: .4rem;
+    left: .5rem;
+    z-index: 2;
+  }
+  &::after {
+    border: solid 2px $MainGreen;
+    height: .8rem;
+    width: .8rem;
+    top: .9rem;
+    left: .2rem;
+    z-index: 1;
+  }
+}
+
 .textRed { color: $TextRed;}
 
 .bg_main {
@@ -101,69 +162,11 @@ a {
 }
 
 .main_h2 {
-  border-bottom: solid 2px $MainNavy;
-  margin-bottom: 1.6rem;
-  padding: .4rem 0 .4rem 2.2rem;
-  position: relative;
-  &::before,&::after {
-    content: "";
-    display: block;
-    position: absolute;
-  }
-  &::before {
-    border: solid 2px $MainNavy;
-    height: 1.4rem;
-    width: 1.4rem;
-    top: .4rem;
-    left: .5rem;
-    z-index: 2;
-  }
-  &::after {
-    border: solid 2px $MainGreen;
-    height: 1.2rem;
-    width: 1.2rem;
-    top: 1rem;
-    left: 0;
-    z-index: 1;
-  }
-  +.btn_green {
-    position: absolute;
-    right: 0;
-  }
+  @include main_h2;
 }
 
 .main_h3 {
-  border-bottom: solid 2px $MainNavy;
-  font-size: 1.4rem;
-  margin-bottom: 1.2rem;
-  padding: .25rem 2rem;
-  position: relative;
-  &::before,&::after {
-    content: "";
-    display: block;
-    position: absolute;
-  }
-  &::before {
-    border: solid 2px $MainNavy;
-    height: 1rem;
-    width: 1rem;
-    top: .4rem;
-    left: .5rem;
-    z-index: 2;
-  }
-  &::after {
-    border: solid 2px $MainGreen;
-    height: .8rem;
-    width: .8rem;
-    top: .9rem;
-    left: .2rem;
-    z-index: 1;
-  }
-  +.btn_green {
-    position: absolute;
-    top: -.2rem;
-    right: 0;
-  }
+  @include main_h3;
 }
 
 .category_item {
@@ -235,14 +238,14 @@ a {
       color: $MainColor;
       display: block;
       font-size: .9rem;
-      padding: .35rem 1rem;
+      padding: .35rem .5rem;
       &::after {
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
         content: "\f0da";
         color: $MainGreen;
         position: absolute;
-        right: 2rem;
+        right: 1rem;
         margin: auto;
       }
       &:hover { background-color:lighten($MainNavy, 70%);}

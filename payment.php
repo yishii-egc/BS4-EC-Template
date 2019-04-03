@@ -150,10 +150,11 @@
         </article><!-- / .container-fluid -->
 
       </main>
-      <aside class="col-lg-3 col-xl-2 order-first d-none d-lg-block">
-        <nav class="side_nav my-lg-4">
+      <aside class="col-lg-3 col-xl-2 order-lg-first">
+        <nav class="side_nav my-lg-4 d-none d-lg-block">
 <?php include "inc/aside_menu.php"; ?>
         </nav>
+<?php include "inc/side_sns.php"; ?>
       </aside>
       <?php include "inc/login_modal.php"; ?>
     </div>

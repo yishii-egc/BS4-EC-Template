@@ -34,3 +34,59 @@
     border-color: darken($MainNavy, 10%);
   }
 }
+
+.btn_facebook {
+  background-color: $ColorFacebook;
+  border: solid 1px darken($ColorFacebook, 10%);
+  color: $White;
+  &:hover {
+    background-color: darken($ColorFacebook, 10%);
+    color: $White;
+  }
+}
+
+.btn_twitter {
+  background-color: $ColorTwitter;
+  border: solid 1px darken($ColorTwitter, 10%);
+  color: $White;
+  &:hover {
+    background-color: darken($ColorTwitter, 10%);
+    color: $White;
+  }
+}
+
+.btn_instagram {
+  color: $White;
+  position: relative;
+  background: -webkit-linear-gradient(135deg, $ColorInstagram1 0%, $ColorInstagram2 70%) no-repeat;
+  background: linear-gradient(135deg, $ColorInstagram1 0%, $ColorInstagram2 70%) no-repeat;
+  border: 1px solid;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;/*全体を覆う*/
+    height: 100%;/*全体を覆う*/
+    background: -webkit-linear-gradient(15deg, $ColorInstagram3, $ColorInstagram4 25%, $ColorInstagram5 50%) no-repeat;
+    background: linear-gradient(15deg, $ColorInstagram3, $ColorInstagram4 25%, $ColorInstagram5 50%) no-repeat;
+    border-radius: .25rem;
+  }
+  &:hover {
+    color: $White;
+    background: -webkit-linear-gradient(135deg, darken($ColorInstagram1, 10%) 0%, darken($ColorInstagram2, 10%) 70%) no-repeat;
+    background: linear-gradient(135deg, darken($ColorInstagram1,10%) 0%, darken($ColorInstagram2,10%) 70%) no-repeat;
+    transition: .3s;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;/*全体を覆う*/
+      height: 100%;/*全体を覆う*/
+      background: -webkit-linear-gradient(15deg, darken($ColorInstagram3,10%), darken($ColorInstagram4,10%) 25%, darken($ColorInstagram5,10%) 50%) no-repeat;
+      background: linear-gradient(15deg, darken($ColorInstagram3,10%), darken($ColorInstagram4,10%) 25%, darken($ColorInstagram5,10%) 50%) no-repeat;
+      border-radius: .25rem;
+    }
+  }
+}
