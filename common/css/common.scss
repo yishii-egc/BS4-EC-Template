@@ -186,6 +186,19 @@ a {
   }
 }
 
+.side_sns {
+  background-color: lighten($MainNavy, 78%);
+  h5 {
+    background-color: $MainNavy;
+    border-bottom: solid 4px $MainGreen;
+    color: $White;
+    padding: .5rem .75rem;
+    margin-bottom: $BaseMargin*0.3;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
 @media screen and (max-width: 767.98px) {
   main h1 {
     font-size: 1.6rem;
