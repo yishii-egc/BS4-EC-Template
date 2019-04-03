@@ -221,13 +221,133 @@
                   </div>
                 </div>
                 <ul class="item_benefit list-unstyled">
-                  <li><a href=""><img src="images/items/benefit_01.png" alt="お買い上げ10,000円以上で送料無料" class="img-fluid"></a></li>
-                  <li><a href=""><img src="images/items/benefit_02.png" alt="" class="img-fluid"></a></li>
-                  <li><a href=""><img src="images/items/benefit_03.png" alt="" class="img-fluid"></a></li>
-                  <li><a href=""><img src="images/items/benefit_04.png" alt="" class="img-fluid"></a></li>
-                  <li><a href=""><img src="images/items/benefit_05.png" alt="" class="img-fluid"></a></li>
-                  <li><a href=""><img src="images/items/benefit_06.png" alt="" class="img-fluid"></a></li>
-                  <li><a href=""><img src="images/items/benefit_07.png" alt="" class="img-fluid"></a></li>
+                  <li>
+                    <a href="" data-toggle="modal" data-target="#modal_bene01"><img src="images/items/benefit_01.png" alt="お買い上げ10,000円以上で送料無料" class="img-fluid"></a>
+                    <div class="modal fade" id="modal_bene01" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title">お買い上げ10,000円以上で送料無料</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true" class="fas fa-times"></span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p class="mb-0"><a href="index.php">お薬通販部</a>でご注文いただいた商品は、日本全国送料一律1,000円にて承っております。<br>
+                            10,000円以上お買い上げのお客様には、送料無料で配送いたします。</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!-- / #modal_bene01 -->
+                  </li>
+                  <li>
+                    <a href="" data-toggle="modal" data-target="#modal_bene02"><img src="images/items/benefit_02.png" alt="取り扱いはメーカー正規品のみ 正規品保証" class="img-fluid"></a>
+                    <div class="modal fade" id="modal_bene02" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title">正規品保証</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true" class="fas fa-times"></span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p class="mb-0">『<a href="index.php">お薬通販部</a>』にてお取り扱いしている商品は、新薬・ジェネリック等の種類を問わず、すべて製薬メーカー正規品であることを保証いたしております。</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!-- / #modal_bene02 -->
+                  </li>
+                  <li>
+                    <a href="" data-toggle="modal" data-target="#modal_bene03"><img src="images/items/benefit_03.png" alt="内容物が見えない厳重な梱包" class="img-fluid"></a>
+                    <div class="modal fade" id="modal_bene03" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title">厳重な梱包</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true" class="fas fa-times"></span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p class="mb-0">外箱にご注文の商品名や医薬品名が表記されることはございませんので、配送員の方やご家族の方などに内容物を知られることなく受け取ることができます。</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div><!-- / #modal_bene03 -->
+                  </li>
+                  <li>
+                    <a href="" data-toggle="modal" data-target="#modal_bene04"><img src="images/items/benefit_04.png" alt="処方箋・診断書なしで注文可能" class="img-fluid"></a>
+                    <div class="modal fade" id="modal_bene04" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title">処方箋不要</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true" class="fas fa-times"></span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            むりょうだー
+                          </div>
+                        </div>
+                      </div>
+                    </div><!-- / #modal_bene04 -->
+                  </li>
+                  <li>
+                    <a href="" data-toggle="modal" data-target="#modal_bene05"><img src="images/items/benefit_05.png" alt="日本語対応 電話注文OK" class="img-fluid"></a>
+                    <div class="modal fade" id="modal_bene05" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title">電話注文OK</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true" class="fas fa-times"></span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            むりょうだー
+                          </div>
+                        </div>
+                      </div>
+                    </div><!-- / #modal_bene05 -->
+                  </li>
+                  <li>
+                    <a href="" data-toggle="modal" data-target="#modal_bene06"><img src="images/items/benefit_06.png" alt="クレジットカード・銀行口座不要 コンビニ決済OK" class="img-fluid"></a>
+                    <div class="modal fade" id="modal_bene06" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title">コンビニ決済OK</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true" class="fas fa-times"></span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            むりょうだー
+                          </div>
+                        </div>
+                      </div>
+                    </div><!-- / #modal_bene06 -->
+                  </li>
+                  <li>
+                    <a href="" data-toggle="modal" data-target="#modal_bene07"><img src="images/items/benefit_07.png" alt="手数料無料で迅速な対応 カード決済対応" class="img-fluid"></a>
+                    <div class="modal fade" id="modal_bene07" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title">カード決済対応</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true" class="fas fa-times"></span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            むりょうだー
+                          </div>
+                        </div>
+                      </div>
+                    </div><!-- / #modal_bene07 -->
+                  </li>
                 </ul>
               </div>
             </div>
