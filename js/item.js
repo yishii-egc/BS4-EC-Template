@@ -61,3 +61,20 @@ $(function(){
     var h = $('.navbar_main').outerHeight(true);
     $('.item_tabs').css('top', h);
   });
+
+// 口コミのページネーション
+  $(function() {
+    $('.review_list').pagination({
+      paginationMode: true,
+      itemElement              : '.review_item',
+      wrapElement              :'nav',
+      displayItemCount         : 10,
+      paginationClassName      : 'pagination_wrap',
+      paginationInnerClassName : 'pagination justify-content-center',
+      prevNextPageBtnMode      : false
+    });
+    $('.pagination li a').click(function(){
+      var position = $('.review_list').offset().top;
+      $('body, html').animate({ scrollTop: position - 150},50);
+    });
+  });

@@ -836,18 +836,21 @@
             </div>
           </section>
 
-          <section class="item_reviews sec_bottom" id="item_reviews">
-            <h2>バイアグラの口コミ</h2>
-            <ul class="list-unstyled row">
-              <li class="col-xl-6">
+          <section class="sec_bottom" id="item_reviews">
+            <h2 class="main_h2">バイアグラの口コミ</h2>
+            <ul class="list-unstyled row review_list">
+
+              <li class="col-xl-6 review_item">
                 <div class="media mb-3">
                   <div class="review_user mr-3 text-center">
                     <img src="images/items/icon_review.png" class="img-fluid" alt="">
-                    <span class="customer_name d-block">ペイン</span>
-                    <span class="customer_age d-block">（44歳）</span>
                   </div>
                   <div class="media-body review_body">
-                    <div class="item_rate"><img src="images/items/star-40.png" alt=""></div>
+                    <div class="item_rate">
+                      <img src="images/items/star-40.png" alt="" class="mr-2">
+                      <span class="customer_name d-inline-block">ペイン01</span>
+                      <span class="customer_age d-inline-block">（44歳）</span>
+                    </div>
                     <time class="posted_date" >2019-03-05</time>
                     <div class="customer_comment">
                       元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
@@ -855,15 +858,18 @@
                   </div>
                 </div>
               </li>
-              <li class="col-xl-6">
+
+              <li class="col-xl-6 review_item">
                 <div class="media mb-3">
                   <div class="review_user mr-3 text-center">
                     <img src="images/items/icon_review.png" class="img-fluid" alt="">
-                    <span class="customer_name d-block">ペイン</span>
-                    <span class="customer_age d-block">（44歳）</span>
                   </div>
                   <div class="media-body review_body">
-                    <div class="item_rate"><img src="images/items/star-40.png" alt=""></div>
+                    <div class="item_rate">
+                      <img src="images/items/star-40.png" alt="" class="mr-2">
+                      <span class="customer_name d-inline-block">ペイン02</span>
+                      <span class="customer_age d-inline-block">（44歳）</span>
+                    </div>
                     <time class="posted_date" >2019-03-05</time>
                     <div class="customer_comment">
                       元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
@@ -871,15 +877,18 @@
                   </div>
                 </div>
               </li>
-              <li class="col-xl-6">
+
+              <li class="col-xl-6 review_item">
                 <div class="media mb-3">
                   <div class="review_user mr-3 text-center">
                     <img src="images/items/icon_review.png" class="img-fluid" alt="">
-                    <span class="customer_name d-block">ペイン</span>
-                    <span class="customer_age d-block">（44歳）</span>
                   </div>
                   <div class="media-body review_body">
-                    <div class="item_rate"><img src="images/items/star-40.png" alt=""></div>
+                    <div class="item_rate">
+                      <img src="images/items/star-40.png" alt="" class="mr-2">
+                      <span class="customer_name d-inline-block">ペイン03</span>
+                      <span class="customer_age d-inline-block">（44歳）</span>
+                    </div>
                     <time class="posted_date" >2019-03-05</time>
                     <div class="customer_comment">
                       元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
@@ -887,15 +896,18 @@
                   </div>
                 </div>
               </li>
-              <li class="col-xl-6">
+
+              <li class="col-xl-6 review_item">
                 <div class="media mb-3">
                   <div class="review_user mr-3 text-center">
                     <img src="images/items/icon_review.png" class="img-fluid" alt="">
-                    <span class="customer_name d-block">ペイン</span>
-                    <span class="customer_age d-block">（44歳）</span>
                   </div>
                   <div class="media-body review_body">
-                    <div class="item_rate"><img src="images/items/star-40.png" alt=""></div>
+                    <div class="item_rate">
+                      <img src="images/items/star-40.png" alt="" class="mr-2">
+                      <span class="customer_name d-inline-block">ペイン04</span>
+                      <span class="customer_age d-inline-block">（44歳）</span>
+                    </div>
                     <time class="posted_date" >2019-03-05</time>
                     <div class="customer_comment">
                       元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
@@ -903,6 +915,159 @@
                   </div>
                 </div>
               </li>
+
+              <li class="col-xl-6 review_item">
+                <div class="media mb-3">
+                  <div class="review_user mr-3 text-center">
+                    <img src="images/items/icon_review.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="media-body review_body">
+                    <div class="item_rate">
+                      <img src="images/items/star-40.png" alt="" class="mr-2">
+                      <span class="customer_name d-inline-block">ペイン05</span>
+                      <span class="customer_age d-inline-block">（44歳）</span>
+                    </div>
+                    <time class="posted_date" >2019-03-05</time>
+                    <div class="customer_comment">
+                      元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="col-xl-6 review_item">
+                <div class="media mb-3">
+                  <div class="review_user mr-3 text-center">
+                    <img src="images/items/icon_review.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="media-body review_body">
+                    <div class="item_rate">
+                      <img src="images/items/star-40.png" alt="" class="mr-2">
+                      <span class="customer_name d-inline-block">ペイン06</span>
+                      <span class="customer_age d-inline-block">（44歳）</span>
+                    </div>
+                    <time class="posted_date" >2019-03-05</time>
+                    <div class="customer_comment">
+                      元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="col-xl-6 review_item">
+                <div class="media mb-3">
+                  <div class="review_user mr-3 text-center">
+                    <img src="images/items/icon_review.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="media-body review_body">
+                    <div class="item_rate">
+                      <img src="images/items/star-40.png" alt="" class="mr-2">
+                      <span class="customer_name d-inline-block">ペイン07</span>
+                      <span class="customer_age d-inline-block">（44歳）</span>
+                    </div>
+                    <time class="posted_date" >2019-03-05</time>
+                    <div class="customer_comment">
+                      元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="col-xl-6 review_item">
+                <div class="media mb-3">
+                  <div class="review_user mr-3 text-center">
+                    <img src="images/items/icon_review.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="media-body review_body">
+                    <div class="item_rate">
+                      <img src="images/items/star-40.png" alt="" class="mr-2">
+                      <span class="customer_name d-inline-block">ペイン08</span>
+                      <span class="customer_age d-inline-block">（44歳）</span>
+                    </div>
+                    <time class="posted_date" >2019-03-05</time>
+                    <div class="customer_comment">
+                      元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="col-xl-6 review_item">
+                <div class="media mb-3">
+                  <div class="review_user mr-3 text-center">
+                    <img src="images/items/icon_review.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="media-body review_body">
+                    <div class="item_rate">
+                      <img src="images/items/star-40.png" alt="" class="mr-2">
+                      <span class="customer_name d-inline-block">ペイン09</span>
+                      <span class="customer_age d-inline-block">（44歳）</span>
+                    </div>
+                    <time class="posted_date" >2019-03-05</time>
+                    <div class="customer_comment">
+                      元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="col-xl-6 review_item">
+                <div class="media mb-3">
+                  <div class="review_user mr-3 text-center">
+                    <img src="images/items/icon_review.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="media-body review_body">
+                    <div class="item_rate">
+                      <img src="images/items/star-40.png" alt="" class="mr-2">
+                      <span class="customer_name d-inline-block">ペイン10</span>
+                      <span class="customer_age d-inline-block">（44歳）</span>
+                    </div>
+                    <time class="posted_date" >2019-03-05</time>
+                    <div class="customer_comment">
+                      元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="col-xl-6 review_item">
+                <div class="media mb-3">
+                  <div class="review_user mr-3 text-center">
+                    <img src="images/items/icon_review.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="media-body review_body">
+                    <div class="item_rate">
+                      <img src="images/items/star-40.png" alt="" class="mr-2">
+                      <span class="customer_name d-inline-block">ペイン11</span>
+                      <span class="customer_age d-inline-block">（44歳）</span>
+                    </div>
+                    <time class="posted_date" >2019-03-05</time>
+                    <div class="customer_comment">
+                      元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="col-xl-6 review_item">
+                <div class="media mb-3">
+                  <div class="review_user mr-3 text-center">
+                    <img src="images/items/icon_review.png" class="img-fluid" alt="">
+                  </div>
+                  <div class="media-body review_body">
+                    <div class="item_rate">
+                      <img src="images/items/star-40.png" alt="" class="mr-2">
+                      <span class="customer_name d-inline-block">ペイン12</span>
+                      <span class="customer_age d-inline-block">（44歳）</span>
+                    </div>
+                    <time class="posted_date" >2019-03-05</time>
+                    <div class="customer_comment">
+                      元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
+                    </div>
+                  </div>
+                </div>
+              </li>
+
             </ul>
           </section><!-- / .item_reviws -->
 
@@ -945,7 +1110,7 @@
 <?php include "inc/footer.php"; ?>
 
 <!-- Page JS -->
-
+<script src="js/jquery.pagination.js"></script>
 
 <!-- Original JS -->
 <script src="common/js/common.js"></script>

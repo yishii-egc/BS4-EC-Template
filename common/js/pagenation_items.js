@@ -9,6 +9,7 @@
       prevNextPageBtnMode      : false
     });
     $('.pagination li a').click(function(){
-      $('body, html').animate({ scrollTop: 0},50);
+      var position = $('.pagenation_items').offset().top;
+      $('body, html').animate({ scrollTop: position - 150},50);
     });
   });
