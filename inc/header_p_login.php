@@ -285,7 +285,7 @@
         </div>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0 ml-lg-2 form_sitesearch">
+    <form action="search-result.php" class="form-inline my-2 my-lg-0 ml-lg-2 form_sitesearch">
       <div class="input-group mr-auto">
         <input class="form-control form-control-sm" type="text" placeholder="何かお探しですか？" aria-label="Search">
         <div class="input-group-append">
