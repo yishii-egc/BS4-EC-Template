@@ -126,6 +126,15 @@ a {
   cursor: pointer;
 }
 
+.card_main {
+  .card-header {
+    color: $White;
+    background-color: $MainNavy;
+    overflow: hidden;
+    a { color: $White}
+    &:hover a { background-color: lighten($MainNavy, 15%);}
+  }
+}
 
 .slick_step,
 .posted {

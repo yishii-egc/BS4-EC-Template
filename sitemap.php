@@ -45,7 +45,7 @@
         </header>
 
         <div class="card-columns sitemap_columns">
-          <div class="card">
+          <div class="card card_main">
             <header class="card-header p-0">
               <a href="category-all.php" class="d-block py-2 px-3">商品カテゴリー一覧</a>
             </header>
@@ -291,7 +291,7 @@
             <a href="category.php" class="dropdown-item">サプリメント</a>
           </div>
 
-          <div class="card">
+          <div class="card card_main">
             <header class="card-header p-0">
               <a href="medical-guide-all.php" class="d-block py-2 px-3">メディカルガイド</a>
             </header>
@@ -303,13 +303,13 @@
             <a href="medical-guide-category.php" class="dropdown-item">バイアグラ</a>
           </div>
 
-          <div class="card">
+          <div class="card card_main">
             <header class="card-header p-0">
               <a href="maker-list.php" class="d-block py-2 px-3">製薬会社ガイド</a>
             </header>
           </div>
 
-          <div class="card">
+          <div class="card card_main">
             <header class="card-header p-0">
               <span class="d-block py-2 px-3">ご利用ガイド</span>
             </header>
@@ -322,7 +322,7 @@
             <a href="generic.php" class="dropdown-item">ジェネリック医薬品について</a>
           </div>
 
-          <div class="card">
+          <div class="card card_main">
             <header class="card-header p-0">
               <span class="d-block py-2 px-3">インフォメーション</span>
             </header>

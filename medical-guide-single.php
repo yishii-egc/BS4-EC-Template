@@ -1052,7 +1052,7 @@
 <?php include "inc/footer.php"; ?>
 
 <!-- Page JS -->
-<script src="js/category.js"></script>
+<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="js/jquery.nicescroll.min.js"></script>
 <script>
 $(".medical_toc>.list-group").niceScroll();
@@ -1060,6 +1060,7 @@ $(".medical_toc>.list-group").niceScroll();
 
 <!-- Original JS -->
 <script src="common/js/common.js"></script>
+<script src="js/category.js"></script>
 <script src="js/medical_guide_single.js"></script>
 
 </body>

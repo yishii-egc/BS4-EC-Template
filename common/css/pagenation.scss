@@ -1,3 +1,21 @@
+.pagenation_items {
+  .item {
+    margin-bottom: $BaseMargin/2;
+    .item_name {
+      font-weight: bold;
+    }
+    .category_badge {
+      position: absolute;
+      top: .25rem;
+      right: calc(15px + .25rem);
+    }
+    .item_price {
+      font-size: .9rem;
+      span { font-size: 1rem;}
+    }
+  }
+}
+
 .pagination_wrap {
   padding-top: 1.5rem;
   .pagination {
