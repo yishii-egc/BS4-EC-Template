@@ -76,6 +76,13 @@
   }
 }
 
+.main_h2 , .main_h3 {
+  +.btn_green {
+    position: absolute;
+    right: 0;
+  }
+}
+
 .category_list,
 .home_news { position: relative;}
 

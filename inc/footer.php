@@ -110,6 +110,7 @@
           <li class="list-inline-item"><a href="privacy.php">プライバシーポリシー</a></li>
           <li class="list-inline-item"><a href="corporation.php">特定商取引法に基づく表記</a></li>
           <li class="list-inline-item"><a href="contact.php">お問い合わせ</a></li>
+          <li class="list-inline-item"><a href="sitemap.php">サイトマップ</a></li>
         </ul>
       </nav>
 

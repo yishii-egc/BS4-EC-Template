@@ -245,7 +245,7 @@
 
           <div class="btn-group w-100" role="group">
             <a href="category.php" class="dropdown-item">目薬</a>
-            <button type="button" class="submenu_toggle" data-toggle="collapse" data-target="#submenu16" aria-expanded="false" aria-controls="submenu16">
+            <button type="button" class="submenu_toggle" data-toggle="collapse" data-target="#submenu17" aria-expanded="false" aria-controls="submenu17">
               <i class="fa fa-caret-down"></i>
             </button>
           </div>

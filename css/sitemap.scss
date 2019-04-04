@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@import "../common/css/common.scss";
+@import "../common/css/breadcrumb.scss";
+
+.sitemap_h1 {
+  @include main_h1;
+  &::before { content: "\f0e8";}
+}
+
+.sitemap_columns .card {
+  .btn-group.w-100 {
+    button {
+      background: none;
+      border: none;
+      color: $MainGreen;;
+    }
+  }
+  .submenu {
+    border: solid 1px $BorderLightGrey;
+    border-radius: .25rem;
+    font-size: .9rem;
+    margin: 0 .75rem .5rem;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .sitemap_columns { column-count: 1;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .sitemap_columns { column-count: 2;}
+}
+
+@media screen and (min-width:992px) and (max-width: 1199.98px) {
+  .sitemap_columns { column-count: 2;}
+}
+
+@media screen and (min-width: 1200px) {
+  .sitemap_columns { column-count: 2;}
+}
