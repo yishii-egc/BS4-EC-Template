@@ -25,7 +25,7 @@
 <title>お問い合わせ｜医薬品・サプリメント【お薬通販部】</title>
 </head>
 <body>
-<?php include "inc/header_p.php"; ?>
+<?php include "inc/header_p_login.php"; ?>
 <div class="wrapper">
   <div class="container-fluid">
     <div class="row justify-content-lg-center">

@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="ED治療薬通販の商品一覧ページ｜バイアグラ・シアリス・レビトラ・ステンドラやEDサプリメント・不感症改善薬など様々な治療薬をご紹介。安全なメーカー正規品のジェネリック医薬品や海外医薬品を最安値でのお求めは【お薬通販部】にお任せください!!">
-<link rel="canonical" href="https://okusuri-shop.com/">
+<link rel="canonical" href="https://okusuri-shop.com/cart.php">
 
 <!-- Google font -->
 <link href="//fonts.googleapis.com/css?family=Noto+Sans+JP:400,700" rel="stylesheet">
@@ -42,10 +42,13 @@
           <section class="sec_bottom">
 
             <div class="row no-gutters align-items-center item_row">
+              <div class="col-1 col-xl-1 cart_img pr-1 text-center">
+              1
+              </div>
               <div class="col-4 col-xl-2 col-xl-2 cart_img pr-1">
                 <a href="item01.php"><img src="images/items/01-viagra.jpg" alt="" class="img-fluid"></a>
               </div>
-              <div class="col-7 col-xl-5 cart_item_name">
+              <div class="col-6 col-xl-4 cart_item_name">
                 <dl class="pr-3">
                   <dt class="mb-2"><a href="item01.php">バイアグラ</a></dt>
                   <dd class="text-right">5,510円 / 個</dd>

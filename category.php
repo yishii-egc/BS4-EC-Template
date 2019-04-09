@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="ED治療薬通販の商品一覧ページ｜バイアグラ・シアリス・レビトラ・ステンドラやEDサプリメント・不感症改善薬など様々な治療薬をご紹介。安全なメーカー正規品のジェネリック医薬品や海外医薬品を最安値でのお求めは【お薬通販部】にお任せください!!">
-<link rel="canonical" href="https://okusuri-shop.com/">
+<link rel="canonical" href="https://okusuri-shop.com/category.php">
 
 <!-- Google font -->
 <link href="//fonts.googleapis.com/css?family=Noto+Sans+JP:400,700" rel="stylesheet">

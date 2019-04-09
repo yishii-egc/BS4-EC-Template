@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="お薬通販部で取り扱う商品のカテゴリー一覧ページです。お得なセット商品、ED治療薬、男性薄毛治療薬、避妊薬など、さまざまな医薬品・サプリメントを目的別に探しやすいリストにしています。【お薬通販部】商品カテゴリー一覧">
-<link rel="canonical" href="https://okusuri-shop.com/">
+<link rel="canonical" href="https://okusuri-shop.com/category-all.php">
 
 <!-- Google font -->
 <link href="//fonts.googleapis.com/css?family=Noto+Sans+JP:400,700" rel="stylesheet">

@@ -43,6 +43,17 @@
         <article class="item">
           <header class="item_intro mb-4">
             <h1 class="item_h1">バイアグラ</h1>
+            <div class="text-right mb-2"><img src="images/items/star-40.png" alt="" class="mr-2"><a href="">〇〇件の口コミ</a></div>
+            <div class="sns_btns text-right mb-4">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="http://www.facebook.com/share.php?u=<?php echo (empty($_SERVER['HTTPS']) ? 'http://' : 'https://') . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];?>" class="btn btn-sm btn_facebook" rel="nofollow" target="_blank"><i class="fab fa-facebook-f mr-1"></i> facebook</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://twitter.com/share" class="twitter-share-button btn btn-sm btn_twitter" data-text="お薬通販部" data-url="<?php $shareurl = "http://".$_SERVER["HTTP_HOST"].$_SERVER["REQUEST_URI"]; echo $shareurl; ?>" data-lang="ja" rel="nofollow"><i class="fab fa-twitter mr-1"></i> Twitter</a>
+                </li>
+              </ul>
+            </div>
             <div class="row">
               <div class="col-12 col-md-8 order-last">
                 <div class="item_beginnig">
@@ -968,12 +979,13 @@
                   </div>
                   <div class="media-body review_body">
                     <div class="item_rate">
-                      <img src="images/items/star-40.png" alt="" class="mr-2">
+                      <img src="images/items/star-45.png" alt="" class="mr-2">
                       <span class="customer_name d-inline-block">ペイン01</span>
                       <span class="customer_age d-inline-block">（44歳）</span>
                     </div>
                     <time class="posted_date" >2019-03-05</time>
                     <div class="customer_comment">
+                      元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。<br>
                       元気になるものの中で良く耳にする名前でいちばん安心できるかと思いバイアグラにしました。効果はまずまずでした。
                     </div>
                   </div>
@@ -987,7 +999,7 @@
                   </div>
                   <div class="media-body review_body">
                     <div class="item_rate">
-                      <img src="images/items/star-40.png" alt="" class="mr-2">
+                      <img src="images/items/star-50.png" alt="" class="mr-2">
                       <span class="customer_name d-inline-block">ペイン02</span>
                       <span class="customer_age d-inline-block">（44歳）</span>
                     </div>

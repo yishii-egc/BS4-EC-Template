@@ -78,3 +78,6 @@ $(function(){
       $('body, html').animate({ scrollTop: position - 150},50);
     });
   });
+
+
+// シェアボタン
