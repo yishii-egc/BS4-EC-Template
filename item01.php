@@ -70,9 +70,19 @@
                     <li class="nav-item">
                       <a class="nav-link" id="cart_tab03" data-toggle="pill" href="#cart_tab_content03" role="tab" aria-controls="pills-profile" aria-selected="false">999mg</a>
                     </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="cart_tab04" data-toggle="pill" href="#cart_tab_content04" role="tab" aria-controls="pills-profile" aria-selected="false">888mg</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="cart_tab05" data-toggle="pill" href="#cart_tab_content05" role="tab" aria-controls="pills-profile" aria-selected="false">777mg</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="cart_tab06" data-toggle="pill" href="#cart_tab_content06" role="tab" aria-controls="pills-profile" aria-selected="false">666mg</a>
+                    </li>
                   </ul>
                 </nav>
                 <div class="tab-content">
+
                   <div class="tab-pane fade show active" id="cart_tab_content01" role="tabpanel" aria-labelledby="pills-home-tab">
                     <div class="table-responsive">
                       <table class="table table-striped table_cart">
@@ -107,7 +117,8 @@
                         </tr>
                       </table>
                     </div>
-                  </div>
+                  </div><!-- / #cart_tab_content01 -->
+
                   <div class="tab-pane fade" id="cart_tab_content02" role="tabpanel">
                     <div class="table-responsive">
                       <table class="table table-striped table_cart">
@@ -142,7 +153,8 @@
                         </tr>
                       </table>
                     </div>
-                  </div>
+                  </div><!-- / #cart_tab_content02 -->
+
                   <div class="tab-pane fade" id="cart_tab_content03" role="tabpanel">
                     <div class="table-responsive">
                       <table class="table table-striped table_cart">
@@ -177,7 +189,116 @@
                         </tr>
                       </table>
                     </div>
-                  </div>
+                  </div><!-- / #cart_tab_content03 -->
+
+                  <div class="tab-pane fade" id="cart_tab_content04" role="tabpanel">
+                    <div class="table-responsive">
+                      <table class="table table-striped table_cart">
+                        <caption>バイアグラ 888mg</caption>
+                        <tr>
+                          <th>内容量</th>
+                          <th>販売価格</th>
+                          <th>ポイント</th>
+                          <th>1錠単価</th>
+                          <th>注文</th>
+                        </tr>
+                        <tr>
+                          <td>4錠</td>
+                          <td>7,090円円</td>
+                          <td>212</td>
+                          <td>1,772円</td>
+                          <td><a href="" class="btn btn-block btn_cart"><i class="fas fa-shopping-cart mr-1"></i>カート<span>に入れる</span></a></td>
+                        </tr>
+                        <tr>
+                          <td>12錠</td>
+                          <td>20,210円</td>
+                          <td>606</td>
+                          <td>1,684円</td>
+                          <td><a href="" class="btn btn-block btn_cart"><i class="fas fa-shopping-cart mr-1"></i>カート<span>に入れる</span></a></td>
+                        </tr>
+                        <tr>
+                          <td>28錠</td>
+                          <td>44,660円</td>
+                          <td>1,339</td>
+                          <td>1,595円</td>
+                          <td><a href="" class="btn btn-block btn_cart"><i class="fas fa-shopping-cart mr-1"></i>カート<span>に入れる</span></a></td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div><!-- / #cart_tab_content04 -->
+
+                  <div class="tab-pane fade" id="cart_tab_content05" role="tabpanel">
+                    <div class="table-responsive">
+                      <table class="table table-striped table_cart">
+                        <caption>バイアグラ 777mg</caption>
+                        <tr>
+                          <th>内容量</th>
+                          <th>販売価格</th>
+                          <th>ポイント</th>
+                          <th>1錠単価</th>
+                          <th>注文</th>
+                        </tr>
+                        <tr>
+                          <td>4錠</td>
+                          <td>7,090円円</td>
+                          <td>212</td>
+                          <td>1,772円</td>
+                          <td><a href="" class="btn btn-block btn_cart"><i class="fas fa-shopping-cart mr-1"></i>カート<span>に入れる</span></a></td>
+                        </tr>
+                        <tr>
+                          <td>12錠</td>
+                          <td>20,210円</td>
+                          <td>606</td>
+                          <td>1,684円</td>
+                          <td><a href="" class="btn btn-block btn_cart"><i class="fas fa-shopping-cart mr-1"></i>カート<span>に入れる</span></a></td>
+                        </tr>
+                        <tr>
+                          <td>28錠</td>
+                          <td>44,660円</td>
+                          <td>1,339</td>
+                          <td>1,595円</td>
+                          <td><a href="" class="btn btn-block btn_cart"><i class="fas fa-shopping-cart mr-1"></i>カート<span>に入れる</span></a></td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div><!-- / #cart_tab_content05 -->
+
+                  <div class="tab-pane fade" id="cart_tab_content06" role="tabpanel">
+                    <div class="table-responsive">
+                      <table class="table table-striped table_cart">
+                        <caption>バイアグラ 777mg</caption>
+                        <tr>
+                          <th>内容量</th>
+                          <th>販売価格</th>
+                          <th>ポイント</th>
+                          <th>1錠単価</th>
+                          <th>注文</th>
+                        </tr>
+                        <tr>
+                          <td>4錠</td>
+                          <td>7,090円円</td>
+                          <td>212</td>
+                          <td>1,772円</td>
+                          <td><a href="" class="btn btn-block btn_cart"><i class="fas fa-shopping-cart mr-1"></i>カート<span>に入れる</span></a></td>
+                        </tr>
+                        <tr>
+                          <td>12錠</td>
+                          <td>20,210円</td>
+                          <td>606</td>
+                          <td>1,684円</td>
+                          <td><a href="" class="btn btn-block btn_cart"><i class="fas fa-shopping-cart mr-1"></i>カート<span>に入れる</span></a></td>
+                        </tr>
+                        <tr>
+                          <td>28錠</td>
+                          <td>44,660円</td>
+                          <td>1,339</td>
+                          <td>1,595円</td>
+                          <td><a href="" class="btn btn-block btn_cart"><i class="fas fa-shopping-cart mr-1"></i>カート<span>に入れる</span></a></td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div><!-- / #cart_tab_content06 -->
+
                 </div>
                 <div class="delivery_info mb-3">
                   <div class="item_stock">
