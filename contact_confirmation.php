@@ -69,7 +69,7 @@
         </dl>
         <nav class="mb-4 text-center row mb-5 pb-4">
           <a href="javascript:history.back();" class="btn btn_navy col-10 col-sm-5 mb-2 mx-auto">内容を修正する</a>
-          <a href="contact_completion.html" class="btn btn_green col-10 col-sm-5 mb-2 mx-auto">この内容で送信</a>
+          <a href="contact_completion.php" class="btn btn_green col-10 col-sm-5 mb-2 mx-auto">この内容で送信</a>
         </nav>
 
 
