@@ -122,6 +122,202 @@
           </div>
         </div><!-- / .home_slide -->
 
+        <setction class="sec_bottom first_visit">
+          <h2 class="text-center mb-4">ようこそお薬通販部へ</h2>
+          <div class="row justify-content-center mb-5">
+            <div class="col-10 col-sm-5 col-md-4 col-xl-3 pt-4 bg_blue">
+              <p class="text-center mb-2"><a href="" data-toggle="modal" data-target="#login_modal" class="btn btn-block btn_navy">ログイン</a></p>
+              <p class="small text-center">会員の方はこちらへ</p>
+            </div>
+            <div class="col-10 col-sm-5 col-md-4 col-xl-3 pt-4 bg_blue">
+              <p class="text-center mb-2"><a href="entry.php" class="btn btn-block btn_green">新規会員登録（無料）</a></p>
+              <p class="small text-center">はじめての方はこちらへ</p>
+            </div>
+          </div>
+        </setction>
+
+        <section class="category_list sec_bottom">
+          <h2 class="main_h2">商品カテゴリー</h2>
+          <ul class="row list-unstyled">
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-set-items.png" alt="" class="img-fluid">
+                <span class="category_name">セット商品</span>
+              </a>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-ed.png" alt="" class="img-fluid">
+                <span class="category_name">男性用の薬・サプリ</span>
+              </a>
+              <button class="btn_category_more" data-toggle="collapse" data-target="#child01" aria-expanded="false" aria-controls="child01">
+                <i class="fas fa-caret-down"></i>
+              </button>
+              <div class="category_child list-group mt-1 collapse" id="child01">
+                <a href="category.php" class="list-group-item">ED治療薬</a>
+                <a href="category.php" class="list-group-item">媚薬</a>
+                <a href="category.php" class="list-group-item">早漏防止薬</a>
+                <a href="category.php" class="list-group-item">ペニス増大サプリ</a>
+                <a href="category.php" class="list-group-item">EDサプリ</a>
+                <a href="category.php" class="list-group-item">早漏サプリ</a>
+                <a href="category.php" class="list-group-item">AGA・薄毛治療薬</a>
+              </div>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-pe.png" alt="" class="img-fluid">
+                <span class="category_name">女性用の薬・サプリ</span>
+              </a>
+              <button class="btn_category_more" data-toggle="collapse" data-target="#child02" aria-expanded="false" aria-controls="child02">
+                <i class="fas fa-caret-down"></i>
+              </button>
+              <div class="category_child list-group mt-1 collapse" id="child02">
+                <a href="category.php" class="list-group-item">不感症改善</a>
+                <a href="category.php" class="list-group-item">避妊薬・ピル</a>
+                <a href="category.php" class="list-group-item">媚薬</a>
+                <a href="category.php" class="list-group-item">美容・ダイエット</a>
+                <a href="category.php" class="list-group-item">FAGA・育毛</a>
+                <a href="category.php" class="list-group-item">不妊治療薬</a>
+                <a href="category.php" class="list-group-item">更年期障害</a>
+              </div>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-penis-enlargement.png" alt="" class="img-fluid">
+                <span class="category_name">メンタル・睡眠薬</span>
+              </a>
+              <button class="btn_category_more" data-toggle="collapse" data-target="#child03" aria-expanded="false" aria-controls="child03">
+                <i class="fas fa-caret-down"></i>
+              </button>
+              <div class="category_child list-group mt-1 collapse" id="child03">
+                <a href="category.php" class="list-group-item">不眠症・睡眠薬</a>
+                <a href="category.php" class="list-group-item">不安障害・抗不安薬</a>
+                <a href="category.php" class="list-group-item">抗うつ剤</a>
+                <a href="category.php" class="list-group-item">統合失調症</a>
+                <a href="category.php" class="list-group-item">あがり症・緊張緩和</a>
+                <a href="category.php" class="list-group-item">その他メンタルヘルスケア</a>
+              </div>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-aphrodisiac.png" alt="" class="img-fluid">
+                <span class="category_name">美容・スキンケア</span>
+              </a>
+              <button class="btn_category_more" data-toggle="collapse" data-target="#child04" aria-expanded="false" aria-controls="child04">
+                <i class="fas fa-caret-down"></i>
+              </button>
+              <div class="category_child list-group mt-1 collapse" id="child04">
+                <a href="category.php" class="list-group-item">ニキビ</a>
+                <a href="category.php" class="list-group-item">美白・エイジングケア</a>
+                <a href="category.php" class="list-group-item">日焼け止め</a>
+                <a href="category.php" class="list-group-item">むくみ解消</a>
+                <a href="category.php" class="list-group-item">バストアップ</a>
+                <a href="category.php" class="list-group-item">ボディケア</a>
+                <a href="category.php" class="list-group-item">美容サプリ</a>
+                <a href="category.php" class="list-group-item">まつげ美容液</a>
+                <a href="category.php" class="list-group-item">ホワイトニング</a>
+              </div>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-contraceptives.png" alt="" class="img-fluid">
+                <span class="category_name">筋肉増強剤</span>
+              </a>
+              <button class="btn_category_more" data-toggle="collapse" data-target="#child05" aria-expanded="false" aria-controls="child05">
+                <i class="fas fa-caret-down"></i>
+              </button>
+              <div class="category_child list-group mt-1 collapse" id="child05">
+                <a href="category.php" class="list-group-item">プロテイン</a>
+                <a href="category.php" class="list-group-item">ステロイド</a>
+              </div>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-aga.png" alt="" class="img-fluid">
+                <span class="category_name">生活習慣病の薬</span>
+              </a>
+              <button class="btn_category_more" data-toggle="collapse" data-target="#child06" aria-expanded="false" aria-controls="child06">
+                <i class="fas fa-caret-down"></i>
+              </button>
+              <div class="category_child list-group mt-1 collapse" id="child06">
+                <a href="category.php" class="list-group-item">禁煙治療薬</a>
+                <a href="category.php" class="list-group-item">高脂血症の薬</a>
+                <a href="category.php" class="list-group-item">糖尿病・高血糖値</a>
+                <a href="category.php" class="list-group-item">痛風・高尿酸値</a>
+                <a href="category.php" class="list-group-item">高血圧・狭心症</a>
+                <a href="category.php" class="list-group-item">二日酔い</a>
+              </div>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-faga.png" alt="" class="img-fluid">
+                <span class="category_name">感染症・抗生物質</span>
+              </a>
+              <button class="btn_category_more" data-toggle="collapse" data-target="#child07" aria-expanded="false" aria-controls="child07">
+                <i class="fas fa-caret-down"></i>
+              </button>
+              <div class="category_child list-group mt-1 collapse" id="child07">
+                <a href="category.php" class="list-group-item">クラミジア</a>
+                <a href="category.php" class="list-group-item">淋病</a>
+                <a href="category.php" class="list-group-item">梅毒</a>
+                <a href="category.php" class="list-group-item">ヘルペス</a>
+                <a href="category.php" class="list-group-item">カンジダ</a>
+                <a href="category.php" class="list-group-item">水虫・いんきんたむし</a>
+                <a href="category.php" class="list-group-item">インフルエンザ</a>
+                <a href="category.php" class="list-group-item">検査キット</a>
+                <a href="category.php" class="list-group-item">その他</a>
+              </div>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-body-odor-care.png" alt="" class="img-fluid">
+                <span class="category_name">病気・症状</span>
+              </a>
+              <button class="btn_category_more" data-toggle="collapse" data-target="#child08" aria-expanded="false" aria-controls="child08">
+                <i class="fas fa-caret-down"></i>
+              </button>
+              <div class="category_child list-group mt-1 collapse" id="child08">
+                <a href="category.php" class="list-group-item">胃炎・肝臓病</a>
+                <a href="category.php" class="list-group-item">二日酔い</a>
+                <a href="category.php" class="list-group-item">痔・いぼ痔</a>
+                <a href="category.php" class="list-group-item">認知症</a>
+                <a href="category.php" class="list-group-item">頻尿・尿失禁</a>
+                <a href="category.php" class="list-group-item">眼病・目薬</a>
+                <a href="category.php" class="list-group-item">多汗症・体臭ケア</a>
+              </div>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-nonsmoking.png" alt="" class="img-fluid">
+                <span class="category_name">アレルギー</span>
+              </a>
+              <button class="btn_category_more" data-toggle="collapse" data-target="#child09" aria-expanded="false" aria-controls="child09">
+                <i class="fas fa-caret-down"></i>
+              </button>
+              <div class="category_child list-group mt-1 collapse" id="child09">
+                <a href="category.php" class="list-group-item">気管支喘息</a>
+                <a href="category.php" class="list-group-item">アレルギー性鼻炎</a>
+                <a href="category.php" class="list-group-item">アトピー性皮膚炎</a>
+              </div>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-beauty.png" alt="" class="img-fluid">
+                <span class="category_name">ダイエット</span>
+              </a>
+              <button class="btn_category_more" data-toggle="collapse" data-target="#child10" aria-expanded="false" aria-controls="child10">
+                <i class="fas fa-caret-down"></i>
+              </button>
+              <div class="category_child list-group mt-1 collapse" id="child10">
+                <a href="category.php" class="list-group-item">ダイエットサプリ</a>
+                <a href="category.php" class="list-group-item">ゼニカル</a>
+                <a href="category.php" class="list-group-item">便秘薬</a>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
         <section class="slick_step sec_bottom">
           <h2 class="main_h2">人気商品ランキング</h2>
           <div class="slick_wrapper py-2">
@@ -265,488 +461,9 @@
 
         </section>
 
-        <section class="slick_step sec_bottom">
-          <h2 class="main_h2">おすすめ商品</h2>
-          <div class="slick_wrapper p-2">
-            <div class="slick_item ">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/72-megamaxultra.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">メガマックスウルトラ</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">ペニス増大サプリ</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">7,300円</span></div>
-              <div class="item_part_price small text-right">（1錠109円～）</div>
-              <div class="item_desc small py-2">
-                メガマックスウルトラは、アメリカのシップオファーズ社が開発したペニス増大サプリメントです。
-              </div>
-            </div>
-            <div class="slick_item ">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/21-levitra.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">レビトラ</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">4,150円</span></div>
-              <div class="item_part_price small text-right">（1錠1,037円～）</div>
-              <div class="item_desc small py-2">
-                レビトラは、ドイツのバイエル社が開発したED（勃起不全）治療薬です。
-              </div>
-            </div>
-            <div class="slick_item ">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/0101-chocolatelovedx.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">チョコレートラブDX</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">媚薬</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">4,780円</span></div>
-              <div class="item_part_price small text-right">（1本4,303円～）</div>
-              <div class="item_desc small py-2">
-                チョコレートラブDXは、アメリカのドリームスコーポレーション社が開発した媚薬です。
-              </div>
-            </div>
-            <div class="slick_item ">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/46-priligy.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">プリリジー</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">早漏防止薬</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">7,580円</span></div>
-              <div class="item_part_price small text-right">（1錠2,274円～）</div>
-              <div class="item_desc small py-2">
-                プリリジーは、メナリーニ社が開発した服用タイプの早漏治療薬です。
-              </div>
-            </div>
-            <div class="slick_item ">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/47-poxet.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">ポゼット</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">早漏防止薬</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">1,400円</span></div>
-              <div class="item_part_price small text-right">（1錠133円～）</div>
-              <div class="item_desc small py-2">
-                ポゼットは、インドのサンライズレメディーズ社が開発した早漏治療薬です。
-              </div>
-            </div>
-            <div class="slick_item">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/KY_jelly.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">KYジェリー</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">媚薬</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">2,520円</span></div>
-              <div class="item_part_price small text-right">（1本2,266円～）</div>
-              <div class="item_desc small py-2">
-                KYジェリーは、アメリカのジョンソン・エンド・ジョンソン社が開発した潤滑剤で、2014年にレッキットベンキザー社がブランド購入をしました。
-              </div>
-            </div>
-            <div class="slick_item">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">バイアグラ7</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
-              <div class="item_desc small py-2">
-                バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
-              </div>
-            </div>
-            <div class="slick_item">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">バイアグラ8</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
-              <div class="item_desc small py-2">
-                バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
-              </div>
-            </div>
-            <div class="slick_item">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">バイアグラ9</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
-              <div class="item_desc small py-2">
-                バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
-              </div>
-            </div>
-            <div class="slick_item">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">バイアグラ10</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
-              <div class="item_desc small py-2">
-                バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
-              </div>
-            </div>
-          </div>
-        </section>
 
-        <section class="slick_step sec_bottom">
-          <h2 class="main_h2">新入荷商品</h2>
-          <div class="slick_wrapper p-2">
-            <div class="slick_item">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">バイアグラ1</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
-              <div class="item_part_price small text-right">（1錠393円～）</div>
-              <div class="item_desc small py-2">
-                バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
-              </div>
-            </div>
-            <div class="slick_item">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">バイアグラ2</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
-              <div class="item_part_price small text-right">（1錠393円～）</div>
-              <div class="item_desc small py-2">
-                バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
-              </div>
-            </div>
-            <div class="slick_item">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">バイアグラ3</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
-              <div class="item_part_price small text-right">（1錠393円～）</div>
-              <div class="item_desc small py-2">
-                バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
-              </div>
-            </div>
-            <div class="slick_item">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">バイアグラ4</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
-              <div class="item_part_price small text-right">（1錠393円～）</div>
-              <div class="item_desc small py-2">
-                バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
-              </div>
-            </div>
-            <div class="slick_item">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">バイアグラ5</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
-              <div class="item_part_price small text-right">（1錠393円～）</div>
-              <div class="item_desc small py-2">
-                バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
-              </div>
-            </div>
-            <div class="slick_item">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">バイアグラ6</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
-              <div class="item_part_price small text-right">（1錠393円～）</div>
-              <div class="item_desc small py-2">
-                バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
-              </div>
-            </div>
-            <div class="slick_item">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">バイアグラ7</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
-              <div class="item_part_price small text-right">（1錠393円～）</div>
-              <div class="item_desc small py-2">
-                バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
-              </div>
-            </div>
-            <div class="slick_item">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">ED治療薬3種セット＋ラブスマ</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
-              <div class="item_part_price small text-right">（1錠393円～）</div>
-              <div class="item_desc small py-2">
-                バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
-              </div>
-            </div>
-            <div class="slick_item">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">バイアグラ9</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
-              <div class="item_part_price small text-right">（1錠393円～）</div>
-              <div class="item_desc small py-2">
-                バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
-              </div>
-            </div>
-            <div class="slick_item">
-              <a href="item01.php" class="item_image">
-                <figure>
-                  <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
-                </figure>
-              </a>
-              <div class="item_name"><a href="item01.php">バイアグラ10</a></div>
-              <div class="item_category"><a href="category.php" class="badge badge-danger">ED治療薬</a></div>
-              <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
-              <div class="item_part_price small text-right">（1錠393円～）</div>
-              <div class="item_desc small py-2">
-                バイアグラは、大手製薬会社ファイザー社が開発した世界で初めて製造販売されたED（勃起不全）治療薬です。
-              </div>
-            </div>
-          </div>
-        </section>
 
-        <section class="category_list sec_bottom">
-          <h2 class="main_h2">商品カテゴリー</h2>
-          <a href="category-all.php" class="btn btn-sm btn_green">一覧へ</a>
-          <ul class="row list-unstyled">
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-set-items.png" alt="" class="img-fluid">
-                <span class="category_name">お得セット商品</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-ed.png" alt="" class="img-fluid">
-                <span class="category_name">ED治療薬</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-pe.png" alt="" class="img-fluid">
-                <span class="category_name">早漏防止薬</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-penis-enlargement.png" alt="" class="img-fluid">
-                <span class="category_name">ペニス増大</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-aphrodisiac.png" alt="" class="img-fluid">
-                <span class="category_name">媚薬</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-contraceptives.png" alt="" class="img-fluid">
-                <span class="category_name">避妊薬</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-aga.png" alt="" class="img-fluid">
-                <span class="category_name">男性用薄毛治療薬</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-faga.png" alt="" class="img-fluid">
-                <span class="category_name">女性用薄毛治療薬</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-body-odor-care.png" alt="" class="img-fluid">
-                <span class="category_name">体臭ケア</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-nonsmoking.png" alt="" class="img-fluid">
-                <span class="category_name">禁煙治療薬</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-beauty.png" alt="" class="img-fluid">
-                <span class="category_name">美容・スキンケア</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-allergy.png" alt="" class="img-fluid">
-                <span class="category_name">アレルギー</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-diet.png" alt="" class="img-fluid">
-                <span class="category_name">ダイエット</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-muscle-enhancers.png" alt="" class="img-fluid">
-                <span class="category_name">筋肉増強剤</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-hormone-balance.png" alt="" class="img-fluid">
-                <span class="category_name">ホルモン剤</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-sleeping-pills.png" alt="" class="img-fluid">
-                <span class="category_name">不眠症・睡眠薬</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-mental-health-care.png" alt="" class="img-fluid">
-                <span class="category_name">メンタルヘルスケア</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-sick.png" alt="" class="img-fluid">
-                <span class="category_name">病気・症状</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-painkiller.png" alt="" class="img-fluid">
-                <span class="category_name">痛み止め</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-teeth-whitening.png" alt="" class="img-fluid">
-                <span class="category_name">ホワイトニング</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-eye-drops.png" alt="" class="img-fluid">
-                <span class="category_name">目薬</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-test-kits.png" alt="" class="img-fluid">
-                <span class="category_name">検査キット</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-supplements.png" alt="" class="img-fluid">
-                <span class="category_name">サプリメント</span>
-              </a>
-            </li>
-          </ul>
-        </section>
-        
-        <section class="category_list sec_bottom">
-          <h2 class="main_h2">メディカルガイド</h2>
-          <a href="medical-guide-all.php" class="btn btn-sm btn_green">一覧へ</a>
-          <p>EDなど他人には聞きづらい、様々な病気の症状や原因、治療法、日常的にできる対策、治療薬の効果や副作用、成分、購入方法、体の働きのメカニズム、関連する病気など問題解決に役立つ情報をお悩み別に詳しく紹介しています。</p>
-          <ul class="row list-unstyled">
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="medical-guide-category.php" class="medical_category_item">
-                <img src="images/medical-guide/medical-ED2.png" alt="" class="img-fluid">
-                <span class="category_name">ED</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="medical-guide-category.php" class="medical_category_item">
-                <img src="images/medical-guide/medical-ED2.png" alt="" class="img-fluid">
-                <span class="category_name">ED治療薬</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="medical-guide-category.php" class="medical_category_item">
-                <img src="images/medical-guide/medical-ED2.png" alt="" class="img-fluid">
-                <span class="category_name">バイアグラ</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="medical-guide-category.php" class="medical_category_item">
-                <img src="images/medical-guide/medical-ED2.png" alt="" class="img-fluid">
-                <span class="category_name">カテゴリー</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="medical-guide-category.php" class="medical_category_item">
-                <img src="images/medical-guide/medical-ED2.png" alt="" class="img-fluid">
-                <span class="category_name">カテゴリー</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="medical-guide-category.php" class="medical_category_item">
-                <img src="images/medical-guide/medical-ED2.png" alt="" class="img-fluid">
-                <span class="category_name">カテゴリー</span>
-              </a>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="medical-guide-category.php" class="medical_category_item">
-                <img src="images/medical-guide/medical-ED2.png" alt="" class="img-fluid">
-                <span class="category_name">カテゴリー</span>
-              </a>
-            </li>
-          </ul>
-        </section>
+
 
 <?php include "inc/watched_items.php"; ?>
 

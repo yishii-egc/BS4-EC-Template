@@ -33,70 +33,19 @@
       <nav class="footer_nav">
         <dl class="row small">
           <dt class="col-12"><a href="category-all.php">カテゴリーから探す</a></dt>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">お得セット商品</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">ED治療薬</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">早漏防止薬</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">ペニス増大</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">媚薬</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">避妊薬</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">性病・感染症</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">男性薄毛治療薬</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">女性薄毛治療薬</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">体臭ケア</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">禁煙治療薬</a></dd>
+          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">セット商品</a></dd>
+          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">男性用の薬・サプリ</a></dd>
+          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">女性用の薬・サプリ</a></dd>
+          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">メンタル・睡眠薬</a></dd>
           <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">美容・スキンケア</a></dd>
+          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">筋肉増強剤</a></dd>
+          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">生活習慣病の薬</a></dd>
+          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">感染症・抗生物質</a></dd>
+          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">病気・症状</a></dd>
           <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">アレルギー</a></dd>
           <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">ダイエット</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">筋肉増強剤</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">ホルモン剤</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">不眠症・睡眠薬</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">メンタルヘルスケア</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">病気・症状</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">痛み止め</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">ホワイトニング</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">目薬</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">検査キット</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="category.php">サプリメント</a></dd>
-
-          <dt class="col-12"><a href="medical-guide-all.php">メディカルガイド</a></dt>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">EDとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">ED治療薬とは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">早漏とは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">早漏防止薬とは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">ペニス増大サプリとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">媚薬とは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">フェロモン香水とは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">催淫剤とは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3" class="col-6 col-md-4 col-xl-2"><a href="medical-guide-single.php">媚薬クリームとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">避妊とは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">避妊薬とは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">低用量ピルとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">超低用量ピルとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">アフターピルとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">避妊具とは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">性感染症とは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">性感染症治療薬とは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">クラミジアとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">淋病とは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">バイアグラとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">シアリスとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">レビトラとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">ステンドラとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">ザイデナとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">プリリジーとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">キシロカインとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">シルデナフィルとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">タダラフィルとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">バルデナフィルとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">アバナフィルとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">ウデナフィルとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">ダポキセチンとは</a></dd>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="medical-guide-single.php">リドカインとは</a></dd>
-
-          <dt class="col-12"><a href="maker-list.php">製薬会社ガイド</a></dt>
 
           <dt class="col-12"><span>ご利用ガイド</span></dt>
-          <dd class="col-6 col-md-4 col-xl-3"><a href="about.php">お薬通販部とは</a></dd>
           <dd class="col-6 col-md-4 col-xl-3"><a href="shipping-process.php">お買い物手順</a></dd>
           <dd class="col-6 col-md-4 col-xl-3"><a href="payment.php">お支払い方法</a></dd>
           <dd class="col-6 col-md-4 col-xl-3"><a href="delivery.php">配送について</a></dd>
@@ -110,7 +59,6 @@
           <li class="list-inline-item"><a href="privacy.php">プライバシーポリシー</a></li>
           <li class="list-inline-item"><a href="corporation.php">特定商取引法に基づく表記</a></li>
           <li class="list-inline-item"><a href="contact.php">お問い合わせ</a></li>
-          <li class="list-inline-item"><a href="sitemap.php">サイトマップ</a></li>
         </ul>
       </nav>
 

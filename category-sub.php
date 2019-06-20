@@ -26,7 +26,7 @@
 <!-- original CSS -->
 <link rel="stylesheet" href="css/category.css">
 
-<title>商品カテゴリー（大）｜医薬品・サプリメント【お薬通販部】</title>
+<title>商品カテゴリー（小）｜医薬品・サプリメント【お薬通販部】</title>
 </head>
 <body>
 <?php include "inc/header_p.php"; ?>
@@ -38,46 +38,44 @@
         <nav class="my_breadcrumb" aria-label="breadcrumb">
           <ol class="breadcrumb my_breadcrumb">
             <li class="breadcrumb-item"><a href="index.php">お薬通販部TOP</a></li>
-            <li class="breadcrumb-item active" aria-current="page">男性用の薬・サプリ</li>
+            <li class="breadcrumb-item"><a href="category.php">男性用の薬・サプリ</a></li>
+            <li class="breadcrumb-item active" aria-current="page">ED治療薬</li>
           </ol>
         </nav>
 
         <header>
-          <h1 class="categroy_h1">男性用の薬・サプリの通販商品</h1>
+          <h1 class="categroy_h1">ED治療薬の通販商品</h1>
           <p class="category_description">
-            ED（勃起不全）治療薬通販購入の商品一覧ページです。<br>
-            世界初のED治療薬バイアグラ、最大36時間の持続力があるシアリス、最短15分の即効性が特徴のレビトラ、万能型である第4のED治療薬ステンドラ、EDサプリや女性用の不感症改善薬をご紹介しています。
+            ED治療薬の通販商品の一覧ページです。
           </p>
         </header>
-        
+
         <nav class="category_subbox">
           <ul>
-            <li><a href="category-sub.php">ED治療薬 （10）</a></li>
-            <li><a href="category-sub.php">媚薬 （10）</a></li>
-            <li><a href="category-sub.php">早漏防止薬 （10）</a></li>
-            <li><a href="category-sub.php">ペニス増大サプリ （10）</a></li>
-            <li><a href="category-sub.php">EDサプリ （10）</a></li>
-            <li><a href="category-sub.php">早漏サプリ （10）</a></li>
-            <li><a href="category-sub.php">AGA・薄毛治療薬 （10）</a></li>
+            <li><a href="search-result.php">バイアグラ （10）</a></li>
+            <li><a href="search-result.php">レビトラ （10）</a></li>
+            <li><a href="search-result.php">シアリス （10）</a></li>
+            <li><a href="search-result.php">ステンドラ （10）</a></li>
+            <li><a href="search-result.php">ザイデナ （10）</a></li>
           </ul>
         </nav>
 
         <section class="sec_bottom">
-          <h2 class="main_h2">ED治療薬の商品一覧</h2>
+          <h2 class="main_h2">バイアグラジェネリックの通販商品一覧</h2>
 <?php include "inc/pagenation_items.php"; ?>
         </section>
 
         <section class="slick_step sec_bottom">
-          <h2 class="main_h2">ED治療薬の売れ筋商品</h2>
+          <h2 class="main_h2">バイアグラジェネリックの売れ筋商品</h2>
           <div class="slick_wrapper p-2">
             <div class="slick_item ">
-              <a href="item01.php" class="item_image">
+              <a href="item02.php" class="item_image">
                 <figure>
                   <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                 </figure>
               </a>
-              <div class="item_name"><a href="item01.php">バイアグラ1</a></div>
-              <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+              <div class="item_name"><a href="item02.php">バイアグラ1</a></div>
+              <div class="item_category"><a href="item02.php" class="badge badge-danger">ED治療薬</a></div>
               <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
               <div class="item_part_price small text-right">（1錠1,239円～）</div>
               <div class="item_desc small py-2">
@@ -85,13 +83,13 @@
               </div>
             </div>
             <div class="slick_item ">
-              <a href="item01.php" class="item_image">
+              <a href="item02.php" class="item_image">
                 <figure>
                   <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                 </figure>
               </a>
-              <div class="item_name"><a href="item01.php">バイアグラ1</a></div>
-              <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+              <div class="item_name"><a href="item02.php">バイアグラ1</a></div>
+              <div class="item_category"><a href="item02.php" class="badge badge-danger">ED治療薬</a></div>
               <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
               <div class="item_part_price small text-right">（1錠1,239円～）</div>
               <div class="item_desc small py-2">
@@ -99,13 +97,13 @@
               </div>
             </div>
             <div class="slick_item ">
-              <a href="item01.php" class="item_image">
+              <a href="item02.php" class="item_image">
                 <figure>
                   <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                 </figure>
               </a>
-              <div class="item_name"><a href="item01.php">バイアグラ2</a></div>
-              <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+              <div class="item_name"><a href="item02.php">バイアグラ2</a></div>
+              <div class="item_category"><a href="item02.php" class="badge badge-danger">ED治療薬</a></div>
               <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
               <div class="item_part_price small text-right">（1錠1,239円～）</div>
               <div class="item_desc small py-2">
@@ -113,13 +111,13 @@
               </div>
             </div>
             <div class="slick_item ">
-              <a href="item01.php" class="item_image">
+              <a href="item02.php" class="item_image">
                 <figure>
                   <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                 </figure>
               </a>
-              <div class="item_name"><a href="item01.php">バイアグラ3</a></div>
-              <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+              <div class="item_name"><a href="item02.php">バイアグラ3</a></div>
+              <div class="item_category"><a href="item02.php" class="badge badge-danger">ED治療薬</a></div>
               <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
               <div class="item_part_price small text-right">（1錠1,239円～）</div>
               <div class="item_desc small py-2">
@@ -127,13 +125,13 @@
               </div>
             </div>
             <div class="slick_item ">
-              <a href="item01.php" class="item_image">
+              <a href="item02.php" class="item_image">
                 <figure>
                   <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                 </figure>
               </a>
-              <div class="item_name"><a href="item01.php">バイアグラ4</a></div>
-              <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+              <div class="item_name"><a href="item02.php">バイアグラ4</a></div>
+              <div class="item_category"><a href="item02.php" class="badge badge-danger">ED治療薬</a></div>
               <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
               <div class="item_part_price small text-right">（1錠1,239円～）</div>
               <div class="item_desc small py-2">
@@ -148,8 +146,8 @@
           <h3 class="main_h3">ED治療薬の関連情報</h3>
           <nav class="inner_link">
             <ul class="">
-              <li class="list-inline-item"><a href="medical-guide-single.php" class="">ED（勃起不全）</a></li>
-              <li class="list-inline-item"><a href="medical-guide-single.php" class="">早漏症</a></li>
+              <li class="list-inline-item"><a href="" class="">ED（勃起不全）</a></li>
+              <li class="list-inline-item"><a href="" class="">早漏症</a></li>
             </ul>
           </nav>
         </aside>

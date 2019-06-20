@@ -1,3 +1,4 @@
 User-Agent: *
 Disallow: /
 Disallow: /rn_html/
+Disallow: /rn_html2/

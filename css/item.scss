@@ -8,6 +8,7 @@
   &::before {
     content: "\f469";
   }
+  margin-bottom: 1rem;
 }
 
 .table_cart {
@@ -66,7 +67,6 @@
 }
 
 .item_tabs {
-  border-top: solid 16px $White;
   border-right: solid 1px $White;
   background-color: $White;
   overflow-x: auto;
@@ -237,6 +237,8 @@
 }
 
 @media screen and (max-width: 767.98px) {
+  .btn_sns { width: 2rem;}
+  .sns_name { display: none;}
   .item_benefit {
     li { width: 33.3333%;}
   }

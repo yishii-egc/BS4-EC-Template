@@ -79,5 +79,49 @@ $(function(){
     });
   });
 
+// スムーススクロール
+  $(function(){
+    $('.item_intro a[href^="#"]').click(function(){
+      var speed = 200;
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var headerHeight = $('.navbar_main').outerHeight(); 
+      var position = target.offset().top - headerHeight - 16;
+      $("html, body").animate({scrollTop:position}, speed, "swing");
+      return false;
+    });
+  });
 
-// シェアボタン
+// slick
+$(function(){
+  $('.slick_wrapper').slick({
+    infinite: true,
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    prevArrow: '<button type="button" class="slick-prev btn btn-small btn_white_trans"><i class="fas fa-angle-left"></i></button>',
+    nextArrow: '<button type="button" class="slick-next btn btn-small btn_white_trans"><i class="fas fa-angle-right"></i></button>',
+    responsive: [
+    {
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 5,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    }
+    ]
+  });
+});

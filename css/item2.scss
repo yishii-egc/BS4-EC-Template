@@ -1,0 +1,496 @@
+@charset "UTF-8";
+@import "../common/css/common.scss";
+@import "../common/css/breadcrumb.scss";
+@import "../common/css/pagenation.scss";
+
+.item_h1 {
+  @include main_h1;
+  &::before { content: "\f469";}
+  margin-bottom: 1rem;
+}
+
+.table_cart {
+  caption {
+    caption-side: top;
+    color: $MainColor;
+    text-align: left;
+  }
+  td, th {
+    vertical-align: middle;
+    text-align: center;
+  }
+  td {
+    &:nth-last-of-type(3) {text-decoration: line-through;}
+  }
+  td {
+    &:nth-last-of-type(2) {
+      color: $TextRed;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+  }
+}
+
+.delivery0 {
+  border-bottom: solid 2px $TextRed;
+  color: $TextRed;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+
+.item_detail, .item_related, .item_dosage, .item_reaction, .item_precautions,
+.item_store, .item_info, .item_shipping_packing {
+  span {
+    color: $TextRed;
+    font-weight: bold;
+  }
+}
+
+.item_tabs {
+  border-right: solid 1px $White;
+  background-color: $White;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  width: 100%;
+  ul {
+    width: max-content;
+    min-width: 100%;
+    li {
+      flex-wrap: nowrap;
+      a {
+        background-color: lighten($MainNavy,78%);
+        border-top: solid 1px $BorderLightGrey !important;
+        border-right: solid 1px $BorderLightGrey !important;
+        border-left: solid 1px $BorderLightGrey !important;
+        white-space: nowrap;
+        &:hover { background-color: lighten($MainNavy,70%);}
+      }
+    }
+  }
+}
+
+.item_info {
+  h2 {
+    border-bottom: solid 2px $MainNavy;
+    margin-bottom: 1.6rem;
+    padding: .4rem 0 .4rem 2.2rem;
+    position: relative;
+    &::before,&::after {
+      content: "";
+      display: block;
+      position: absolute;
+    }
+    &::before {
+      border: solid 2px $MainNavy;
+      height: 1.4rem;
+      width: 1.4rem;
+      top: .4rem;
+      left: .5rem;
+      z-index: 2;
+    }
+    &::after {
+      border: solid 2px $MainGreen;
+      height: 1.2rem;
+      width: 1.2rem;
+      top: 1rem;
+      left: 0;
+      z-index: 1;
+    }
+  }
+  h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+    padding: .25rem 0 .25rem 2rem;
+    position: relative;
+    &::before,&::after {
+      content: "";
+      display: block;
+      position: absolute;
+    }
+    &::before {
+      border: solid 2px $MainNavy;
+      height: 1rem;
+      width: 1rem;
+      top: .4rem;
+      left: .5rem;
+      z-index: 2;
+    }
+    &::after {
+      border: solid 2px $MainGreen;
+      height: .8rem;
+      width: .8rem;
+      top: .9rem;
+      left: .2rem;
+      z-index: 1;
+    }
+  }
+  h4 {
+    border-bottom: solid 2px $MainNavy;
+    font-size: 1.2rem;
+    padding: .12rem .25rem;
+    position: relative;
+    width: fit-content;
+    &::after {
+      bottom: -2px;
+      position: absolute;
+      left: 0;
+      content: "";
+      width: 25%;
+      height: 2px;
+      background-color: $MainGreen;
+      display: block;
+    }
+
+  }
+  dl.overview {
+    margin-bottom: $BaseMargin/2;
+    dt {
+      border: solid 1px $MainNavy;
+      color: $MainNavy;
+      background-color: lighten($MainNavy, 78%);
+      padding: .25rem .5rem;
+      width: fit-content;
+      margin-bottom: 1rem;
+      position: relative;
+      &::after {
+        background-color: $MainNavy;
+        content: "";
+        display: block;
+        width: 1rem;
+        height: 1rem;
+        transform: rotate(45deg);
+        position: absolute;
+        bottom: -.5rem;
+        left: 1rem;
+        z-index: -1;
+      }
+    }
+    dd {
+      ul {
+        padding-left: 1.5rem;
+        li {
+          padding-bottom: .25rem;
+          border-bottom: dotted 1px darken($BorderLightGrey, 20%);
+        }
+      }
+    }
+  }
+  dl.effect {
+    border-radius: .5rem;
+    border: dotted 1px lighten($MainNavy, 50%);
+    width: fit-content;
+    padding: .5rem .75rem;
+    margin-bottom: 1.5rem;
+    dd { margin-bottom: 0;}
+  }
+  dl.notes {
+    border-radius: .5rem;
+    border: dotted 1px lighten($MainNavy, 50%);
+    padding: .5rem .75rem;
+    margin-bottom: 1.5rem;
+    dd {
+      ul {
+        li { border-bottom: dotted 1px $BorderLightGrey;}
+      }
+    }
+  }
+  dl.usage {
+    border-left: solid 1px $BorderLightGrey;
+    border-right: solid 1px $BorderLightGrey;
+    border-top: solid 1px $BorderLightGrey;
+    width: fit-content;
+    overflow: hidden;
+    dt, dd {
+      margin-bottom: 0;
+      padding: .5rem .75rem;
+      border-bottom: solid 1px $BorderLightGrey;
+    }
+    dt {
+      background-color: lighten($MainNavy,78%);
+    }
+  }
+  figure {
+    margin-bottom: $BaseMargin/2;
+    text-align: center;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  table.taking {
+    width: fit-content;
+    th { background-color: lighten($MainNavy,78%);}
+    caption {
+      caption-side: top;
+      color: $MainColor;
+    }
+  }
+  strong {
+    background: rgba(0, 0, 0, 0) linear-gradient(transparent 60%, lighten($MainGreen, 30%) 0%) repeat scroll 0 0;
+    color: $MainColor;
+  }
+  nav.inner_link {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: lighten($MainNavy, 78%);
+    a {
+      &::before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content:  "\f152";
+        margin-right: .25rem;
+      }
+    }
+    ul {
+      list-style: none;
+      margin-bottom: 0;
+      padding-left: 0;
+      li {
+        padding: .25rem;
+      }
+    }
+  }
+}
+
+main aside { border-right: none;}
+
+.review_body {
+  border-radius: .8rem;
+  background-color: lighten($MainGreen, 40%);
+  padding: 1rem;
+  position: relative;
+  &::before {
+    background-color: lighten($MainGreen, 40%);
+    content: "";
+    width: 1.6rem;
+    height: 1.6rem;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 1.2rem;
+    left: -.5rem;
+    z-index: -1;
+  }
+  .item_rate { float: left;}
+  .posted_date {float: right;}
+  .customer_name {
+    color: $TextRed;
+    font-weight: bold;
+  }
+  .customer_age {
+    color: $TextRed;
+    font-size: .9rem;
+  }
+  .customer_comment {clear: both;}
+}
+
+.img_wrapper {
+  position: relative;
+  .main_img{
+    border: solid 1px $BorderLightGrey;
+    margin-bottom: 4px;
+    text-align: center;
+  }
+  .thumbnails {
+    font-size: 0;
+    margin-left: -2px;
+    margin-right: -2px;
+    img {
+      border: solid 1px $BorderLightGrey;
+      margin: 0 2px;
+      width: calc(25% - 4px);
+    }
+  }
+  button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  }
+}
+
+.btn_cart {
+  color: $MainColor;
+  background: linear-gradient(to bottom, #f7dea1, #f0c24d);
+  box-shadow: 0 1px 0 #faecc8 inset;
+  &:hover {
+    color: $MainColor;
+    background: linear-gradient(to bottom, #f5d689, #eeba35);
+  }
+}
+
+.item_benefit {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.delivery_info {
+  background-color: lighten($MainNavy, 78%);
+  border-radius: 8px;
+  padding: .5rem 1rem;
+  display: flex;
+  align-items: center;
+  .item_stock {
+  }
+  dl {
+    max-width: 85%;
+    dt { display: inline-block;}
+    dd {
+      display: list-item;
+      font-size: .8rem;
+      margin-bottom: 0;
+      margin-left: 1rem;
+      &:first-of-type {
+        display: inline-block;
+        margin-left: .8rem;
+        font-size: 1.12rem;
+        span { color: red;}
+      }
+    }
+  }
+}
+
+.item_informations {
+  border-top: 16px;
+  position: relative;
+  .item_tabs {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+    width: 100%;
+    position: sticky;
+    z-index: 10;
+  }
+  #myTabContent {
+    border-bottom: solid 1px $BorderLightGrey;
+    border-left: solid 1px $BorderLightGrey;
+    border-right: solid 1px $BorderLightGrey;
+    border-radius: 0 0 .8rem .8rem;
+  }
+}
+
+.offcanvas_item {
+  background-color: $White;
+  border: solid 1px $MainNavy;
+  border-right: none;
+  border-radius: .5rem 0 0 .5rem;
+  position: fixed;
+  bottom: 1rem;
+  right: -100%;
+  padding: 1rem;
+  visibility: hidden;
+  transition-timing-function: ease-in-out;
+  transition-duration: .5s;
+  transition-property: right, visibility;
+  z-index: 1000;
+  box-shadow: 0 8px 8px rgba(0,0,0,0.4);
+  &.slidein {
+    visibility: visible;
+    right: 0
+  }
+  &.cart_hide {
+    visibility: hidden !important;
+    right: -100% !important;
+  }
+  .nav-link {
+    color: $MainColor !important;
+    &::after { color: $MainGreen;}
+  }
+}
+
+.percent_off {
+  width: 30px;
+  height: 30px;
+  padding-top: 4px;
+  font-size: 10px;
+  font-weight: bold;
+  background: $TextRed;
+  color: $White;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 50%;
+  display: block !important;
+  line-height: 1;
+}
+
+
+@media screen and (max-width: 575.98px) {
+  .slide_cart {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  .slide_cart {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .btn_sns { width: 2rem;}
+  .sns_name { display: none;}
+  .item_benefit {
+    li { width: 33.3333%;}
+  }
+  .delivery_info {
+    dl { max-width: 75%;}
+  }
+  .delivery0 { font-size: small;}
+  .table_cart {
+    font-size: .9rem;
+    th,td {
+      padding: .5rem .25rem;
+      span { display: none;}
+    }
+    th { font-size: small;}
+  }
+  .item_info {
+    dl.usage {
+      width: 100%;
+      dt, dd {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  .item_benefit {
+    li { width: 25%;}
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .item_benefit {
+    li { width: 50%;}
+  }
+  .delivery_info {
+    dl { max-width: 85%;}
+  }
+  .slide_cart {
+    width: 33.3333%;
+    .btn_cart {
+      span { display: none;}
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .slide_cart { width: 25%;}
+  .item_info_toc {
+    position: sticky;
+    top: $BaseMargin * 1.5;
+    z-index: 5;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .item_benefit {
+    li { width: 33.3333%;}
+  }
+  .delivery_info {
+    dl { max-width: 85%;}
+  }
+}

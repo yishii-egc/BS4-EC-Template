@@ -42,15 +42,12 @@
           <section class="sec_bottom">
 
             <div class="row no-gutters align-items-center item_row">
-              <div class="col-1 col-xl-1 cart_img pr-1 text-center">
-              1
-              </div>
               <div class="col-4 col-xl-2 col-xl-2 cart_img pr-1">
-                <a href="item01.php"><img src="images/items/01-viagra.jpg" alt="" class="img-fluid"></a>
+                <a href="item02.php"><img src="images/items/01-viagra.jpg" alt="" class="img-fluid"></a>
               </div>
-              <div class="col-6 col-xl-4 cart_item_name">
+              <div class="col-7 col-xl-5 cart_item_name">
                 <dl class="pr-3">
-                  <dt class="mb-2"><a href="item01.php">バイアグラ</a></dt>
+                  <dt class="mb-2"><a href="item02.php">バイアグラ</a></dt>
                   <dd class="text-right">5,510円 / 個</dd>
                 </dl>
               </div>
@@ -72,11 +69,11 @@
 
             <div class="row no-gutters align-items-center item_row">
               <div class="col-4 col-xl-2 col-xl-2 cart_img pr-1">
-                <a href="item01.php"><img src="images/items/70-virilitypills.jpg" alt="" class="img-fluid"></a>
+                <a href="item02.php"><img src="images/items/70-virilitypills.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="col-7 col-xl-5 cart_item_name">
                 <dl class="pr-3">
-                  <dt class="mb-2"><a href="item01.php">ビリリティピルズ</a></dt>
+                  <dt class="mb-2"><a href="item02.php">ビリリティピルズ</a></dt>
                   <dd class="text-right">2,800円 / 個</dd>
                 </dl>
               </div>
@@ -98,11 +95,11 @@
 
             <div class="row no-gutters align-items-center item_row">
               <div class="col-4 col-xl-2 col-xl-2 cart_img pr-1">
-                <a href="item01.php"><img src="images/items/46-priligy.jpg" alt="" class="img-fluid"></a>
+                <a href="item02.php"><img src="images/items/46-priligy.jpg" alt="" class="img-fluid"></a>
               </div>
               <div class="col-7 col-xl-5 cart_item_name">
                 <dl class="pr-3">
-                  <dt class="mb-2"><a href="item01.php">プリリジー</a></dt>
+                  <dt class="mb-2"><a href="item02.php">プリリジー</a></dt>
                   <dd class="text-right">7,580円 / 個</dd>
                 </dl>
               </div>

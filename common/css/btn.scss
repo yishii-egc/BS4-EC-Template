@@ -35,6 +35,17 @@
   }
 }
 
+.btn_navy_outline {
+  background-color: $White;
+  border: solid 1px $MainNavy;
+  color: $MainNavy;
+  &:hover {
+    color: $MainNavy;
+    background-color: lighten($MainNavy, 78%);
+    border-color: $MainNavy;
+  }
+}
+
 .btn_facebook {
   background-color: $ColorFacebook;
   border: solid 1px darken($ColorFacebook, 10%);

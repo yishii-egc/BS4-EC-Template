@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@import "../common/css/common.scss";
+@import "../common/css/breadcrumb.scss";
+@import "../common/css/pagenation.scss";
+
+.sale_h1 {
+  @include main_h1;
+  &::before {
+    content: "\f46b";
+  }
+}
+
+.sale_img { margin-bottom: $BaseMargin*.75;}
+
+.sale_description {
+  padding: .5rem 1rem;
+  margin-bottom: $BaseMargin;
+  border-radius: .5rem;
+  background-color: lighten($MainNavy,78%);
+  text-align: center;
+}
+
+@media screen and (max-width: 767.98px) {
+  .sale_img { margin-bottom: $BaseMargin*.5;}
+  .sale_description { margin-bottom: $BaseMargin*.75;}
+}
