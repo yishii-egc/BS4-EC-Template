@@ -542,14 +542,14 @@
             <h3>バイアグラの有効成分</h3>
             <nav class="inner_link">
               <ul class="">
-                <li class=""><a href="" class="">シルデナフィル</a></li>
+                <li class=""><a href="medical-guide-single.php" class="">シルデナフィル</a></li>
               </ul>
             </nav>
             <h3>バイアグラの適応症</h3>
             <nav class="inner_link">
               <ul class="">
-                <li class="list-inline-item"><a href="" class="">ED（勃起不全）</a></li>
-                <li class="list-inline-item"><a href="" class="">早漏症</a></li>
+                <li class="list-inline-item"><a href="medical-guide-single.php" class="">ED（勃起不全）</a></li>
+                <li class="list-inline-item"><a href="medical-guide-single.php" class="">早漏症</a></li>
               </ul>
             </nav>
 

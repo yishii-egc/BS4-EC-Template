@@ -71,13 +71,13 @@
           <h2 class="main_h2">ED治療薬の売れ筋商品</h2>
           <div class="slick_wrapper p-2">
             <div class="slick_item ">
-              <a href="item01.php" class="item_image">
+              <a href="item02.php" class="item_image">
                 <figure>
                   <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                 </figure>
               </a>
-              <div class="item_name"><a href="item01.php">バイアグラ1</a></div>
-              <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+              <div class="item_name"><a href="item02.php">バイアグラ1</a></div>
+              <div class="item_category"><a href="item02.php" class="badge badge-danger">ED治療薬</a></div>
               <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
               <div class="item_part_price small text-right">（1錠1,239円～）</div>
               <div class="item_desc small py-2">
@@ -85,13 +85,13 @@
               </div>
             </div>
             <div class="slick_item ">
-              <a href="item01.php" class="item_image">
+              <a href="item02.php" class="item_image">
                 <figure>
                   <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                 </figure>
               </a>
-              <div class="item_name"><a href="item01.php">バイアグラ1</a></div>
-              <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+              <div class="item_name"><a href="item02.php">バイアグラ1</a></div>
+              <div class="item_category"><a href="item02.php" class="badge badge-danger">ED治療薬</a></div>
               <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
               <div class="item_part_price small text-right">（1錠1,239円～）</div>
               <div class="item_desc small py-2">
@@ -99,13 +99,13 @@
               </div>
             </div>
             <div class="slick_item ">
-              <a href="item01.php" class="item_image">
+              <a href="item02.php" class="item_image">
                 <figure>
                   <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                 </figure>
               </a>
-              <div class="item_name"><a href="item01.php">バイアグラ2</a></div>
-              <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+              <div class="item_name"><a href="item02.php">バイアグラ2</a></div>
+              <div class="item_category"><a href="item02.php" class="badge badge-danger">ED治療薬</a></div>
               <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
               <div class="item_part_price small text-right">（1錠1,239円～）</div>
               <div class="item_desc small py-2">
@@ -113,13 +113,13 @@
               </div>
             </div>
             <div class="slick_item ">
-              <a href="item01.php" class="item_image">
+              <a href="item02.php" class="item_image">
                 <figure>
                   <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                 </figure>
               </a>
-              <div class="item_name"><a href="item01.php">バイアグラ3</a></div>
-              <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+              <div class="item_name"><a href="item02.php">バイアグラ3</a></div>
+              <div class="item_category"><a href="item02.php" class="badge badge-danger">ED治療薬</a></div>
               <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
               <div class="item_part_price small text-right">（1錠1,239円～）</div>
               <div class="item_desc small py-2">
@@ -127,13 +127,13 @@
               </div>
             </div>
             <div class="slick_item ">
-              <a href="item01.php" class="item_image">
+              <a href="item02.php" class="item_image">
                 <figure>
                   <img src="images/items/01-viagra.jpg" class="img-fluid" alt="">
                 </figure>
               </a>
-              <div class="item_name"><a href="item01.php">バイアグラ4</a></div>
-              <div class="item_category"><a href="item01.php" class="badge badge-danger">ED治療薬</a></div>
+              <div class="item_name"><a href="item02.php">バイアグラ4</a></div>
+              <div class="item_category"><a href="item02.php" class="badge badge-danger">ED治療薬</a></div>
               <div class="item_price">販売価格：<span class="text-danger">9,999円</span></div>
               <div class="item_part_price small text-right">（1錠1,239円～）</div>
               <div class="item_desc small py-2">

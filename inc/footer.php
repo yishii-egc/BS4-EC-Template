@@ -2,7 +2,7 @@
   <div class="footer_top container-fluid">
     <div class="row">
       <div class="col-lg-9 col-xl-10 offset-lg-3 offset-xl-2 footer_top_content pb-4 pb-md-5">
-        <h4 class="text-center mb-4"><a href="">お薬通販部とは</a></h4>
+        <h4 class="text-center mb-4"><a href="about.php">お薬通販部とは</a></h4>
         <p class="col-md-9 mx-auto mb-4">『お薬通販部』は、海外のすぐれた医薬品やサプリメント等をお客様ご自身で個人輸入するために必要な購入手続きをサポートする『個人輸入代行サービス』を担っております。</p>
        <div class="row justify-content-center">
           <div class="col-6 col-sm-3 col-xl-2">
