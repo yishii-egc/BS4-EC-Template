@@ -351,25 +351,6 @@ main aside { border-right: none;}
   }
 }
 
-.item_informations {
-  border-top: 16px;
-  position: relative;
-  .item_tabs {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    overflow-scrolling: touch;
-    width: 100%;
-    position: sticky;
-    z-index: 10;
-  }
-  #myTabContent {
-    border-bottom: solid 1px $BorderLightGrey;
-    border-left: solid 1px $BorderLightGrey;
-    border-right: solid 1px $BorderLightGrey;
-    border-radius: 0 0 .8rem .8rem;
-  }
-}
-
 .offcanvas_item {
   background-color: $White;
   border: solid 1px $MainNavy;
@@ -400,8 +381,8 @@ main aside { border-right: none;}
 }
 
 .percent_off {
-  width: 30px;
-  height: 30px;
+  width: 32px;
+  height: 32px;
   padding-top: 4px;
   font-size: 10px;
   font-weight: bold;
@@ -418,14 +399,10 @@ main aside { border-right: none;}
 
 
 @media screen and (max-width: 575.98px) {
-  .slide_cart {
-    width: 75%;
-  }
+  .slide_cart { width: 75%;}
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
-  .slide_cart {
-    width: 50%;
-  }
+  .slide_cart { width: 50%;}
 }
 
 @media screen and (max-width: 767.98px) {
@@ -484,7 +461,6 @@ main aside { border-right: none;}
     top: $BaseMargin * 1.5;
     z-index: 5;
   }
-  
 }
 
 @media screen and (min-width: 1200px) {

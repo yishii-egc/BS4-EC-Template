@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import "../common/css/common.scss";
+@import "../common/css/breadcrumb.scss";
+
+.medical_h1 {
+  @include main_h1;
+  &::before {
+    content: "\f7e6";
+  }
+}
+
+.card_medical {
+  height: calc(100% - 1rem);
+  position: relative;
+  .badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+  }
+  .card-text {
+    color: $MainColor;
+    font-size: .9rem;
+  }
+  &:hover {
+    .card-text { color: $MainColor;}
+  }
+}
+
+.medical_category_item {
+  border: solid 1px $BorderLightGrey;
+  display: block;
+  position: relative;
+  .category_name {
+    background: $MainGreenTr8;
+    bottom: 0;
+    border-left: solid .4rem $MainNavyTr8;
+    color: $White;
+    display: block;
+    padding: .4rem .8rem;
+    text-align: center;
+    text-shadow:2px 2px 3px #000000;
+    width: 100%;
+  }
+}

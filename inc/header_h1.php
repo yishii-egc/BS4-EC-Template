@@ -168,9 +168,6 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="sale.php">セール</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link" href="maker-list.php">お知らせ</a>
       </li>
       <li class="nav-item dropdown">
@@ -198,7 +195,7 @@
   <ul class="navbar-nav icon_nav">
     <li class="navbar-item">
       <a class="nav-link globalnav_cart" href="cart.php">
-        <i class="fas fa-shopping-cart"></i><span class="d-none d-xl-inline-block ml-1 small">カート</span><span class="badge badge-pill badge-danger cart_num">3</span>
+        <i class="fas fa-shopping-cart"></i><span class="d-none d-xl-inline-block ml-1 small">カート</span><span class="badge badge-pill badge-info cart_num">3</span>
       </a>
     </li>
     <li class="navbar-item">

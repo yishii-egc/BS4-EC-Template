@@ -156,7 +156,7 @@
 
               <h2 class="main_h2" id="guide02">電話で注文</h2>
               <p>日本語サポートデスク注文専用番号あてにお電話ください。</p>
-              <dl class="row">
+              <dl class="row mx-0">
                 <dt class="col-4 col-xl-3">注文専用番号</dt>
                 <dd class="col-8 col-xl-9">050-5806-4632</dd>
                 <dt class="col-4 col-xl-3">ご注文受付時間</dt>
