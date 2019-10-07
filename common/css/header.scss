@@ -3,10 +3,13 @@
   h1, p { line-height: 1;}
 }
 .navbar_main {
-  background-color: $MainNavy;
+  background-color: $KeyColor1;
   position: sticky;
   top: 0;
   z-index: 20;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: $White;
 }
 
 .globalnav_dropdown_menu {
@@ -14,7 +17,7 @@
     button {
       background: none;
       border: none;
-      color: $MainGreen;
+      color: $KeyColor2;
       margin-right: .5rem;
       &:hover { cursor: pointer;}
     }
@@ -38,8 +41,8 @@
 }
 .form_sitesearch {
   .btn {
-    background-color: $MainGreen;
-    border: $MainGreen;
+    background-color: $KeyColor2;
+    border: $KeyColor2;
     color: $White;
   }
 }

@@ -4,7 +4,7 @@
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="ED治療薬通販の商品一覧ページ｜バイアグラ・シアリス・レビトラ・ステンドラやEDサプリメント・不感症改善薬など様々な治療薬をご紹介。安全なメーカー正規品のジェネリック医薬品や海外医薬品を最安値でのお求めは【お薬通販部】にお任せください!!">
+<meta name="description" content="ED治療薬通販の商品一覧ページ｜バイアグラ・シアリス・レビトラ・ステンドラやEDサプリメント・不感症改善薬など様々な治療薬をご紹介。安全なメーカー正規品のジェネリック医薬品や海外医薬品を最安値でのお求めは【薬ストア】にお任せください!!">
 <link rel="canonical" href="https://okusuri-shop.com/cart.php">
 
 <!-- Google font -->
@@ -23,7 +23,7 @@
 <!-- original CSS -->
 <link rel="stylesheet" href="css/cart.css">
 
-<title>カート｜医薬品・サプリメント【お薬通販部】</title>
+<title>カート｜医薬品・サプリメント【薬ストア】</title>
 </head>
 <body>
 <?php include "inc/header_h1.php"; ?>
@@ -34,7 +34,7 @@
 
         <nav class="my_breadcrumb" aria-label="breadcrumb">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home mr-1"></i>お薬通販部TOP</a></li>
+            <li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home mr-1"></i>薬ストアTOP</a></li>
             <li class="breadcrumb-item active" aria-current="page">カート</li>
           </ol>
         </nav>

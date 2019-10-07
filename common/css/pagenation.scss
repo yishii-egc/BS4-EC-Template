@@ -28,7 +28,7 @@
         margin-left: -1px;
         line-height: 1.25;
         color: $MainLink;
-        background-color: #fff;
+        background-color: $White;
         border: 1px solid #dee2e6;
       }
       &:first-of-type {
@@ -41,8 +41,8 @@
     li.current a {
         z-index: 1;
         color: #fff;
-        background-color: $MainNavy;
-        border-color: $MainNavy;
+        background-color: $KeyColor1;
+        border-color: $KeyColor1;
     }
   }
 }

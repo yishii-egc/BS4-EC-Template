@@ -16,7 +16,7 @@
   .card-body {
     border-bottom: solid 1px $BorderLightGrey;
     &:last-child {
-      background-color: lighten($MainNavy, 78%);
+      background-color: lighten($KeyColor1, 78%);
       border-bottom: none;
       dl {
         dt {
@@ -38,7 +38,7 @@
     .item_row {
       [class*=col-] {
         &:last-child {
-          background-color: lighten($MainNavy, 78%);
+          background-color: lighten($KeyColor1, 78%);
           padding: .25rem;
         }
       }

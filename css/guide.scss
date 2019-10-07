@@ -19,7 +19,7 @@
   margin-bottom: $BaseMargin;
   a {text-decoration: underline;}
   h2 {
-    border-bottom: solid 2px $MainNavy;
+    border-bottom: solid 2px $KeyColor1;
     font-size: 1.8rem;
     margin-bottom: 1.6rem;
     padding: .4rem 0 .4rem 2.4rem;
@@ -30,7 +30,7 @@
       position: absolute;
     }
     &::before {
-      border: solid 2px $MainNavy;
+      border: solid 2px $KeyColor1;
       height: 1.4rem;
       width: 1.4rem;
       top: .6rem;
@@ -38,7 +38,7 @@
       z-index: 2;
     }
     &::after {
-      border: solid 2px $MainGreen;
+      border: solid 2px $KeyColor2;
       height: 1.2rem;
       width: 1.2rem;
       top: 1.2rem;
@@ -53,7 +53,7 @@
   }
 
   h3 {
-    border-bottom: solid 2px $MainNavy;
+    border-bottom: solid 2px $KeyColor1;
     font-size: 1.4rem;
     margin-bottom: 1.2rem;
     padding: .25rem 2rem;
@@ -64,7 +64,7 @@
       position: absolute;
     }
     &::before {
-      border: solid 2px $MainNavy;
+      border: solid 2px $KeyColor1;
       height: 1rem;
       width: 1rem;
       top: .4rem;
@@ -72,7 +72,7 @@
       z-index: 2;
     }
     &::after {
-      border: solid 2px $MainGreen;
+      border: solid 2px $KeyColor2;
       height: .8rem;
       width: .8rem;
       top: .9rem;
@@ -86,7 +86,7 @@
     }
   }
   h4 {
-    border-left: solid 4px $MainNavy;
+    border-left: solid 4px $KeyColor1;
     font-size: 1.25rem;
     padding-left: .25rem;
   }
@@ -95,7 +95,7 @@
     font-weight: bold;
   }
   dl {
-    background-color: lighten($MainNavy,78%);
+    background-color: lighten($KeyColor1,78%);
     border-radius: .4rem;
     margin-bottom: 1.5rem;
     padding: 1rem;
@@ -107,7 +107,7 @@
       margin-bottom: $BaseMargin/4;
       > span {
         display: inline-block;
-        background-color: $MainGreen;
+        background-color: $KeyColor2;
         border-radius: .25rem;
         color: $White;
         padding: .15rem .75rem;
@@ -116,7 +116,7 @@
         &::after {
           content: "";
           display: block;
-          background-color: $MainGreen;
+          background-color: $KeyColor2;
           transform: rotate(45deg);
           position: absolute;
           width: .75rem;
@@ -130,7 +130,7 @@
       }
     }
     dd {
-      border-bottom: dotted 1px $MainNavy;
+      border-bottom: dotted 1px $KeyColor1;
       margin-bottom: $BaseMargin/4;
       padding-bottom: $BaseMargin/4;
       p:first-child {
@@ -163,7 +163,7 @@
     }
   }
   ul {
-    background-color: lighten($MainNavy,78%);
+    background-color: lighten($KeyColor1,78%);
     border-radius: .4rem;
     padding: 1rem 1rem 1rem 2.5rem;
   }

@@ -4,7 +4,7 @@
 
   .offcanvas-collapse {
     background-color: $White;
-    border-right: solid 8px $MainNavy;
+    border-right: solid 8px $KeyColor1;
     position: fixed;
     top: 0;/* Height of navbar */
     height: 100vh;
@@ -25,7 +25,7 @@
     }
     .nav-link {
       color: $MainColor !important;
-      &::after { color: $MainGreen;}
+      &::after { color: $KeyColor2;}
     }
   }
 

@@ -6,174 +6,195 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <a class="navbar-brand mr-auto mr-lg-2 site_logo" href="index.php">
-    <img src="common/images/logo2.png" alt="お薬通販部 Online Pharmacy" class="img-fluid">
+    <img src="common/images/logo2.png" alt="薬ストア" class="img-fluid">
   </a>
   <div class="navbar-collapse offcanvas-collapse globalnav pt-4 pt-lg-0">
     <ul class="navbar-nav">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle drop-hover" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">商品カテゴリー</a>
         <div class="dropdown-menu globalnav_dropdown_menu mb-2" aria-labelledby="dropdown01">
-          <a href="category.php" class="dropdown-item">セット商品</a>
+          <a href="category.php" class="dropdown-item">キャンペーン</a>
 
           <div class="btn-group w-100" role="group">
-            <a href="category.php" class="dropdown-item">男性用の薬・サプリ</a>
+            <a href="category.php" class="dropdown-item">ED治療薬</a>
             <button type="button" class="submenu_toggle" data-toggle="collapse" data-target="#submenu01" aria-expanded="false" aria-controls="submenu01">
               <i class="fa fa-caret-down"></i>
             </button>
           </div>
           <div id="submenu01" class="submenu collapse">
-            <a href="category.php" class="dropdown-item">ED治療薬</a>
-            <a href="category.php" class="dropdown-item">媚薬</a>
-            <a href="category.php" class="dropdown-item">早漏防止薬</a>
-            <a href="category.php" class="dropdown-item">ペニス増大サプリ</a>
+            <a href="category.php" class="dropdown-item">バイアグラ</a>
+            <a href="category.php" class="dropdown-item">シアリス</a>
+            <a href="category.php" class="dropdown-item">レビトラ</a>
+            <a href="category.php" class="dropdown-item">ステンドラ</a>
             <a href="category.php" class="dropdown-item">EDサプリ</a>
-            <a href="category.php" class="dropdown-item">早漏サプリ</a>
-            <a href="category.php" class="dropdown-item">AGA・薄毛治療薬</a>
+            <a href="category.php" class="dropdown-item">不感症改善</a>
           </div>
 
           <div class="btn-group w-100" role="group">
-            <a href="category.php" class="dropdown-item">女性用の薬・サプリ</a>
+            <a href="category.php" class="dropdown-item">早漏改善・早漏防止</a>
             <button type="button" class="submenu_toggle" data-toggle="collapse" data-target="#submenu02" aria-expanded="false" aria-controls="submenu2">
               <i class="fa fa-caret-down"></i>
             </button>
           </div>
           <div id="submenu02" class="submenu collapse">
-            <a href="category.php" class="dropdown-item">不感症改善</a>
-            <a href="category.php" class="dropdown-item">避妊薬・ピル</a>
-            <a href="category.php" class="dropdown-item">媚薬</a>
-            <a href="category.php" class="dropdown-item">美容・ダイエット</a>
-            <a href="category.php" class="dropdown-item">FAGA・育毛</a>
-            <a href="category.php" class="dropdown-item">不妊治療薬</a>
-            <a href="category.php" class="dropdown-item">更年期障害</a>
+            <a href="category.php" class="dropdown-item">早漏+ED</a>
+            <a href="category.php" class="dropdown-item">プリリジー</a>
+            <a href="category.php" class="dropdown-item">リドカイン</a>
           </div>
 
           <div class="btn-group w-100" role="group">
             <a href="category.php" class="dropdown-item">ペニス増大</a>
+          </div>
+
+          <div class="btn-group w-100" role="group">
+            <a href="category.php" class="dropdown-item">性病・感染症</a>
             <button type="button" class="submenu_toggle" data-toggle="collapse" data-target="#submenu03" aria-expanded="false" aria-controls="submenu03">
               <i class="fa fa-caret-down"></i>
             </button>
           </div>
           <div id="submenu03" class="submenu collapse">
-            <a href="category.php" class="dropdown-item">不眠症・睡眠薬</a>
-            <a href="category.php" class="dropdown-item">不安障害・抗不安薬</a>
-            <a href="category.php" class="dropdown-item">抗うつ剤</a>
-            <a href="category.php" class="dropdown-item">統合失調症</a>
-            <a href="category.php" class="dropdown-item">あがり症・緊張緩和</a>
-            <a href="category.php" class="dropdown-item">その他メンタルヘルスケア</a>
+            <a href="category.php" class="dropdown-item">クラミジア・淋病</a>
+            <a href="category.php" class="dropdown-item">ヘルペス・水疱瘡</a>
+            <a href="category.php" class="dropdown-item">カンジダ・水虫</a>
+            <a href="category.php" class="dropdown-item">コンジローマ</a>
+            <a href="category.php" class="dropdown-item">トリコモナス・その他</a>
           </div>
 
           <div class="btn-group w-100" role="group">
-            <a href="category.php" class="dropdown-item">美容・スキンケア</a>
+            <a href="category.php" class="dropdown-item">避妊薬ピル</a>
             <button type="button" class="submenu_toggle" data-toggle="collapse" data-target="#submenu04" aria-expanded="false" aria-controls="submenu04">
               <i class="fa fa-caret-down"></i>
             </button>
           </div>
           <div id="submenu04" class="submenu collapse">
-            <a href="category.php" class="dropdown-item">ニキビ</a>
-            <a href="category.php" class="dropdown-item">美白・エイジングケア</a>
-            <a href="category.php" class="dropdown-item">日焼け止め</a>
-            <a href="category.php" class="dropdown-item">むくみ解消</a>
-            <a href="category.php" class="dropdown-item">バストアップ</a>
-            <a href="category.php" class="dropdown-item">ボディケア</a>
-            <a href="category.php" class="dropdown-item">美容サプリ</a>
-            <a href="category.php" class="dropdown-item">美容サプリ</a>
-            <a href="category.php" class="dropdown-item">まつげ美容液</a>
-            <a href="category.php" class="dropdown-item">ホワイトニング</a>
+            <a href="category.php" class="dropdown-item">低用量ピル</a>
+            <a href="category.php" class="dropdown-item">アフターピル（緊急避妊）</a>
           </div>
 
           <div class="btn-group w-100" role="group">
-            <a href="category.php" class="dropdown-item">筋肉増強剤</a>
+            <a href="category.php" class="dropdown-item">検査キット</a>
+          </div>
+
+          <div class="btn-group w-100" role="group">
+            <a href="category.php" class="dropdown-item">媚薬・フェロモン香水</a>
+          </div>
+
+          <div class="btn-group w-100" role="group">
+            <a href="category.php" class="dropdown-item">体臭改善</a>
+          </div>
+
+          <div class="btn-group w-100" role="group">
+            <a href="category.php" class="dropdown-item">禁煙治療薬</a>
+          </div>
+
+          <div class="btn-group w-100" role="group">
+            <a href="category.php" class="dropdown-item">薄毛・発毛・育毛剤</a>
             <button type="button" class="submenu_toggle" data-toggle="collapse" data-target="#submenu05" aria-expanded="false" aria-controls="submenu05">
               <i class="fa fa-caret-down"></i>
             </button>
           </div>
           <div id="submenu05" class="submenu collapse">
-            <a href="category.php" class="dropdown-item">プロテイン</a>
-            <a href="category.php" class="dropdown-item">ステロイド</a>
+            <a href="category.php" class="dropdown-item">男性用</a>
+            <a href="category.php" class="dropdown-item">女性用</a>
+            <a href="category.php" class="dropdown-item">男女兼用・その他</a>
           </div>
 
           <div class="btn-group w-100" role="group">
-            <a href="category.php" class="dropdown-item">生活習慣病の薬</a>
-            <button type="button" class="submenu_toggle" data-toggle="collapse" data-target="#submenu06" aria-expanded="false" aria-controls="submenu06">
+            <a href="category.php" class="dropdown-item">抗うつ薬・精神安定剤</a>
+          </div>
+
+          <div class="btn-group w-100" role="group">
+            <a href="category.php" class="dropdown-item">睡眠薬・睡眠導入剤</a>
+          </div>
+
+          <div class="btn-group w-100" role="group">
+            <a href="category.php" class="dropdown-item">美容スキンケア</a>
+            <button type="button" class="submenu_toggle" data-toggle="collapse" data-target="#submenu06" aria-expanded="false" aria-controls="submenu06
+             ">
               <i class="fa fa-caret-down"></i>
             </button>
           </div>
           <div id="submenu06" class="submenu collapse">
-            <a href="category.php" class="dropdown-item">禁煙治療薬</a>
-            <a href="category.php" class="dropdown-item">高脂血症の薬</a>
-            <a href="category.php" class="dropdown-item">糖尿病・高血糖値</a>
-            <a href="category.php" class="dropdown-item">痛風・高尿酸値</a>
-            <a href="category.php" class="dropdown-item">高血圧・狭心症</a>
-            <a href="category.php" class="dropdown-item">二日酔い</a>
+            <a href="category.php" class="dropdown-item">ニキビ</a>
+            <a href="category.php" class="dropdown-item">美肌・しわ改善・日焼け止め</a>
+            <a href="category.php" class="dropdown-item">むくみ取り・バスト他</a>
           </div>
 
           <div class="btn-group w-100" role="group">
-            <a href="category.php" class="dropdown-item">感染症・抗生物質</a>
-            <button type="button" class="submenu_toggle" data-toggle="collapse" data-target="#submenu07" aria-expanded="false" aria-controls="submenu07">
+            <a href="category.php" class="dropdown-item">ヒマラヤハーブ</a>
+          </div>
+
+          <div class="btn-group w-100" role="group">
+            <a href="category.php" class="dropdown-item">スマートドラッグ</a>
+          </div>
+
+          <div class="btn-group w-100" role="group">
+            <a href="category.php" class="dropdown-item">まつ毛育毛剤育毛剤</a>
+          </div>
+
+          <div class="btn-group w-100" role="group">
+            <a href="category.php" class="dropdown-item">目薬</a>
+          </div>
+
+          <div class="btn-group w-100" role="group">
+            <a href="category.php" class="dropdown-item">痛み止め</a>
+            <button type="button" class="submenu_toggle" data-toggle="collapse" data-target="#submenu07" aria-expanded="false" aria-controls="submenu07
+             ">
               <i class="fa fa-caret-down"></i>
             </button>
           </div>
           <div id="submenu07" class="submenu collapse">
-            <a href="category.php" class="dropdown-item">クラミジア</a>
-            <a href="category.php" class="dropdown-item">淋病</a>
-            <a href="category.php" class="dropdown-item">梅毒</a>
-            <a href="category.php" class="dropdown-item">ヘルペス</a>
-            <a href="category.php" class="dropdown-item">カンジダ</a>
-            <a href="category.php" class="dropdown-item">水虫・いんきんたむし</a>
-            <a href="category.php" class="dropdown-item">インフルエンザ</a>
-            <a href="category.php" class="dropdown-item">検査キット</a>
-            <a href="category.php" class="dropdown-item">その他</a>
+            <a href="category.php" class="dropdown-item">肩こり・頭痛・片頭痛</a>
+            <a href="category.php" class="dropdown-item">痛風・消炎・鎮痛剤・その他</a>
           </div>
 
           <div class="btn-group w-100" role="group">
-            <a href="category.php" class="dropdown-item">病気・症状</a>
-            <button type="button" class="submenu_toggle" data-toggle="collapse" data-target="#submenu08" aria-expanded="false" aria-controls="submenu08">
+            <a href="category.php" class="dropdown-item">喘息・アレルギー</a>
+          </div>
+
+          <div class="btn-group w-100" role="group">
+            <a href="category.php" class="dropdown-item">二日酔い対策</a>
+          </div>
+
+          <div class="btn-group w-100" role="group">
+            <a href="category.php" class="dropdown-item">生活習慣病（糖尿病他）</a>
+          </div>
+
+          <div class="btn-group w-100" role="group">
+            <a href="category.php" class="dropdown-item">ダイエット</a>
+            <button type="button" class="submenu_toggle" data-toggle="collapse" data-target="#submenu08" aria-expanded="false" aria-controls="submenu08
+             ">
               <i class="fa fa-caret-down"></i>
             </button>
           </div>
           <div id="submenu08" class="submenu collapse">
-            <a href="category.php" class="dropdown-item">胃炎・肝臓病</a>
-            <a href="category.php" class="dropdown-item">二日酔い</a>
-            <a href="category.php" class="dropdown-item">痔・いぼ痔</a>
-            <a href="category.php" class="dropdown-item">認知症</a>
-            <a href="category.php" class="dropdown-item">頻尿・尿失禁</a>
-            <a href="category.php" class="dropdown-item">眼病・目薬</a>
-            <a href="category.php" class="dropdown-item">多汗症・体臭ケア</a>
+            <a href="category.php" class="dropdown-item">脂肪燃焼・食欲抑制剤</a>
+            <a href="category.php" class="dropdown-item">ゼニカル・脂肪阻害剤</a>
+            <a href="category.php" class="dropdown-item">栄養補充・その他</a>
           </div>
 
           <div class="btn-group w-100" role="group">
-            <a href="category.php" class="dropdown-item">アレルギー</a>
-            <button type="button" class="submenu_toggle" data-toggle="collapse" data-target="#submenu09" aria-expanded="false" aria-controls="submenu09">
+            <a href="category.php" class="dropdown-item">ホルモン剤（男・女）</a>
+            <button type="button" class="submenu_toggle" data-toggle="collapse" data-target="#submenu09" aria-expanded="false" aria-controls="submenu09
+             ">
               <i class="fa fa-caret-down"></i>
             </button>
           </div>
           <div id="submenu09" class="submenu collapse">
-            <a href="category.php" class="dropdown-item">気管支喘息</a>
-            <a href="category.php" class="dropdown-item">アレルギー性鼻炎</a>
-            <a href="category.php" class="dropdown-item">アトピー性皮膚炎</a>
-          </div>
-
-          <div class="btn-group w-100" role="group">
-            <a href="category.php" class="dropdown-item">ダイエット</a>
-            <button type="button" class="submenu_toggle" data-toggle="collapse" data-target="#submenu10" aria-expanded="false" aria-controls="submenu10">
-              <i class="fa fa-caret-down"></i>
-            </button>
-          </div>
-          <div id="submenu10" class="submenu collapse">
-            <a href="category.php" class="dropdown-item">ダイエット</a>
-            <a href="category.php" class="dropdown-item">ゼニカル</a>
-            <a href="category.php" class="dropdown-item">便秘薬</a>
+            <a href="category.php" class="dropdown-item">筋肉・精力増強</a>
+            <a href="category.php" class="dropdown-item">更年期障害</a>
+            <a href="category.php" class="dropdown-item">不妊治療</a>
           </div>
 
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="maker-list.php">お知らせ</a>
+        <a class="nav-link" href="maker-list.php">メディカル知識</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle drop-hover" href="" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ご利用ガイド</a>
         <div class="dropdown-menu globalnav_dropdown_menu mb-2" aria-labelledby="dropdown03">
-          <a href="about.php" class="dropdown-item">お薬通販部とは</a>
+          <a href="about.php" class="dropdown-item">薬ストアとは</a>
           <a href="shipping-process.php" class="dropdown-item">お買い物手順</a>
           <a href="payment.php" class="dropdown-item">お支払い方法</a>
           <a href="delivery.php" class="dropdown-item">配送について</a>

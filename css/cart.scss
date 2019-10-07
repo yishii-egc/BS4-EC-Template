@@ -18,7 +18,7 @@
 
 .discount_row {
   dt {
-    color: $MainNavy;
+    color: $KeyColor1;
     font-size: 1.2rem;
     margin-bottom: 1.25rem;
   }
@@ -50,7 +50,7 @@
       padding: .5rem 0;
     }
     dt.total, dd.total {
-      background-color: lighten( $MainNavy, 78%);
+      background-color: lighten( $KeyColor1, 78%);
       padding: .25rem;
       font-size: 1.5rem;
       margin-bottom: 0;

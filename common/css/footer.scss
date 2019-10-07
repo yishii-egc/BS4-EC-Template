@@ -10,7 +10,7 @@
   }
 }
 .footer_bottom {
-  background-color: $MainNavy;
+  background-color: $KeyColor1;
   color: $White;
   padding-top: 2rem;
   padding-bottom: 1rem;
@@ -28,7 +28,7 @@
     display: inline-block;
     a::before {
       content: "\f0da";
-      color: $MainGreen;
+      color: $KeyColor2;
       font-family: "Font Awesome 5 Free";
       font-weight: 900;
       margin-right: .3rem;

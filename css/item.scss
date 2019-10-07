@@ -38,17 +38,17 @@
     border-radius: 8px;
   }
   .medical_link {
-    background-color: lighten($MainNavy, 78%);
+    background-color: lighten($KeyColor1, 78%);
     padding: 1rem;
     margin-bottom: $BaseMargin / 3;
   }
   .bibliography {
-    background-color: lighten($MainNavy, 78%);
+    background-color: lighten($KeyColor1, 78%);
     border-radius: .4rem;
     margin-bottom: 1.5rem;
     padding: 1rem;
     h5 {
-      border-left: solid 4px $MainNavy;
+      border-left: solid 4px $KeyColor1;
       font-size: 1rem;
       font-weight: bold;
       padding-left: .25rem;
@@ -60,7 +60,7 @@
   }
   .inner_link {
     padding: 1rem;
-    background-color: lighten($MainNavy, 78%);
+    background-color: lighten($KeyColor1, 78%);
     border-radius: .4rem;
     text-decoration: none;
   }
@@ -79,28 +79,24 @@
     li {
       flex-wrap: nowrap;
       a {
-        background-color: lighten($MainNavy,78%);
+        background-color: lighten($KeyColor1,78%);
         border-top: solid 1px $BorderLightGrey !important;
         border-right: solid 1px $BorderLightGrey !important;
         border-left: solid 1px $BorderLightGrey !important;
         white-space: nowrap;
-        &:hover { background-color: lighten($MainNavy,70%);}
+        &:hover { background-color: lighten($KeyColor1,70%);}
       }
     }
   }
 }
 
-.item_reviews {
-
-}
-
 .review_body {
   border-radius: .8rem;
-  background-color: lighten($MainGreen, 40%);
+  background-color: lighten($KeyColor2, 40%);
   padding: 1rem;
   position: relative;
   &::before {
-    background-color: lighten($MainGreen, 40%);
+    background-color: lighten($KeyColor2, 40%);
     content: "";
     width: 1.6rem;
     height: 1.6rem;
@@ -163,7 +159,7 @@
 }
 
 .delivery_info {
-  background-color: lighten($MainNavy, 78%);
+  background-color: lighten($KeyColor1, 78%);
   border-radius: 8px;
   padding: .8rem 1.6rem;
   display: flex;
@@ -209,7 +205,7 @@
 
 .offcanvas_item {
   background-color: $White;
-  border: solid 1px $MainNavy;
+  border: solid 1px $KeyColor1;
   border-right: none;
   border-radius: .5rem 0 0 .5rem;
   position: fixed;
@@ -232,7 +228,7 @@
   }
   .nav-link {
     color: $MainColor !important;
-    &::after { color: $MainGreen;}
+    &::after { color: $KeyColor2;}
   }
 }
 

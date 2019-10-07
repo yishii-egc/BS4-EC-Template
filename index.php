@@ -4,7 +4,7 @@
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="ED治療薬、早漏防止薬、ペニス増大、媚薬、避妊薬AGA治療薬など数多くの人気商品をご用意しています。安心・安全なメーカー正規品のジェネリック医薬品、海外医薬品、サプリを最安値でのお求めは個人輸入代行サイト【お薬通販部】にお任せください!!">
+<meta name="description" content="ED治療薬、早漏防止薬、ペニス増大、媚薬、避妊薬AGA治療薬など数多くの人気商品をご用意しています。安心・安全なメーカー正規品のジェネリック医薬品、海外医薬品、サプリを最安値でのお求めは個人輸入代行サイト【薬ストア】にお任せください!!">
 <link rel="canonical" href="https://okusuri-shop.com/">
 
 <!-- Google font -->
@@ -27,7 +27,7 @@
 <!-- original CSS -->
 <link rel="stylesheet" href="css/home.css">
 
-<title>医薬品・サプリメント【お薬通販部】</title>
+<title>医薬品・サプリメント【薬ストア】</title>
 </head>
 <body>
 <?php include "inc/header_h1.php"; ?>
@@ -123,14 +123,14 @@
         </div><!-- / .home_slide -->
 
         <setction class="sec_bottom first_visit">
-          <h2 class="text-center mb-4">ようこそお薬通販部へ</h2>
+          <h2 class="text-center mb-4">ようこそ薬ストアへ</h2>
           <div class="row justify-content-center mb-5">
             <div class="col-10 col-sm-5 col-md-4 col-xl-3 pt-4 bg_blue">
-              <p class="text-center mb-2"><a href="" data-toggle="modal" data-target="#login_modal" class="btn btn-block btn_navy">ログイン</a></p>
+              <p class="text-center mb-2"><a href="" data-toggle="modal" data-target="#login_modal" class="btn btn-block btn_key01">ログイン</a></p>
               <p class="small text-center">会員の方はこちらへ</p>
             </div>
             <div class="col-10 col-sm-5 col-md-4 col-xl-3 pt-4 bg_blue">
-              <p class="text-center mb-2"><a href="entry.php" class="btn btn-block btn_green">新規会員登録（無料）</a></p>
+              <p class="text-center mb-2"><a href="entry.php" class="btn btn-block btn_key02">新規会員登録（無料）</a></p>
               <p class="small text-center">はじめての方はこちらへ</p>
             </div>
           </div>
@@ -142,176 +142,220 @@
             <li class="col-6 col-md-4 col-xl-3 mb-4">
               <a href="category.php" class="category_item">
                 <img src="images/home/top-category-set-items.png" alt="" class="img-fluid">
-                <span class="category_name">セット商品</span>
+                <span class="category_name">キャンペーン</span>
               </a>
             </li>
             <li class="col-6 col-md-4 col-xl-3 mb-4">
               <a href="category.php" class="category_item">
                 <img src="images/home/top-category-ed.png" alt="" class="img-fluid">
-                <span class="category_name">男性用の薬・サプリ</span>
+                <span class="category_name">ED治療薬</span>
               </a>
               <button class="btn_category_more" data-toggle="collapse" data-target="#child01" aria-expanded="false" aria-controls="child01">
                 <i class="fas fa-caret-down"></i>
               </button>
               <div class="category_child list-group mt-1 collapse" id="child01">
-                <a href="category.php" class="list-group-item">ED治療薬</a>
-                <a href="category.php" class="list-group-item">媚薬</a>
-                <a href="category.php" class="list-group-item">早漏防止薬</a>
-                <a href="category.php" class="list-group-item">ペニス増大サプリ</a>
+                <a href="category.php" class="list-group-item">バイアグラ</a>
+                <a href="category.php" class="list-group-item">シアリス</a>
+                <a href="category.php" class="list-group-item">レビトラ</a>
+                <a href="category.php" class="list-group-item">ステンドラ</a>
                 <a href="category.php" class="list-group-item">EDサプリ</a>
-                <a href="category.php" class="list-group-item">早漏サプリ</a>
-                <a href="category.php" class="list-group-item">AGA・薄毛治療薬</a>
+                <a href="category.php" class="list-group-item">不感症改善</a>
               </div>
             </li>
             <li class="col-6 col-md-4 col-xl-3 mb-4">
               <a href="category.php" class="category_item">
                 <img src="images/home/top-category-pe.png" alt="" class="img-fluid">
-                <span class="category_name">女性用の薬・サプリ</span>
+                <span class="category_name">早漏改善・早漏防止</span>
               </a>
               <button class="btn_category_more" data-toggle="collapse" data-target="#child02" aria-expanded="false" aria-controls="child02">
                 <i class="fas fa-caret-down"></i>
               </button>
               <div class="category_child list-group mt-1 collapse" id="child02">
-                <a href="category.php" class="list-group-item">不感症改善</a>
-                <a href="category.php" class="list-group-item">避妊薬・ピル</a>
-                <a href="category.php" class="list-group-item">媚薬</a>
-                <a href="category.php" class="list-group-item">美容・ダイエット</a>
-                <a href="category.php" class="list-group-item">FAGA・育毛</a>
-                <a href="category.php" class="list-group-item">不妊治療薬</a>
-                <a href="category.php" class="list-group-item">更年期障害</a>
+                <a href="category.php" class="list-group-item">早漏+ED</a>
+                <a href="category.php" class="list-group-item">プリリジー</a>
+                <a href="category.php" class="list-group-item">リドカイン</a>
               </div>
             </li>
             <li class="col-6 col-md-4 col-xl-3 mb-4">
               <a href="category.php" class="category_item">
                 <img src="images/home/top-category-penis-enlargement.png" alt="" class="img-fluid">
-                <span class="category_name">メンタル・睡眠薬</span>
+                <span class="category_name">ペニス増大</span>
+              </a>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-aphrodisiac.png" alt="" class="img-fluid">
+                <span class="category_name">性病・感染症</span>
               </a>
               <button class="btn_category_more" data-toggle="collapse" data-target="#child03" aria-expanded="false" aria-controls="child03">
                 <i class="fas fa-caret-down"></i>
               </button>
               <div class="category_child list-group mt-1 collapse" id="child03">
-                <a href="category.php" class="list-group-item">不眠症・睡眠薬</a>
-                <a href="category.php" class="list-group-item">不安障害・抗不安薬</a>
-                <a href="category.php" class="list-group-item">抗うつ剤</a>
-                <a href="category.php" class="list-group-item">統合失調症</a>
-                <a href="category.php" class="list-group-item">あがり症・緊張緩和</a>
-                <a href="category.php" class="list-group-item">その他メンタルヘルスケア</a>
-              </div>
-            </li>
-            <li class="col-6 col-md-4 col-xl-3 mb-4">
-              <a href="category.php" class="category_item">
-                <img src="images/home/top-category-aphrodisiac.png" alt="" class="img-fluid">
-                <span class="category_name">美容・スキンケア</span>
-              </a>
-              <button class="btn_category_more" data-toggle="collapse" data-target="#child04" aria-expanded="false" aria-controls="child04">
-                <i class="fas fa-caret-down"></i>
-              </button>
-              <div class="category_child list-group mt-1 collapse" id="child04">
-                <a href="category.php" class="list-group-item">ニキビ</a>
-                <a href="category.php" class="list-group-item">美白・エイジングケア</a>
-                <a href="category.php" class="list-group-item">日焼け止め</a>
-                <a href="category.php" class="list-group-item">むくみ解消</a>
-                <a href="category.php" class="list-group-item">バストアップ</a>
-                <a href="category.php" class="list-group-item">ボディケア</a>
-                <a href="category.php" class="list-group-item">美容サプリ</a>
-                <a href="category.php" class="list-group-item">まつげ美容液</a>
-                <a href="category.php" class="list-group-item">ホワイトニング</a>
+                <a href="category.php" class="list-group-item">クラミジア・淋病</a>
+                <a href="category.php" class="list-group-item">ヘルペス・水疱瘡</a>
+                <a href="category.php" class="list-group-item">カンジダ・水虫</a>
+                <a href="category.php" class="list-group-item">コンジローマ</a>
+                <a href="category.php" class="list-group-item">トリコモナス・その他</a>
               </div>
             </li>
             <li class="col-6 col-md-4 col-xl-3 mb-4">
               <a href="category.php" class="category_item">
                 <img src="images/home/top-category-contraceptives.png" alt="" class="img-fluid">
-                <span class="category_name">筋肉増強剤</span>
+                <span class="category_name">避妊薬ピル</span>
               </a>
-              <button class="btn_category_more" data-toggle="collapse" data-target="#child05" aria-expanded="false" aria-controls="child05">
+              <button class="btn_category_more" data-toggle="collapse" data-target="#child04" aria-expanded="false" aria-controls="child04">
                 <i class="fas fa-caret-down"></i>
               </button>
-              <div class="category_child list-group mt-1 collapse" id="child05">
-                <a href="category.php" class="list-group-item">プロテイン</a>
-                <a href="category.php" class="list-group-item">ステロイド</a>
+              <div class="category_child list-group mt-1 collapse" id="child04">
+                <a href="category.php" class="list-group-item">低用量ピル</a>
+                <a href="category.php" class="list-group-item">アフターピル</a>
               </div>
             </li>
             <li class="col-6 col-md-4 col-xl-3 mb-4">
               <a href="category.php" class="category_item">
                 <img src="images/home/top-category-aga.png" alt="" class="img-fluid">
-                <span class="category_name">生活習慣病の薬</span>
+                <span class="category_name">検査キット</span>
+              </a>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-faga.png" alt="" class="img-fluid">
+                <span class="category_name">媚薬・フェロモン香水</span>
+              </a>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-body-odor-care.png" alt="" class="img-fluid">
+                <span class="category_name">体臭改善</span>
+              </a>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-nonsmoking.png" alt="" class="img-fluid">
+                <span class="category_name">禁煙治療薬</span>
+              </a>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-beauty.png" alt="" class="img-fluid">
+                <span class="category_name">薄毛・発毛・育毛剤</span>
+              </a>
+              <button class="btn_category_more" data-toggle="collapse" data-target="#child05" aria-expanded="false" aria-controls="child05">
+                <i class="fas fa-caret-down"></i>
+              </button>
+              <div class="category_child list-group mt-1 collapse" id="child05">
+                <a href="category.php" class="list-group-item">男性用</a>
+                <a href="category.php" class="list-group-item">女性用</a>
+                <a href="category.php" class="list-group-item">男女兼用・その他</a>
+              </div>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-beauty.png" alt="" class="img-fluid">
+                <span class="category_name">抗うつ薬・精神安定剤</span>
+              </a>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-beauty.png" alt="" class="img-fluid">
+                <span class="category_name">睡眠薬・睡眠導入剤</span>
+              </a>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-beauty.png" alt="" class="img-fluid">
+                <span class="category_name">美容スキンケア</span>
               </a>
               <button class="btn_category_more" data-toggle="collapse" data-target="#child06" aria-expanded="false" aria-controls="child06">
                 <i class="fas fa-caret-down"></i>
               </button>
               <div class="category_child list-group mt-1 collapse" id="child06">
-                <a href="category.php" class="list-group-item">禁煙治療薬</a>
-                <a href="category.php" class="list-group-item">高脂血症の薬</a>
-                <a href="category.php" class="list-group-item">糖尿病・高血糖値</a>
-                <a href="category.php" class="list-group-item">痛風・高尿酸値</a>
-                <a href="category.php" class="list-group-item">高血圧・狭心症</a>
-                <a href="category.php" class="list-group-item">二日酔い</a>
+                <a href="category.php" class="list-group-item">ニキビ</a>
+                <a href="category.php" class="list-group-item">美肌・しわ改善・日焼け止め</a>
+                <a href="category.php" class="list-group-item">むくみ取り・バスト他</a>
               </div>
             </li>
             <li class="col-6 col-md-4 col-xl-3 mb-4">
               <a href="category.php" class="category_item">
-                <img src="images/home/top-category-faga.png" alt="" class="img-fluid">
-                <span class="category_name">感染症・抗生物質</span>
+                <img src="images/home/top-category-beauty.png" alt="" class="img-fluid">
+                <span class="category_name">ヒマラヤハーブ</span>
+              </a>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-beauty.png" alt="" class="img-fluid">
+                <span class="category_name">スマートドラッグ</span>
+              </a>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-beauty.png" alt="" class="img-fluid">
+                <span class="category_name">まつ毛育毛剤</span>
+              </a>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-beauty.png" alt="" class="img-fluid">
+                <span class="category_name">目薬</span>
+              </a>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-beauty.png" alt="" class="img-fluid">
+                <span class="category_name">痛み止め</span>
               </a>
               <button class="btn_category_more" data-toggle="collapse" data-target="#child07" aria-expanded="false" aria-controls="child07">
                 <i class="fas fa-caret-down"></i>
               </button>
               <div class="category_child list-group mt-1 collapse" id="child07">
-                <a href="category.php" class="list-group-item">クラミジア</a>
-                <a href="category.php" class="list-group-item">淋病</a>
-                <a href="category.php" class="list-group-item">梅毒</a>
-                <a href="category.php" class="list-group-item">ヘルペス</a>
-                <a href="category.php" class="list-group-item">カンジダ</a>
-                <a href="category.php" class="list-group-item">水虫・いんきんたむし</a>
-                <a href="category.php" class="list-group-item">インフルエンザ</a>
-                <a href="category.php" class="list-group-item">検査キット</a>
-                <a href="category.php" class="list-group-item">その他</a>
+                <a href="category.php" class="list-group-item">肩こり・頭痛・片頭痛</a>
+                <a href="category.php" class="list-group-item">痛風・消炎・鎮痛剤・その他</a>
               </div>
             </li>
             <li class="col-6 col-md-4 col-xl-3 mb-4">
               <a href="category.php" class="category_item">
-                <img src="images/home/top-category-body-odor-care.png" alt="" class="img-fluid">
-                <span class="category_name">病気・症状</span>
+                <img src="images/home/top-category-beauty.png" alt="" class="img-fluid">
+                <span class="category_name">喘息・アレルギー</span>
               </a>
-              <button class="btn_category_more" data-toggle="collapse" data-target="#child08" aria-expanded="false" aria-controls="child08">
-                <i class="fas fa-caret-down"></i>
-              </button>
-              <div class="category_child list-group mt-1 collapse" id="child08">
-                <a href="category.php" class="list-group-item">胃炎・肝臓病</a>
-                <a href="category.php" class="list-group-item">二日酔い</a>
-                <a href="category.php" class="list-group-item">痔・いぼ痔</a>
-                <a href="category.php" class="list-group-item">認知症</a>
-                <a href="category.php" class="list-group-item">頻尿・尿失禁</a>
-                <a href="category.php" class="list-group-item">眼病・目薬</a>
-                <a href="category.php" class="list-group-item">多汗症・体臭ケア</a>
-              </div>
             </li>
             <li class="col-6 col-md-4 col-xl-3 mb-4">
               <a href="category.php" class="category_item">
-                <img src="images/home/top-category-nonsmoking.png" alt="" class="img-fluid">
-                <span class="category_name">アレルギー</span>
+                <img src="images/home/top-category-beauty.png" alt="" class="img-fluid">
+                <span class="category_name">二日酔い対策</span>
               </a>
-              <button class="btn_category_more" data-toggle="collapse" data-target="#child09" aria-expanded="false" aria-controls="child09">
-                <i class="fas fa-caret-down"></i>
-              </button>
-              <div class="category_child list-group mt-1 collapse" id="child09">
-                <a href="category.php" class="list-group-item">気管支喘息</a>
-                <a href="category.php" class="list-group-item">アレルギー性鼻炎</a>
-                <a href="category.php" class="list-group-item">アトピー性皮膚炎</a>
-              </div>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-beauty.png" alt="" class="img-fluid">
+                <span class="category_name">生活習慣病（糖尿病他）</span>
+              </a>
             </li>
             <li class="col-6 col-md-4 col-xl-3 mb-4">
               <a href="category.php" class="category_item">
                 <img src="images/home/top-category-beauty.png" alt="" class="img-fluid">
                 <span class="category_name">ダイエット</span>
               </a>
-              <button class="btn_category_more" data-toggle="collapse" data-target="#child10" aria-expanded="false" aria-controls="child10">
+              <button class="btn_category_more" data-toggle="collapse" data-target="#child08" aria-expanded="false" aria-controls="child08">
                 <i class="fas fa-caret-down"></i>
               </button>
-              <div class="category_child list-group mt-1 collapse" id="child10">
-                <a href="category.php" class="list-group-item">ダイエットサプリ</a>
-                <a href="category.php" class="list-group-item">ゼニカル</a>
-                <a href="category.php" class="list-group-item">便秘薬</a>
+              <div class="category_child list-group mt-1 collapse" id="child08">
+                <a href="category.php" class="list-group-item">脂肪燃焼・食欲抑制剤</a>
+                <a href="category.php" class="list-group-item">ゼニカル・脂肪阻害剤</a>
+                <a href="category.php" class="list-group-item">栄養補充・その他</a>
+              </div>
+            </li>
+            <li class="col-6 col-md-4 col-xl-3 mb-4">
+              <a href="category.php" class="category_item">
+                <img src="images/home/top-category-beauty.png" alt="" class="img-fluid">
+                <span class="category_name">ホルモン剤（男・女）</span>
+              </a>
+              <button class="btn_category_more" data-toggle="collapse" data-target="#child09" aria-expanded="false" aria-controls="child09">
+                <i class="fas fa-caret-down"></i>
+              </button>
+              <div class="category_child list-group mt-1 collapse" id="child09">
+                <a href="category.php" class="list-group-item">筋肉・勢力増強</a>
+                <a href="category.php" class="list-group-item">更年期障害</a>
+                <a href="category.php" class="list-group-item">不妊治療</a>
               </div>
             </li>
           </ul>

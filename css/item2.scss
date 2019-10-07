@@ -60,12 +60,12 @@
     li {
       flex-wrap: nowrap;
       a {
-        background-color: lighten($MainNavy,78%);
+        background-color: lighten($KeyColor1,78%);
         border-top: solid 1px $BorderLightGrey !important;
         border-right: solid 1px $BorderLightGrey !important;
         border-left: solid 1px $BorderLightGrey !important;
         white-space: nowrap;
-        &:hover { background-color: lighten($MainNavy,70%);}
+        &:hover { background-color: lighten($KeyColor1,70%);}
       }
     }
   }
@@ -73,7 +73,7 @@
 
 .item_info {
   h2 {
-    border-bottom: solid 2px $MainNavy;
+    border-bottom: solid 2px $KeyColor1;
     margin-bottom: 1.6rem;
     padding: .4rem 0 .4rem 2.2rem;
     position: relative;
@@ -83,7 +83,7 @@
       position: absolute;
     }
     &::before {
-      border: solid 2px $MainNavy;
+      border: solid 2px $KeyColor1;
       height: 1.4rem;
       width: 1.4rem;
       top: .4rem;
@@ -91,7 +91,7 @@
       z-index: 2;
     }
     &::after {
-      border: solid 2px $MainGreen;
+      border: solid 2px $KeyColor2;
       height: 1.2rem;
       width: 1.2rem;
       top: 1rem;
@@ -110,7 +110,7 @@
       position: absolute;
     }
     &::before {
-      border: solid 2px $MainNavy;
+      border: solid 2px $KeyColor1;
       height: 1rem;
       width: 1rem;
       top: .4rem;
@@ -118,7 +118,7 @@
       z-index: 2;
     }
     &::after {
-      border: solid 2px $MainGreen;
+      border: solid 2px $KeyColor2;
       height: .8rem;
       width: .8rem;
       top: .9rem;
@@ -127,7 +127,7 @@
     }
   }
   h4 {
-    border-bottom: solid 2px $MainNavy;
+    border-bottom: solid 2px $KeyColor1;
     font-size: 1.2rem;
     padding: .12rem .25rem;
     position: relative;
@@ -139,7 +139,7 @@
       content: "";
       width: 25%;
       height: 2px;
-      background-color: $MainGreen;
+      background-color: $KeyColor2;
       display: block;
     }
 
@@ -147,15 +147,15 @@
   dl.overview {
     margin-bottom: $BaseMargin/2;
     dt {
-      border: solid 1px $MainNavy;
-      color: $MainNavy;
-      background-color: lighten($MainNavy, 78%);
+      border: solid 1px $KeyColor1;
+      color: $KeyColor1;
+      background-color: lighten($KeyColor1, 78%);
       padding: .25rem .5rem;
       width: fit-content;
       margin-bottom: 1rem;
       position: relative;
       &::after {
-        background-color: $MainNavy;
+        background-color: $KeyColor1;
         content: "";
         display: block;
         width: 1rem;
@@ -179,7 +179,7 @@
   }
   dl.effect {
     border-radius: .5rem;
-    border: dotted 1px lighten($MainNavy, 50%);
+    border: dotted 1px lighten($KeyColor1, 50%);
     width: fit-content;
     padding: .5rem .75rem;
     margin-bottom: 1.5rem;
@@ -187,7 +187,7 @@
   }
   dl.notes {
     border-radius: .5rem;
-    border: dotted 1px lighten($MainNavy, 50%);
+    border: dotted 1px lighten($KeyColor1, 50%);
     padding: .5rem .75rem;
     margin-bottom: 1.5rem;
     dd {
@@ -208,7 +208,7 @@
       border-bottom: solid 1px $BorderLightGrey;
     }
     dt {
-      background-color: lighten($MainNavy,78%);
+      background-color: lighten($KeyColor2,40%);
     }
   }
   figure {
@@ -221,21 +221,21 @@
   }
   table.taking {
     width: fit-content;
-    th { background-color: lighten($MainNavy,78%);}
+    th { background-color: lighten($KeyColor1,78%);}
     caption {
       caption-side: top;
       color: $MainColor;
     }
   }
   strong {
-    background: rgba(0, 0, 0, 0) linear-gradient(transparent 60%, lighten($MainGreen, 30%) 0%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(transparent 60%, lighten($KeyColor2, 30%) 0%) repeat scroll 0 0;
     color: $MainColor;
   }
   nav.inner_link {
     margin-bottom: 2rem;
     padding: 1rem;
     border-radius: .5rem;
-    background-color: lighten($MainNavy, 78%);
+    background-color: lighten($KeyColor2, 40%);
     a {
       &::before {
         font-family: "Font Awesome 5 Free";
@@ -259,11 +259,11 @@ main aside { border-right: none;}
 
 .review_body {
   border-radius: .8rem;
-  background-color: lighten($MainGreen, 40%);
+  background-color: lighten($KeyColor2, 40%);
   padding: 1rem;
   position: relative;
   &::before {
-    background-color: lighten($MainGreen, 40%);
+    background-color: lighten($KeyColor2, 40%);
     content: "";
     width: 1.6rem;
     height: 1.6rem;
@@ -326,7 +326,7 @@ main aside { border-right: none;}
 }
 
 .delivery_info {
-  background-color: lighten($MainNavy, 78%);
+  background-color: lighten($BorderLightGrey, 20%);
   border-radius: 8px;
   padding: .5rem 1rem;
   display: flex;
@@ -353,7 +353,7 @@ main aside { border-right: none;}
 
 .offcanvas_item {
   background-color: $White;
-  border: solid 1px $MainNavy;
+  border: solid 1px $KeyColor1;
   border-right: none;
   border-radius: .5rem 0 0 .5rem;
   position: fixed;
@@ -376,7 +376,7 @@ main aside { border-right: none;}
   }
   .nav-link {
     color: $MainColor !important;
-    &::after { color: $MainGreen;}
+    &::after { color: $KeyColor2;}
   }
 }
 

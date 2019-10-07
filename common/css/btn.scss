@@ -3,28 +3,28 @@
 .btn_white_trans {
   background-color: rgba(255,255,255,.5);
   border: solid 1px $KeyColor1;
-  color: $MainNavy;
+  color: $KeyColor1;
   box-shadow: 2px 2px 2px rgba(0,0,0,.25);
 }
 
 .btn_white {
   background-color: $White;
   border: solid 1px $KeyColor1;
-  color: $MainNavy;
+  color: $KeyColor1;
 }
 
 .btn_green {
-  background-color: $MainGreen;
-  border: solid 1px $MainGreen;
+  background-color: $KeyColor2;
+  border: solid 1px $KeyColor2;
   color: $White;
   &:hover {
     color: $White;
-    background-color: darken($MainGreen, 10%);
-    border-color: darken($MainGreen, 10%);
+    background-color: darken($KeyColor2, 10%);
+    border-color: darken($KeyColor2, 10%);
   }
 }
 
-.btn_navy {
+.btn_key01 {
   background-color: $KeyColor1;
   border: solid 1px $KeyColor1;
   color: $White;
@@ -35,13 +35,35 @@
   }
 }
 
-.btn_navy_outline {
+.btn_key01_outline {
   background-color: $White;
   border: solid 1px $KeyColor1;
-  color: $MainNavy;
+  color: $KeyColor1;
   &:hover {
-    color: $MainNavy;
+    color: $KeyColor1;
     background-color: lighten($KeyColor1, 78%);
+    border-color: $KeyColor1;
+  }
+}
+
+.btn_key02 {
+  background-color: $KeyColor2;
+  border: solid 1px $KeyColor2;
+  color: $White;
+  &:hover {
+    color: $White;
+    background-color: darken($KeyColor2, 10%);
+    border-color: darken($KeyColor2, 10%);
+  }
+}
+
+.btn_key02_outline {
+  background-color: $White;
+  border: solid 1px $KeyColor2;
+  color: $KeyColor2;
+  &:hover {
+    color: $KeyColor2;
+    background-color: lighten($KeyColor2, 78%);
     border-color: $KeyColor1;
   }
 }
