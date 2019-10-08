@@ -118,6 +118,13 @@
       border-radius: .4rem;
       text-decoration: none;
     }
+    .ed_table1 {
+      table {
+        th {
+          white-space: nowrap;
+        }
+      }
+    }
 
   } // /section
 }

@@ -189,7 +189,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="maker-list.php">メディカル知識</a>
+        <a class="nav-link" href="medical-guide-category.php">メディカル知識</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle drop-hover" href="" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ご利用ガイド</a>
